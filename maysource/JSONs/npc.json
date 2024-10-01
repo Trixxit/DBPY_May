@@ -1,0 +1,91 @@
+{
+    "Mystraea": {
+        "Emoji": "<:chillsteadvillage:1221131568374874153>",
+        "Bacchus": {
+            "Emoji": "<:Bacchus:1195002743815946251>",
+            "Description": "Makes potions with varying effects \n<:Bacchus:1195002743815946251> Bacchus can be unlocked through encountering him in the <:ForestOfTranquility:1181786659986083850> Forest of Tranquility while holding a <:bluemilkcap:1221869713999790283> Blue Milkcap, a <:cherry:1221115934241198130> Cherry and a <:pumpkin:1221869836364152922> Pumpkin"
+        },
+        "Howard": {
+            "Emoji": "<:Howard:1195000380745072761>",
+            "Description": "<:Howard:1195000380745072761> Howard can be unlocked by encountering him in the <:RuinedCitadel:1181786952685604884> Ruined Citadel after unlocking <:Gloria:1195000331814326342> Gloria"
+        },
+        "Gloria": {
+            "Emoji": "<:Gloria:1195000331814326342>",
+            "Description": "<:Gloria:1195000331814326342> Gloria can be unlocked by dying in <:chillsteadvillage:1221131568374874153> Chillstead (usually to a cat <:CatTriggered:1193660936758771732>) and not reviving, then talk to her in <:chillsteadvillage:1221131568374874153> Chillstead afterward"
+        },
+        "Leif": {
+            "Emoji": "<:Leif:1195000164025376868>",
+            "Description": "<:Leif:1195000164025376868> Leif can be unlocked along with <:Derrick:1195000208531136632> Derrick through clearing <:CrystalMines:1181786655976345600> Crystal Mines in normal difficulty for the first time"
+        },
+        "Derrick": {
+            "Emoji": "<:Derrick:1195000208531136632>",
+            "Description": "<:Derrick:1195000208531136632> Derrick can be unlocked along with <:Leif:1195000164025376868> Leif through clearing <:CrystalMines:1181786655976345600> Crystal Mines in normal difficulty for the first time"
+        },
+        "Randy": {
+            "Emoji": "<:Randy:1195000248909697046>",
+            "Description": "<:Randy:1195000248909697046> Randy can be unlocked through clearing <:SearcrestHaven:1181786665983934474> Searcrest Haven in normal difficulty for the first time"
+        },
+        "Tristan": {
+            "Emoji": "<:Tristan:1195002849243963535>",
+            "Description": "<:Tristan:1195002849243963535> Tristan can be unlocked through clearing <:AridSands:1181786649911365703> Arid Sands in normal difficulty for the first time"
+        },
+        "Farriette": {
+            "Emoji": "<:Farriette:1252560838057791551>",
+            "Description": "<:Farriette:1252560838057791551> Farriette can be unlock through clearing <:BrinewashGrotto:1181786651735904286> Brinewash Grotto for the first time"
+        },
+        "Vieruodis": {
+            "Emoji": "<:Vieruodis:1195000300923265124>",
+            "Description": "<:Vieruodis:1195000300923265124> Vieroudis is cleared by first clearing <:Murkwood:1181786949992857620> Murkwood"
+        },
+        "Blime": {
+            "Emoji": "<:Blime:1228804254379016343>",
+            "Description": "<:Blime:1228804254379016343> Blime can be unlocked by first clearing <:HalcyonCemetary:1181786662611718277> Halcyon Cemetry"
+        },
+        "Willard": {
+            "Emoji":"<:Willard:1195002814880043129>",
+            "Description":"<:Willard:1195002814880043129> Willard can be unlocked by clearing <:ForestOfTranquility:1181786659986083850> Forest of Tranquility for the first time"
+        },
+        "Tristan": {
+            "Emoji":"<:Tristan:1195002849243963535>",
+            "Description":"<:Tristan:1195002849243963535> Tristan is unlocked by clearing <:AridSands:1181786649911365703> Arid Sands for the first time"
+        },
+        "Randy":{
+            "Emoji":"<:Randy:1195000248909697046>",
+            "Description":"<:Randy:1195000248909697046> Randy is unlocked by clearing <:SearcrestHaven:1181786665983934474> Searcrest Haven for the first time"
+        },
+        "Helxar Chest":{
+            "Emoji":"<:helxar:1200255044965126184>",
+            "Description":"<:helxar:1200255044965126184> Helxar Chests can be unlocked through clearing <:GeolithicHills:1181786661017894932> Geolithic Hills for the first time"
+        },
+        "Fruit Basket":{
+            "Emoji":"<:cherry:1221115934241198130>",
+            "Description":"Fruit Basket can be unlocked through clearing a location and returning for the first time"
+        },
+        "Mailbox":{
+            "Emoji":"<:Mailbox:1221118807238643774>",
+            "Description":"<:Mailbox:1221118807238643774> Mailbox is located at <:chillsteadvillage:1221131568374874153> Chillstead next to the house near the training dummy"
+        }
+    },
+    "Esoteria": {
+        "Emoji": "<:Esoteria:1181786657301733376>",
+        "Null": {
+            "Emoji": "<:Cog:1179635724925030442>",
+            "Description": ""
+        }
+    },
+    "Xandu": {
+        "Emoji": "<:LumenEnclave:1199765931388321872>",
+        "Madame Silvesper": {
+            "Emoji": "<:MadameSilvesper:1199695450257760286>",
+            "Description": "<:MadameSilvesper:1199695450257760286> Madame Silvesper appears in the middle of town after you complete <:BulrushMarshes:1181786654629957642> Bulrush Marshes or <:Murkwood:1181786949992857620> Murkwood for the first time"
+        },
+        "Yril": {
+            "Emoji":"<:Yril:1232564742866862141>",
+            "Description":"<:Yril:1232564742866862141> Yril can be unlocked through clearing <:ShatteredSpine:1199765934605340672> Shattered Spine for the first time"
+        },
+        "Chen":{
+            "Emoji":"<:Chen:1232564584448135270>",
+            "Description":"<:Chen:1232564584448135270> Chen can be unlocked through clearing <:ShatteredSpine:1199765934605340672> Shattered Spine for the first time"
+        }
+    }
+}

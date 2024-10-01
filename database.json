@@ -1,0 +1,164 @@
+{
+    "q_and_a": [
+        {
+            "question": "What's the use of server xp?",
+            "answer": "Image permission is provided through XP roles. To post media, you must be at least a Veteran Adventurer, given at 5000 xp. XP is given at a random amount between 20-50 xp, which is earned **per minute of chatting** \u2014- you can check your rank in <#1105759325806411796> with `t!rank`. <#972442301760684082>, <#1186653355158810684>, & <#975586078880858132> has universal media permission."
+        },
+        {
+            "question": "How do I get image perms?",
+            "answer": "Image permission is provided through XP roles. To post media, you must be at least a Veteran Adventurer, given at 5000 xp. XP is given at a random amount between 20-50 xp, which is earned **per minute of chatting** \u2014- you can check your rank in <#1105759325806411796> with `t!rank`. <#972442301760684082>, <#1186653355158810684>, & <#975586078880858132> has universal media permission."
+        },
+        {
+            "question": "How do I get perms for images?",
+            "answer": "Image permission is provided through XP roles. To post media, you must be at least a Veteran Adventurer, given at 5000 xp. XP is given at a random amount between 20-50 xp, which is earned **per minute of chatting** \u2014- you can check your rank in <#1105759325806411796> with `t!rank`. <#972442301760684082>, <#1186653355158810684>, & <#975586078880858132> has universal media permission."
+        },
+        {
+            "question": "What are the roles for?",
+            "answer": "Image permission is provided through XP roles. To post media, you must be at least a Veteran Adventurer, given at 5000 xp. XP is given at a random amount between 20-50 xp, which is earned **per minute of chatting** \u2014- you can check your rank in <#1105759325806411796> with `t!rank`. <#972442301760684082>, <#1186653355158810684>, & <#975586078880858132> has universal media permission."
+        },
+        {
+            "question": "When does season end?",
+            "answer": "S2 will end <t:1720900800:R>, <t:1720900800:f>; and S3 will start <t:1721181600:R>, <t:1721181600:f>"
+        },
+        {
+            "question": "When will season start?",
+            "answer": "S2 will end <t:1720900800:R>, <t:1720900800:f>; and S3 will start <t:1721181600:R>, <t:1721181600:f>"
+        },
+        {
+            "question": "Season start when?",
+            "answer": "S2 will end <t:1720900800:R>, <t:1720900800:f>; and S3 will start <t:1721181600:R>, <t:1721181600:f>"
+        },
+        {
+            "question": "What is fatebounds?",
+            "answer": "Use `>>fblist` to see all fatebounds and `>>fb` for specific fatebounds"
+        },
+        {
+            "question": "How do I see the fatebounds?",
+            "answer": "Use `>>fblist` to see all fatebounds and `>>fb` for specific fatebounds"
+        },
+        {
+            "question": "What are embers?",
+            "answer": "Embers are items used to fight a boss with certain buffs for certain rewards"
+        },
+        {
+            "question": "What is cybermod?",
+            "answer": "Cybermod is unlocked after clearing <:BulrushMarshes:1181786654629957642> Bulrush Marshes for the first time \nEquipment can be cybermodded by paying parts and removing 1 regular/enhance modifier of your choice"
+        },
+        {
+            "question": "What is hologram stages?",
+            "answer": "You can challenge hologram stages after clearing <:BulrushMarshes:1181786654629957642> Bulrush Marshes for the first time The difficulty can be selected Hologram stages spawn holograms of enemies, and have a meter which slowly increases over time, the rate determining on the difficulty and your computability Once the meter reaches 100%, hologram enemies will stop spawning"
+        },
+        {
+            "question": "What are hologram chests?",
+            "answer": "After clearing hologram stages, there will be an extra hologram chest you can open with hologram keys The chest provides gold, parts and chips, and the reward increases based on difficulty"
+        },
+        {
+            "question": "What are hologram keys?",
+            "answer": "Hologram keys are required to open hologram chests There is a limit to the amount of hologram keys you hold, and they will regenerate over time if the number of keys does not exceed the limit Hologram keys can also be bought with gems, and they can exceed the limit if obtained this way"
+        },
+        {
+            "question": "What are chips?",
+            "answer": "You can apply a chip you own to chip slots on cybermod equipment \nChips are not consumed when applied\nDifferent pieces of equipment can equip different type of chips, each having a different effect and gives different base stats\nIf there are repeated chips equipped, only one with the highest level will take effect\nYou can dismantle excess chips for parts"
+        },
+        {
+            "question": "What are chip levels?",
+            "answer": "+1 computability per level\nUpgrade effect per odd number level [Lv 1,3,5,7]\nDouble base stat per even number level [Lv 2,4,6]\n```Level 1-2 - Uncommon(Green)\nLevel 3-4 - Rare(Blue)\nLevel 5-6 - Epic(Purple)Level 7 - Legendary(Yellow)```"
+        },
+        {
+            "question": "What is chip upgrading?",
+            "answer": "Chips can be upgraded to the next level by merging 3 of the same chip"
+        },
+        {
+            "question": "What is a circle chip?",
+            "answer": "**Effects:**\nGives one of 5 abilities [equip in quick (potion) slot] \nAbility lv 1|1|2|2|3|3|4\n\n**Possible abilities:** \n**Teleport**\n\tTeleport to a location\n\tSkill level reduces CD\n**Heal**\n\tHeal % of HP over time\n\t2.5s duration\n\tSkill level increases effect and reduces CD\n**Hologram projection**\n\tMake a hologram projection of an enemy with a % of hp\n\tTransfer a % of hologram dmg taken to the original\n\tSkill level increases effect\n**Cooldown reduction**\n\tReduce a % of other skills CD\n\t16s cd\n\tSkill level increases effect\n**Aura**\n\tCreate an aura that reduces ally damage taken and increases ally damage dealt\n\tSkill level increases effect\n**Stats:**\n\tRegular:\n\t\tDef +0|15|15|30|30|60|60\n\tMutated:\n\t\tAbility gains 1 of 3 prefixes which gives special effect\n\t\t(Chance different based on gear base stat type)\n\t\tDef +0|10|10|20|20|40|40"
+        },
+        {
+            "question": "What is a triangle chip?",
+            "answer": "**Effects:**\nIncrease level of FBs on weapon\n\tUncommon(Green) Chip: Listed FB level +1\n\tRare(Blue) Chip: Listed FB level +1, listed FB level extra +1 if the weapon has the listed fb\n\tEpic(Purple) Chip: Listed FB level +2, other FB on weapon +1 if the weapon has the listed fb\n\tLegendary(Yellow) Chip: Listed FB level +2, other FB on weapon +2 if the weapon has the listed fb\nStats:\n\tRegular FB:\n\t\tAttack/Magic +0|30|30|60|60|120|120\n\tBoss FB:\n\t\tAttack/Magic +0|40|40|80|80|160|160"
+        },
+        {
+            "question": "What is a square chip?",
+            "answer": "**Effects:**\nUpgrade levels of an unlocked skill\nThe listed skill will change depending on your current class\nSkill lv +1|1|2|2|3|3|4 (Can go over Lv4, increase ratio remains same)\nStats:\n\tStr/Dex/Int +0|20|20|40|40|80|80"
+        },
+        {
+            "question": "What is a accessory chip?",
+            "answer": "**Effects:**\nGives one of 5 abilities [equip in quick (potion) slot] \nAbility lv 1|1|2|2|3|3|4\n\n**Possible abilities:** \n**Teleport**\n\tTeleport to a location\n\tSkill level reduces CD\n**Heal**\n\tHeal % of HP over time\n\t2.5s duration\n\tSkill level increases effect and reduces CD\n**Hologram projection**\n\tMake a hologram projection of an enemy with a % of hp\n\tTransfer a % of hologram dmg taken to the original\n\tSkill level increases effect\n**Cooldown reduction**\n\tReduce a % of other skills CD\n\t16s cd\n\tSkill level increases effect\n**Aura**\n\tCreate an aura that reduces ally damage taken and increases ally damage dealt\n\tSkill level increases effect\n**Stats:**\n\tRegular:\n\t\tDef +0|15|15|30|30|60|60\n\tMutated:\n\t\tAbility gains 1 of 3 prefixes which gives special effect\n\t\t(Chance different based on gear base stat type)\n\t\tDef +0|10|10|20|20|40|40"
+        },
+        {
+            "question": "What is a weapon chip?",
+            "answer": "**Effects:**\nIncrease level of FBs on weapon\n\tUncommon(Green) Chip: Listed FB level +1\n\tRare(Blue) Chip: Listed FB level +1, listed FB level extra +1 if the weapon has the listed fb\n\tEpic(Purple) Chip: Listed FB level +2, other FB on weapon +1 if the weapon has the listed fb\n\tLegendary(Yellow) Chip: Listed FB level +2, other FB on weapon +2 if the weapon has the listed fb\nStats:\n\tRegular FB:\n\t\tAttack/Magic +0|30|30|60|60|120|120\n\tBoss FB:\n\t\tAttack/Magic +0|40|40|80|80|160|160"
+        },
+        {
+            "question": "What is a armor chip?",
+            "answer": "**Effects:**\nUpgrade levels of an unlocked skill\nThe listed skill will change depending on your current class\nSkill lv +1|1|2|2|3|3|4 (Can go over Lv4, increase ratio remains same)\nStats:\n\tStr/Dex/Int +0|20|20|40|40|80|80"
+        },
+        {
+            "question": "How do I get chips?",
+            "answer": "Hologram Chest\nMechanical (Key) Chest\nDismantling Cybermod Equipment (of same chip)\nAccessories:\n\t75% Mutated (Prefix chance based on base stat type)\n\t25% Regular\nArmors:\n\tHelmet: left base class skill chip\n\tChestplate: right base class skill chip\n\tBoots: combined class skill chip"
+        },
+        {
+            "question": "What are apex levels?",
+            "answer": "Apex levels are extra levels unlocked after you reach level 50 The maximum apex level is 100 Apex levels give 1 apex point per level, which you can spend on a stat (str/dex/int) to gain 2 of the stat For every 5 apex points spent on each stat up to 25, you receive an extra stats modifier Apex nodes, unlocked at lv 5, 15 and 25 apex points on each stat, can be upgraded with helxarine to give stats modifier and helxar corruption related buffs\n\nApex levels are shared across characters If you have not yet reached lv50 on a seasonal character, the maximum amount of apex points active in each stat will be equal to [Level]/2, and all of your seasonal characters will regain all bonus from apex levels when any seasonal character reaches lv50"
+        },
+        {
+            "question": "How do I get apex levels?",
+            "answer": "Apex levels are extra levels unlocked after you reach level 50 The maximum apex level is 100 Apex levels give 1 apex point per level, which you can spend on a stat (str/dex/int) to gain 2 of the stat For every 5 apex points spent on each stat up to 25, you receive an extra stats modifier Apex nodes, unlocked at lv 5, 15 and 25 apex points on each stat, can be upgraded with helxarine to give stats modifier and helxar corruption related buffs\n\nApex levels are shared across characters If you have not yet reached lv50 on a seasonal character, the maximum amount of apex points active in each stat will be equal to [Level]/2, and all of your seasonal characters will regain all bonus from apex levels when any seasonal character reaches lv50"
+        },
+        {
+            "question": "Where to get cards?",
+            "answer": "Outdated, only Mystraea, and Esoteria maps from S0\n https://cdn.discordapp.com/attachments/1180235360215765022/1185622418300084314/CardsSpawns.png?ex=6631c7ac&is=6630762c&hm=763a5bd90f139ea427a7ffc99977afb883c24a9cb0c9636cb21b925370aadd34&"
+        },
+        {
+            "question": "How do I report bugs?",
+            "answer": "# Bug Report \nStaff and Moderators of this Discord Server can't help you with your in game concerns. You can post your bug report at https://discord.com/channels/971700371112198194/1169171096793251900 or email it at `info@chillyroom.games` with this format: \n1. State the name of the game if sending by email to avoid confusion \n2. Description of the bug \n3. Device model & Operating system \nAccount ID/Player ID \nAdd screenshot or record the bug encountered"
+        },
+        {
+            "question": "How do I contact moderators?",
+            "answer": "Go to <#1176532007837249567> and make a ticket!"
+        },
+        {
+            "question": "Which is the best class?",
+            "answer": "None, all of it depends on your build and playstyle"
+        },
+        {
+            "question": "Which class is better?",
+            "answer": "None, depends on you're preference"
+        },
+        {
+            "question": "What is a Necromancer class?",
+            "answer": "Necromancer a class that can manipulate souls and the dead"
+        },
+        {
+            "question": "What is a Astral Mage class?",
+            "answer": "A mage class that stacks dark ailments onto you and enemies"
+        },
+        {
+            "question": "What is a Wildwalker class?",
+            "answer": "A melee ailments oriented class which makes it easy to scale damage"
+        },
+        {
+            "question": "What is a Farstrider class?",
+            "answer": "<:hcFarstrider:1198104732649140365> Farstrider is medium range glass cannon. It inherits it's main poison damage type from <:pcHerbalist:1198104735115386982> herbalist and the ranged gameplay of <:pcArcher:975584199438389308> archer"
+        },
+        {
+            "question": "What is a Druid class?",
+            "answer": "Utilizes nature itself to become a bear, summon wolves and even vines!"
+        },
+        {
+            "question": "What is a Stormshaman class?",
+            "answer": "Ailments oriented class hence easy to scaling damage"
+        },
+        {
+            "question": "What is a Stormwarden class?",
+            "answer": "Combines the offense from Tempest Mage with the powerful defense from Aegis"
+        },
+        {
+            "question": "What is a Elementalist class?",
+            "answer": "Elementalist is a class that heavily depends on elemental damage bonuses and its AoE clearing power"
+        },
+        {
+            "question": "what are fbs?",
+            "answer": "Use `>>fblist` to see all fatebounds and `>>fb` for specific fatebounds"
+        }
+    ]
+}

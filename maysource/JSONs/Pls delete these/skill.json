@@ -1,0 +1,922 @@
+{
+    "Primary Skills": {
+        "Aegis": {
+            "Emoji": "<:pcAegis:1105829532742729768>",
+            "Subclasses": [
+                "Bastion",
+                "Warliege",
+                "Stormwarden",
+                "Soulkeeper"
+            ],
+            "Skills": {
+                "Indomitable Blows": {
+                    "Effects": "Attacks can **Daze** enemies. <:IndomitableBlows:1190064500100055190> **Resolve** is gained whenever you **Daze** an enemy, mitigating the damage you take.\n- Daze CD 2.5 / 2 / 1.5 / 1s\n- Trigger chance 30 / 40 / 50 / 60 %\n- Max Charge: 5 <:DamageReduction:1192950903964184718> **Damage Reduction** 5%\n- **Knockback Resistance** 5%\n- 15s duration\n",
+                    "Skill Generation": "1st Generation Aegis Skill\n-Requires 0 points on Aegis",
+                    "Emoji": "<:IndomitableBlows:1190064500100055190>"
+                },
+                "Basic Training": {
+                    "Effects": "Gain bonus base stats.\n\n- <:STR:1180974090761281677> **Strength** +4 / 8 / 12 / 16\n- <:DEX:1180974093256904794> **Dexterity** +2 / 4 / 6 / 8\n- <:INT:1180974097669300316> **Intelligence** +2 / 4 / 6 / 8",
+                    "Skill Generation": "1st Generation Aegis Skill\n-Requires 0 points on Aegis",
+                    "Emoji": "<:aegBasicTraining:1191063470758699110>"
+                },
+                "Shield Bash": {
+                    "Effects": "Smash into enemies with your shield, **Dazing** them. Deals more damage when you have <:IndomitableBlows:1190064500100055190> **Resolve**\n- Skill CD -2/1.5/1/0.5sec(s)\n- 4 mana cost\n- Dash at 1600 movement speed for 0.1s\n- Inflict 200 / 240 / 280 / 320 % <:Bludgeoning:1193741174020775977> **Bludgeoning** damage (based on <:AttackPower:1192950899316903977> Attack Power)\n- 50% chance to inflict **Daze**",
+                    "Skill Generation": "1st Generation Aegis Skill\n-Requires 0 points on Aegis",
+                    "Emoji": "<:ShieldBash:1190064406298632323>"
+                },
+                "Kinetic Barrier": {
+                    "Effects": "Deploy a force barrier that absorbs incoming damage. The barrier is empowered when you have full <:IndomitableBlows:1190064500100055190> **Resolve**\n- Skill CD -16 / 12 / 9 / 6s\n- Shield strength 250 / 300 / 350 / 400% (Based on <:STR:1180974090761281677> **Strength**)\n- 15s duration",
+                    "Skill Generation": "2nd Generation Aegis Skill\n-Requires 4 points on Aegis",
+                    "Emoji": "<:KineticBarrier:1190064436644433990>"
+                },
+                "Steadfast": {
+                    "Effects": "Your blocks are now empowered to unleash shockwaves and grant <:IndomitableBlows:1190064500100055190>  **Resolve**.\n\n- Skill CD 0.5s\n- Block chance + / 5 / 10 / 15 %\n- 4.0 / 4.8 / 5.6 / 6.4 m range\n- Inflict 60 / 80 / 100 / 120% <:Bludgeoning:1193741174020775977> **Bludgeoning** damage (based on <:HybridPower:1192950905939693648> Hybrid Attack Power)",
+                    "Skill Generation": "3rd Generation Aegis Skill\n-Requires 8 points on Aegis",
+                    "Emoji": "<:Steadfast:1190064586464972941>"
+                },
+                "Devotion Aura": {
+                    "Effects": "Locks a percentage of mana to activate a Devotion Aura that buffs allies.\n- Skill CD 2s\n- Locks 15% of <:Mana:1192951102191181864> **Mana**.\n- Affects friendly units in a radius of 10m.\n- <:Defense:1192951020188344501> **Defense** +12 / 18 / 24 / 30\n- Block chance +6 / 9 / 12 / 16%",
+                    "Skill Generation": "3rd Generation Aegis Skill\n-Requires 8 points on Aegis",
+                    "Emoji": "<:DevotionAura:1190064455942418461>"
+                },
+                "Resistance Conditioning": {
+                    "Effects": "Gain bonus base resistances.\n- <:ResistanceFire:1192949018108629022> **Fire Resistance** +5 / 10 / 15 / 20\n- <:ResistancePoison:1192949274154110986> **Poison Resistance** +5 / 10 / 15 / 20\n- <:ResistanceDark:1192949391275868200> **Dark Resistance** +5 / 10 / 15 / 20",
+                    "Skill Generation": "3rd Generation Aegis Skill\n-Requires 8 points on Aegis",
+                    "Emoji": "<:aegResistanceConditioning:1191063482142048360>"
+                },
+                "Leaping Strike": {
+                    "Effects": "Leap into the air and slam down on enemies in a target area, **Dazing** them. The leap is empowered when you have full <:IndomitableBlows:1190064500100055190> **Resolve**\n- Skill CD 6/5.5/5/4.5s\n- 8 <:Mana:1192951102191181864> **Mana** cost\n- 5m range\n- Max Charge: 2/3/4/5\n- Dash at 1500 <:MovementSpeed:1192950910054322287> **Movement Speed** for 0.5s\n- Inflict 300 / 400 / 500 / 600 % <:Bludgeoning:1193741174020775977> **Bludgeoning** damage\n- Inflicts **Daze**\n- **Breaks walls**",
+                    "Skill Generation": "4th Generation Aegis Skill\n-Requires 16 points on Aegis",
+                    "Emoji": "<:LeapingStrike:1190064514419392543>"
+                },
+                "Unflinching": {
+                    "Effects": "Enter a brief state of **Invulnerability** whose duration is extended by <:IndomitableBlows:1190064500100055190> **Resolve**\n- Skill CD -18 / 15 / 12 / 9s\n- 12 / 8 / 4 / 0 <:Mana:1192951102191181864> **Mana** cost\n- 2~7s duration",
+                    "Skill Generation": "5th Generation Aegis Skill\n-Requires 24 points on Aegis",
+                    "Emoji": "<:Unflinching:1190064526910050374>"
+                }
+            }
+        },
+        "Animancer": {
+            "Emoji": "<:pcAnimancer:1171466348329701427>",
+            "Subclasses": [
+                "Shinobi",
+                "Soulkeeper",
+                "Heretic"
+            ],
+            "Skills": {
+                "Soul Sync": {
+                    "Effects": "Your minions inherit 50% your bonus stats and incresing minion damage(0/20%/40%/60%).",
+                    "Skill Generation": "1st Generation Animancer Skill\n-Requires 0 points on Animancer ",
+                    "Emoji": "<:soulsync:1186908719754248242>"
+                },
+                "Amalgamate": {
+                    "Effects": "Summons (2/2/3/3) <:amalgate:1186908704134668328> **Lesser Gestalt** at (60%/80%/100%/120%) power.",
+                    "Skill Generation": "1st Generation Animancer Skill\n-Requires 0 points on Animancer ",
+                    "Emoji": "<:amalgate:1186908704134668328>"
+                },
+                "Basic Training": {
+                    "Effects": "Gain bonus base stats\n- <:STR:1180974090761281677> **STR** +(3/6/9/12)\n- <:DEX:1180974093256904794> **DEX** +(2/4/6/8)\n- <:INT:1180974097669300316> **INT** +(3/6/9/12)",
+                    "Skill Generation": "1st Generation Animancer Skill\n-Requires 0 points on Animancer ",
+                    "Emoji": "<:animancerbasictraining:1186908698149408838>"
+                },
+                "Gnosis": {
+                    "Effects": "Reset your surrounding summon's cd and charge up your weapon (1/2/3/4) sec(s).\n",
+                    "Skill Generation": "2nd Generation Animancer Skill\n-Requires 4 points on Animancer ",
+                    "Emoji": "<:gnosis:1186908707305566259>"
+                },
+                "Thanatosis": {
+                    "Effects": "Spend your <:Health:1192950904865964052> **Life** instead whenever you're run out/not enough <:Mana:1192951102191181864> **Mana** in ratio (2 <:Health:1192950904865964052> **Life**:1 <:Mana:1192951102191181864> **Mana**) and unlock excess summon. You can lock your <:Mana:1192951102191181864> **Mana** and <:Health:1192950904865964052> **Life** when you summon extra minion. Max <:Health:1192950904865964052> **Life** lockable +(0/25%/50%/75%).",
+                    "Skill Generation": "3rd Generation Animancer Skill\n-Requires 8 points on Animancer ",
+                    "Emoji": "<:thanatosis:1186908721654276147>"
+                },
+                "Dominion Aura": {
+                    "Effects": "Increase <:AttackSpeed:1192950900302561402> **Attack Speed** and <:SkillCD:1192951121568874546> **Skill CD** (12%/18%/24%/30%) to all allies.",
+                    "Skill Generation": "3rd Generation Animancer Skill\n-Requires 8 points on Animancer",
+                    "Emoji": "<:dominionaura:1186908710673580092>"
+                },
+                "Resistance Conditioning": {
+                    "Effects": "Gain bonus base resistances\n- <:ResistanceCold:1192949389916913865> **Cold Resistance** +(5/10/15/20)\n- <:ResistanceLight:1192949271184556111> **Light Resistance** +(5/10/15/20)\n- <:ResistanceDark:1192949391275868200> **Dark Resistance** +(5/10/15/20)",
+                    "Skill Generation": "3rd Generation Animancer Skill\n-Requires 8 points on Animancer",
+                    "Emoji": "<:animancerresistanceconditioning:1186908702075265044>"
+                },
+                "Door of Guf": {
+                    "Effects": "Summon (1/1/1/1) <:doorofguf:1186908712649109544> **Greater Gestalt** that radiate an aura to amplified damage taken -(10/15/20/25) to surrounding enemies. With (160%/180%/200%/220%) power.",
+                    "Skill Generation": "4th Generation Animancer Skill\n-Requires 16 points on Animancer",
+                    "Emoji": "<:doorofguf:1186908712649109544>"
+                },
+                "Mortal Pact": {
+                    "Effects": "Continue to drain <:Health:1192950904865964052> **Life** and buff all your minions with all damage +(20%/30%/40%/50%). Restoring both you and your minions (2%/3%/4%/5%) <:Health:1192950904865964052> **Life** based on damage dealt.",
+                    "Skill Generation": "5th Generation Animancer Skill\n-Requires 24 points on Animancer",
+                    "Emoji": "<:mortalpact:1186908716042305626>"
+                }
+            }
+        },
+        "Archer": {
+            "Emoji": "<:pcArcher:975584199438389308>",
+            "Subclasses": [
+                "Artillerist",
+                "Bastion",
+                "Ranger"
+            ],
+            "Skills": {
+                "Aim": {
+                    "Effects": "Normal attacks <:Aim:1188006959262224474> **Mark** enemies. Inflicts bonus -(10%/10%/10%/10%) <:DEX:1180974093256904794> **Dexterity**. Has (5/5/5/5) sec(s) duration. Stacks up to (3/3/3/3) times. Gain passive bonus (0%/15%/30%/45%) <:CritChance:1192950901451800706> **Critical Chance**.",
+                    "Skill Generation": "1st Generation Archer Skill\n-Requires 0 points on Archer",
+                    "Emoji": "<:Aim:1188006959262224474>"
+                },
+                "Tumbling Shot": {
+                    "Effects": "Perform an evasive roll (1200/1200/1200/1200) <:MovementSpeed:1192950910054322287> movement within (0.3/0.3/0.3/0.3) sec(s) while firing +(1/2/3/4) projectiles via normal attacks with (60%/60%/60%/60%) <:AttackPower:1192950899316903977> **Attack Damage**. Has (4.5/4.0/3.5/3.0) sec(s) cd.",
+                    "Skill Generation": "1st Generation Archer Skill\n-Requires 0 points on Archer",
+                    "Emoji": "<:TumblingShot:1188053695238258738>"
+                },
+                "Basic Training": {
+                    "Effects": "Gain bonus base stats.\n - <:STR:1180974090761281677> **STR** +(2/4/6/8)\n - <:DEX:1180974093256904794> **DEX** +(4/8/12/16)\n - <:INT:1180974097669300316> **INT** +(2/4/6/8)",
+                    "Skill Generation": "1st Generation Archer Skill\n-Requires 0 points on Archer",
+                    "Emoji": "<:arcBasicTraining:1191063672882204713>"
+                },
+                "Precision Barrage": {
+                    "Effects": "Release (1/1/1/1) projectile(s) into the air that rain down on targeted enemies in (8/8/8/8)m range. Dealing (250%/300%/350%/400%) <:Bludgeoning:1193741174020775977> **Bludgeoning Damage(**<:AttackPower:1192950899316903977> attack power). Has (3.0/2.5/2.0/1.5) sec(s) cd.",
+                    "Skill Generation": "2nd Generation Archer Skill\n-Requires 4 points on Archer",
+                    "Emoji": "<:PrecisionBarrage:1190400103433896107>"
+                },
+                "Piercing Arrows": {
+                    "Effects": "Attacks and Skills have (30%/45%/60%/75%) to pierce an enemies. They are also <:Aim:1188006959262224474> **Marked**.",
+                    "Skill Generation": "3rd Generation Archer Skill\n-Requires 8 points on Archer",
+                    "Emoji": "<:PiercingArrows:1188017322070392872>"
+                },
+                "Trueshot Aura": {
+                    "Effects": "Lock (15%/15%/15%/15%) of max <:Mana:1192951102191181864> **Mana**. Buffs +(12/18/24/30) <:DEX:1180974093256904794> **Dexterity** and +(12%/18%/24%/30%) <:ExtraPhysical:1192949268978348113> **Extra Physical Damage** to allies in (10/10/10/10)m range.",
+                    "Skill Generation": "3rd Generation Archer Skill\n-Requires 8 points on Archer",
+                    "Emoji": "<:TrueshotAura:1188053273337409556>"
+                },
+                "Resistance Conditioning": {
+                    "Effects": "Gain bonus base resistances.\n - <:ResistanceCold:1192949389916913865> **Cold Resistance** +(5/10/15/20)\n - <:ResistancePoison:1192949274154110986> **Poison Resistance** +(5/10/15/20)\n - <:ResistanceLight:1192949271184556111> **Light Resistance** +(5/10/15/20)",
+                    "Skill Generation": "3rd Generation Archer Skill\n-Requires 8 points on Archer",
+                    "Emoji": "<:arcResistanceConditioning:1191063692129865851>"
+                },
+                "Cloudpiercer Shot": {
+                    "Effects": "Fire extremely fast piercing arrow. Dealing (300%/400%/500%/600%) <:Piercing:1193741189900402809> **Piercing Damage**(<:AttackPower:1192950899316903977> attack power). Has (6.0/5.5/5.0/4.5) sec(s) cd.",
+                    "Skill Generation": "4th Generation Archer Skill\n-Requires 16 points on Archer",
+                    "Emoji": "<:CloudpiercerShot:1190400152649859102>"
+                },
+                "Sphaera Sagittanis": {
+                    "Effects": "All enemies are <:Aim:1188006959262224474> **Marked**. Fires additional projectiles dealing (30%/40%/50%/60%) <:Piercing:1193741189900402809> **Piercing Damage**(<:AttackPower:1192950899316903977> attack power). Gain (15%/30%/45%/60%) <:ExtraPhysical:1192949268978348113> **Extra Physical Damage** and +(30%/30%/30%/30%) <:MovementSpeed:1192950910054322287> **Movement Speed** in (10/10/10/10) sec(s) duration. Has (18/15/12/9) sec(s) cd.",
+                    "Skill Generation": "5th Generation Archer Skill\n-Requires 24 points on Archer",
+                    "Emoji": "<:SphaeraSagittanis:1188035136923643904>"
+                }
+            }
+        },
+        "Pyromancer": {
+            "Emoji": "<:pcPyromancer:1105830386757533826>",
+            "Subclasses": [
+                "Artillerist",
+                "Pyroknight",
+                "Elementalist",
+                "Heretic"
+            ],
+            "Skills": {
+                "Pyroclad": {
+                    "Effects": "On taking a certain damage. Obtain <:Pyroclad:1190085479392100352> **Pyroclad** that last (3/6/9/12) sec(s) duration. Increase (10/15/20/25) <:Defense:1192951020188344501> **Defense**, (10/15/20/25) <:DamageReduction:1192950903964184718> **Damage Reduction** and (10%/20%/30%/40%) <:BonusFire:1192949000995864668> **Fire Damage**. Has (24/20/16/12) sec(s) cd.",
+                    "Skill Generation": "1st Generation Pyromancer Skill\n-Requires 0 points on Pyromancer ",
+                    "Emoji": "<:Pyroclad:1190085479392100352>"
+                },
+                "Fireball": {
+                    "Effects": "Send forth <:Fireball:1190085377554387057> that explodes on target impact in (2.5/3.0/3.5/4.0)m range, leaving an <:Conflagration:1190085598850064384> **Ember**. Deal (150%/180%/210%/240%) <:BonusFire:1192949000995864668> **Fire Damage**(<:MagicPower:1192951100727377981> magic power). Range offset by (100%/120%/140%/160%). Has (0.8/0.6/0.4/0.2) sec(s) cd.",
+                    "Skill Generation": "1st Generation Pyromancer Skill\n-Requires 0 points on Pyromancer ",
+                    "Emoji": "<:Fireball:1190085377554387057>"
+                },
+                "Basic Training": {
+                    "Effects": "Gain bonus base stats.\n - <:STR:1180974090761281677> **STR** +(2/4/6/8)\n - <:DEX:1180974093256904794> **DEX** +(2/4/6/8)\n - <:INT:1180974097669300316> **INT** +(4/8/12/16)",
+                    "Skill Generation": "1st Generation Pyromancer Skill\n-Requires 0 points on Pyromancer ",
+                    "Emoji": "<:pyrBasicTraining:1191063528996601908>"
+                },
+                "Flamethrower": {
+                    "Effects": "Unleash a fire dragon with (4-10/4-12/4-14/4-16) sec(s) duration that weaves through enemies. Deal (90%/120%/150%/180%) <:BonusFire:1192949000995864668> **Fire Damage**(<:MagicPower:1192951100727377981> magic power). Release (3/3/3/3) continuous attacks with (45%/60%/75%/90%) <:BonusFire:1192949000995864668> **Fire Damage**(<:MagicPower:1192951100727377981> magic power).\n - Assimilate <:Conflagration:1190085598850064384> **Ember** to increase duration.",
+                    "Skill Generation": "2nd Generation Pyromancer Skill\n-Requires 4 points on Pyromancer ",
+                    "Emoji": "<:Flamethrower:1190085411196915783>"
+                },
+                "Conflagration": {
+                    "Effects": "<:BonusFire:1192949000995864668> **Fire Ailment** explodes in (2.0/2.2/2.4/2.6)m range upon expiry. Deals (90%/120%/150%/180%) <:BonusFire:1192949000995864668> **Fire Damage**(<:MagicPower:1192951100727377981> magic power) and leaves an <:Conflagration:1190085598850064384> **Ember**.",
+                    "Skill Generation": "3rd Generation Pyromancer Skill\n-Requires 8 points on Pyromancer",
+                    "Emoji": "<:Conflagration:1190085598850064384>"
+                },
+                "Fire Aura": {
+                    "Effects": "Locks (15%/15%/15%/15%) of max <:Mana:1192951102191181864> **Mana**. Buffs nearby allies in (10/10/10/10)m range with (8%/12%/16%/20%) <:ExtraFire:1192949012005920808> **Extra Fire Damage** and (16%/24%/32%/40%) <:BonusFire:1192949000995864668> **Fire Damage**.",
+                    "Skill Generation": "3rd Generation Pyromancer Skill\n-Requires 8 points on Pyromancer ",
+                    "Emoji": "<:FireAura:1190085432768213073>"
+                },
+                "Resistance Conditioning": {
+                    "Effects": "Gain bonus base resistances.\n - <:ResistanceFire:1192949018108629022> **Fire Resistance** +(5/10/15/20)\n - <:ResistanceLight:1192949271184556111> **Light Resistance** +(5/10/15/20)\n - <:ResistanceDark:1192949391275868200> **Dark Resistance** +(5/20/15/20)",
+                    "Skill Generation": "3rd Generation Pyromancer Skill\n-Requires 8 points on Pyromancer ",
+                    "Emoji": "<:ResistanceConditioning:1188071607072211055>"
+                },
+                "Volcanic Rift": {
+                    "Effects": "Magically conjures a volcano that bombarding with fireballs within (4/4/4/4) sec(s) duration. Release (9/10/11/12) projectiles with (0.75/0.75/0.75/0.75)s between ticks. Inflicts (60%/80%/100%/120%) <:BonusFire:1192949000995864668> **Fire Damage**(<:MagicPower:1192951100727377981> magic power). Creating <:Conflagration:1190085598850064384> **Ember** upon impacted. Has (9/8/7/6) sec(s) cd.",
+                    "Skill Generation": "4th Generation Pyromancer Skill\n-Requires 16 points on Pyromancer ",
+                    "Emoji": "<:VolcanicRift:1190085451575480420>"
+                },
+                "Ground Zero": {
+                    "Effects": "Magically draw enemies within (6/6/6/6)m range. Explode (4/4/4/4)m range after a short delay, dealing (400%/500%/600%/700%) <:BonusFire:1192949000995864668> **Fire Damage**. Has (9.0/7.5/6.0/4.5) sec(s) cd.\n - Assimilate <:Conflagration:1190085598850064384> **Ember** to increase range.\n - **Breaks Walls**.",
+                    "Skill Generation": "5th Generation Pyromancer Skill\n-Requires 24 points on Pyromancer ",
+                    "Emoji": "<:GroundZero:1190085529115574282>"
+                }
+            }
+        },
+        "Tempest Mage": {
+            "Emoji": "<:pcTempest_mage:1105830559135043676>",
+            "Subclasses": [
+                "Stormwarden",
+                "Stormblade",
+                "Elementalist"
+            ],
+            "Skills": {
+                "Smooth Sailing": {
+                    "Effects": "Increases chance to apply **Elemental Ailments** by (16%/24%/32%/40%).",
+                    "Skill Generation": "1st Generation Tempest Mage Skill\n-Requires 0 points on Tempest Mage",
+                    "Emoji": "<:SmoothSailing:1187997512192233522>"
+                },
+                "Icicles": {
+                    "Effects": "Sends out (3/4/5/6) icicles that deal (90%/100%/110%/120%) <:BonusCold:1192948996931596429> **Cold Damage**, based on <:MagicPower:1192951100727377981> **Magic Attack**. 1.5s CD.",
+                    "Skill Generation": "1st Generation Tempest Mage Skill\n-Requires 0 points on Tempest Mage",
+                    "Emoji": "<:Icicles:1190399667897384990>"
+                },
+                "Basic Training": {
+                    "Effects": "Grants (4/8/12/16) <:INT:1180974097669300316> **INT**, (2/4/6/8) <:STR:1180974090761281677> **STR** and <:DEX:1180974093256904794> **DEX**.",
+                    "Skill Generation": "1st Generation Tempest Mage Skill\n-Requires 0 points on Tempest Mage",
+                    "Emoji": "<:temBasicTraining:1191063792692494436>"
+                },
+                "Invoke Thunder": {
+                    "Effects": "Calls down lightning to strike in an area, dealing  (150%/200%/250%/300%) <:BonusShock:1192949007341846578> **Shock Damage** based on <:MagicPower:1192951100727377981> **Magic Attack** within a 1.5m radius area. Consumes all <:BonusCold:1192948996931596429> **Cold Ailment** from enemies generate lightning arcs that can target (3/4/5/6) enemies at once. Has 2 charges. (6/5.5/5/4.5)s CD.",
+                    "Skill Generation": "2nd Generation Tempest Mage Skill\n-Requires 4 points on Tempest Mage",
+                    "Emoji": "<:InvokeThunder:1187997724788936805>"
+                },
+                "Shatter": {
+                    "Effects": "**Freezing** enemies causes an ice blast to be released, dealing (60%/80%/100%/120%) <:BonusCold:1192948996931596429> **Cold Damage** based on <:HybridPower:1192950905939693648> **Hybrid Attack** within a 3m radius area. ",
+                    "Skill Generation": "3rd Generation Tempest Mage Skill\n-Requires 8 points on Tempest Mage",
+                    "Emoji": "<:Shatter:1187997688046817341>"
+                },
+                "Tempest Aura": {
+                    "Effects": "Grants (8%/12%/16%/20%) <:ExtraCold:1192949008700805311> **Extra Cold** and <:ExtraShock:1192949015092920361> **Extra Shock Damage** to all allies within 1m of the user. Locks 15% <:Mana:1192951102191181864> **Mana**.",
+                    "Skill Generation": "3rd Generation Tempest Mage Skill\n-Requires 8 points on Tempest Mage",
+                    "Emoji": "<:TempestAura:1187997321405935676>"
+                },
+                "Resistance Conditioning": {
+                    "Effects": "Grants  (5/10/15/20) <:ResistanceCold:1192949389916913865> **Cold**, <:ResistanceShock:1192949022005145720> **Shock** and <:ResistancePoison:1192949274154110986> **Poison Resistances**.",
+                    "Skill Generation": "3rd Generation Tempest Mage Skill\n-Requires 8 points on Tempest Mage",
+                    "Emoji": "<:temResistanceConditioning:1191063822140715129>"
+                },
+                "Ball Lightning": {
+                    "Effects": "Releases an orb of plasma that homes onto enemies and dealing (60%/70%/80%/90%) <:BonusShock:1192949007341846578> **Shock Damage** based on <:MagicPower:1192951100727377981> **Magic Power**, within a (2/2.4/2.8/3.2)m radius area. Consumes <:BonusCold:1192948996931596429> **Cold Ailment** on enemies to discharge 3 smaller orbs that deal (30%/40%/50%/60%) <:BonusShock:1192949007341846578> **Shock Damage** each, based on <:MagicPower:1192951100727377981> **Magic Power**. (4.5/5/5.5/6)s duration, (4.5/4/3.5/3)s CD. 0.5s between damage ticks.",
+                    "Skill Generation": "4th Generation Tempest Mage Skill\n-Requires 16 points on Tempest Mage",
+                    "Emoji": "<:BallLightning:1190398246472929370>"
+                },
+                "Blizzard": {
+                    "Effects": "Conjures a violent blizzard that deals (120%/160%/200%/240%) <:BonusCold:1192948996931596429> **Cold Damage** per tick, with a 0.5s delay between ticks. 6m range, (9/8/7/6)s CD.",
+                    "Skill Generation": "5th Generation Tempest Mage Skill\n-Requires 24 points on Tempest Mage",
+                    "Emoji": "<:Blizzard:1187997644937773086>"
+                }
+            }
+        },
+        "Thief": {
+            "Emoji": "<:pcThief:1105829586559848519>",
+            "Subclasses": [
+                "Ranger",
+                "Assassin",
+                "Stormblade",
+                "Shinobi"
+            ],
+            "Skills": {
+                "Grievous Wounds": {
+                    "Effects": "(-10%/+10%/+30%/+50%) <:CritDamage:1192950902521335858> **Critical Damage**. Every third attacks guaranteed crit. Scored crit inflicts **Bleed**, which in turn inflict <:GrievousWounds:1187997893378981968> **Exsanguination** once 3 stacks have been reached.",
+                    "Skill Generation": "1st Generation Thief Skill\n-Requires 0 points on Thief ",
+                    "Emoji": "<:GrievousWounds:1187997893378981968>"
+                },
+                "Tactful Swoop": {
+                    "Effects": "Dash (1600/1600/1600/1600) <:MovementSpeed:1192950910054322287> movement within (0.25/0.25/0.25/0.25) sec(s). Casting next skill within (1/1/1/1) sec(s) duration triggers one extra time. Has (5/4/3/2) sec(s) cd.",
+                    "Skill Generation": "1st Generation Thief Skill\n-Requires 0 points on Thief ",
+                    "Emoji": "<:TactfulSwoop:1187997827054456973>"
+                },
+                "Basic Training": {
+                    "Effects": "Gain bonus base stats.\n - <:STR:1180974090761281677> **STR** +(2/4/6/8)\n - <:DEX:1180974093256904794> **DEX** +(4/8/12/16)\n - <:INT:1180974097669300316> **INT** +(2/4/6/8)",
+                    "Skill Generation": "1st Generation Thief Skill\n-Requires 0 points on Thief ",
+                    "Emoji": "<:S_BasicTraining:1188015021612093511>"
+                },
+                "Throwing Daggers": {
+                    "Effects": "Max charges: (3/4/5/6). Throw (2/2/2/2) daggers that bounce (1/1/1/1) times. Dealing (30%/40%/50%/60%) <:Piercing:1193741189900402809> **Piercing Damage**. (30%/40%/50%/60%) chance to inflicts **Bleed**. Has (6.0/5.5/5.0/4.5) sec(s) cd.",
+                    "Skill Generation": "2nd Generation Thief Skill\n-Requires 4 points on Thief ",
+                    "Emoji": "<:ThrowingDaggers:1190402383386263662>"
+                },
+                "Bloodhunt": {
+                    "Effects": "Life fragments spawn when enemies are defeated with (30%/40%/50%/60%) chance while <:S_GrievousWounds:1188015040650031134> **Exsanguinate** has 100% chance. Restores <:Health:1192950904865964052> **Life** equal to (15%/20%/25%/30%) <:DEX:1180974093256904794> **Dexterity**",
+                    "Skill Generation": "3rd Generation Thief Skill\n-Requires 8 points on Thief ",
+                    "Emoji": "<:Bloodhunt:1187997986790314116>"
+                },
+                "Vindictive Aura": {
+                    "Effects": "Lock (15%/15%/15%/15%) of max <:Mana:1192951102191181864> **Mana**. +(6/9/12/15) **Dodge Chance** and +(20%/30%/40%/50%) <:CritDamage:1192950902521335858> **Critical Damage** to nearby allies in (10/10/10/10)m radius.",
+                    "Skill Generation": "3rd Generation Thief Skill\n-Requires 8 points on Thief ",
+                    "Emoji": "<:VindictiveAura:1187997924559437936>"
+                },
+                "Resistance Conditioning": {
+                    "Effects": "Gain bonus base resistances.\n - <:ResistanceFire:1192949018108629022> **Fire Resistance** +(5/10/15/20)\n - <:ResistanceShock:1192949022005145720> **Shock Resistance** +(5/10/15/20)\n - <:ResistanceDark:1192949391275868200> **Dark Resistance** +(5/10/15/20)",
+                    "Skill Generation": "3rd Generation Thief Skill\n-Requires 8 points on Thief ",
+                    "Emoji": "<:thiResistanceConditioning:1191063512492032033>"
+                },
+                "Shadowstrike": {
+                    "Effects": "Max charge: (2/2/2/2), dash at (5000/5000/5000/5000) <:MovementSpeed:1192950910054322287> movement within (0.1/0.1/0.1/0.1) sec(s). Dealing multiple (90%/120%/150%/180%) <:Slashing:1193741155142217808> **Slashing Damage**. (20%/30%/40%/50%) chance to trigger **Bleed**. Has (6.0/5.5/5.0/4.5) sec(s) cd.",
+                    "Skill Generation": "4th Generation Thief Skill\n-Requires 16 points on Thief ",
+                    "Emoji": "<:Shadowstrike:1187998009301143604>"
+                },
+                "Bladerift": {
+                    "Effects": "Lock (30%/30%/30%/30%) of max <:Mana:1192951102191181864> **Mana**. When attacking with skills, release (1/1/1/1) area attack(s). Dealing (30%/40%/50%/60%) <:Piercing:1193741189900402809> **Piercing Damage**(<:AttackPower:1192950899316903977> attack power) with (2/2/2/2) sec(s) duration. Has (20%/25%/30%/35%) chance to trigger **Bleed**.",
+                    "Skill Generation": "5th Generation Thief Skill\n-Requires 24 points on Thief ",
+                    "Emoji": "<:Bladerift:1190402690967150683>"
+                }
+            }
+        },
+        "Warrior": {
+            "Emoji": "<:pcWarrior:1105829683364384778>",
+            "Subclasses": [
+                "Assassin",
+                "Pyroknight",
+                "Warliege"
+            ],
+            "Skills": {
+                "Rhythm of War": {
+                    "Effects": "Normal attacks are empowered to grant you <:RhythmofWar:1190049831171928235> **Battlelust**, increasing your overall damage.\n - Bonus Damage 5%\n - Max Stacks 10\n - <:AttackSpeed:1192950900302561402> **Attack Speed** +(5 / 20 / 35 / 50)%\n - Duration 2s",
+                    "Skill Generation": "1st Generation Warrior Skill\n-Requires 0 points on Warrior ",
+                    "Emoji": "<:RhythmofWar:1190049831171928235>"
+                },
+                "Windrend Slash": {
+                    "Effects": "Unleash a projected slash with your melee weapon, and launch a projected slash with each successive attack afterward at the cost of <:RhythmofWar:1190049831171928235> **Battlelust**.\n - <:SkillCD:1192951121568874546> **Skill CD** (4.5 / 4 / 3.5 / 3)s\n - <:Slashing:1193741155142217808> **Slashing Damage** (90 / 120 / 150 / 180)%",
+                    "Skill Generation": "1st Generation Warrior Skill\n-Requires 0 points on Warrior ",
+                    "Emoji": "<:WindrendSlash:1190049892811419881>"
+                },
+                "Basic Training": {
+                    "Effects": "Gain bonus base stats.\n - <:STR:1180974090761281677> **Strength** +(3 / 6 / 9 / 12)\n - <:DEX:1180974093256904794> **Dexterity** +(3 / 6 / 9 / 12)\n - <:INT:1180974097669300316> **Intelligence** +(2 / 4 / 6 / 8)",
+                    "Skill Generation": "1st Generation Warrior Skill\n-Requires 0 points on Warrior ",
+                    "Emoji": "<:warBasicTraining:1191063629320159292>"
+                },
+                "Blitz": {
+                    "Effects": "Dash forward and deal damage to all enemies in your path,with each enemy damaged reducing the skill's remaining CD.\n - <:MovementSpeed:1192950910054322287> **Movement Speed** +2800\n - 5 <:Mana:1192951102191181864> **Mana** cost\n - Inflict (160 / 190 / 220 / 250)% <:Bludgeoning:1193741174020775977> **Bludgeoning damage**\n - Duration 0.25s\n - <:SkillCD:1192951121568874546> **Skill CD** (3 / 2.5 / 2 / 1.5)s\n - Reduces cooldown by (33 / 40 / 50 / 66)%",
+                    "Skill Generation": "2nd Generation Warrior Skill\n-Requires 4 points on Warrior ",
+                    "Emoji": "<:Blitz:1190049953792405595>"
+                },
+                "Poised to Kill": {
+                    "Effects": "Continue to gain <:RhythmofWar:1190049831171928235> **Battlelust** whenever you charge-up for an attack.\n - <:RhythmofWar:1190049831171928235> **Battlelust** Gain (1.2 / 1 / 0.8 / 0.6)s\n - Charge-up Speed +(10 / 20 / 30 / 40)",
+                    "Skill Generation": "3rd Generation Warrior Skill\n-Requires 8 points on Warrior ",
+                    "Emoji": "<:PoisedtoKill:1190049998994415626>"
+                },
+                "Aggresion Aura": {
+                    "Effects": "Nearby allies' weapons gain Aggression Aura.\n - <:SkillCD:1192951121568874546> **Skill CD** 2s\n - Locks 15% of <:Mana:1192951102191181864> **Mana**.\n - <:ExtraPhysical:1192949268978348113> **Extra Regular damage** +(12 / 18 / 24 / 30)%\n - <:MovementSpeed:1192950910054322287> **Movement Speed** +(6 / 9 / 12 / 15)",
+                    "Skill Generation": "3rd Generation Warrior Skill\n-Requires 8 points on Warrior ",
+                    "Emoji": "<:AggressionAura:1190050048684335205>"
+                },
+                "Resistance Conditioning": {
+                    "Effects": "Gain bonus base resistances.\n - <:ResistanceCold:1192949389916913865> **Cold Resistance** +(5 / 10 / 15 / 20)\n - <:ResistanceShock:1192949022005145720> **Shock Resistance** +(5 / 10 / 15 / 20)\n - <:ResistanceLight:1192949271184556111> **Light Resistance** +(5 / 10 / 15 / 20)",
+                    "Skill Generation": "3rd Generation Warrior Skill\n-Requires 8 points on Warrior ",
+                    "Emoji": "<:warResistanceConditioning:1191063649494769694>"
+                },
+                "Whirlwind Slash": {
+                    "Effects": "Sow carnage as a whirlwind of death, dealing 4 instances of damage. Can be cast continuously.\n - <:SkillCD:1192951121568874546> **Skill CD** 0.25s\n - 4 <:Mana:1192951102191181864> **Mana** cost\n - Range (3.3 / 3.6 / 3.9 / 4.2)m\n - 0.25s between ticks\n - Inflict (45 / 60 / 75 / 90)% <:Slashing:1193741155142217808> **Slashing damage**\n - **Channeled Cast**",
+                    "Skill Generation": "4th Generation Warrior Skill\n-Requires 16 points on Warrior ",
+                    "Emoji": "<:WhirlwindSlash:1190050104200151070>"
+                },
+                "Battle Frenzy": {
+                    "Effects": "Enter an enhanced state and continuously gaining <:RhythmofWar:1190049831171928235> **Battlelust** while draining <:Mana:1192951102191181864> **Mana**.\n - <:SkillCD:1192951121568874546> **Skill CD** 2s\n - (1 / 1 / 1 / 1) <:Mana:1192951102191181864> **Mana** drain\n - <:AttackSpeed:1192950900302561402> **Attack Speed** +(10 / 20 / 30 / 40)\n - <:MovementSpeed:1192950910054322287> **Movement Speed** +(10/ 20 /30 / 40)\n - Obtain <:RhythmofWar:1190049831171928235> **Battlelust**",
+                    "Skill Generation": "5th Generation Warrior Skill\n-Requires 24 points on Warrior ",
+                    "Emoji": "<:BattleFrenzy:1190050153441267752>"
+                }
+            }
+        }
+    },
+    "Subclasses": {
+        "Heretic": {
+            "Emoji": "<:hcHeretic:1171472070719320084>",
+            "Base Classes": [
+                "Animancer",
+                "Pyromancer"
+            ],
+            "Subskills": {
+                "Unquanchable Ardor": {
+                    "Effects": "<:Conflagration:1190085598850064384> **Ember** now attach to nearby unit and **Combust** upon expiry. Inflicts (30%/40%/50%/60%) <:BonusFire:1192949000995864668> **Fire Damage**. Has (0.2/0.2/0.2/0.2) sec(s) between ticks in (2.0/2.2/2.4/2.6) m radius with (0.5/0.5/0.5/0.5)",
+                    "Skill Generation": "1st Generation Heretic Skill\n-Requires 0 points on Animancer\n-Requires 0 points on Pyromancer",
+                    "Emoji": "<:UnquanchableArdor:1190393122727927918>"
+                },
+                "Thermal Incubation": {
+                    "Effects": "Place a (3/4/5/6) m range circle. Generate <:Conflagration:1190085598850064384> **Embers** and transform existing <:Conflagration:1190085598850064384> **Embers** in its area into <:ThermalIncubation:1190393306132254730> **Flaming Hydra** with (100%/100%/100%/100%) power.",
+                    "Skill Generation": "2nd Generation Heretic Skill\n-Requires 4 points on Animancer\n-Requires 4 points on Pyromancer",
+                    "Emoji": "<:ThermalIncubation:1190393306132254730>"
+                },
+                "Immolation Ward": {
+                    "Effects": "(13/11/10/9) sec(s) cd. Friendly units in (24/24/24/24) m radius obtaining a <:Pyroclad:1190085479392100352> **Pyroclad** when being hit. Release (20%/30%/40%/50%) melee <:BonusFire:1192949000995864668> **Fire Attack(s)**. Has (0.5/0.5/0.5/0.5) sec(s) between ticks in (6/6/6/6) sec(s) duration.",
+                    "Skill Generation": "2nd Generation Heretic Skill\n-Requires 4 points on Animancer\n-Requires 4 points on Pyromancer",
+                    "Emoji": "<:ImmolationWard:1190393014976262294>"
+                },
+                "Entropic Dilation": {
+                    "Effects": "When applying <:BonusFire:1192949000995864668> **Fire Ailment** Over-time effects, tick rate offset by (80%/60%/40%/20%). Duration offset by (120%/140%/160%/180%). Effect duration+(80%/60%/40%/20%).",
+                    "Skill Generation": "3rd Generation Heretic Skill\n-Requires 8 points on Animancer\n-Requires 8 points on Pyromancer",
+                    "Emoji": "<:EntropicDilation:1190393201090121879>"
+                },
+                "Pyromania": {
+                    "Effects": "(8/8/8/8) sec(s) cd. Max (2/2/2/2) charges. Instantly cause all surrounding (8/10/12/14) m range allies and enemies to burn, obtaining <:BonusFire:1192949000995864668> **Fire Ailment**. As well as spread <:BonusFire:1192949000995864668>  **Fire Ailment** among each other. Allies gain temporary immunity to damage from <:BonusFire:1192949000995864668> **Fire Ailment**.",
+                    "Skill Generation": "4th Generation Heretic Skill\n-Requires 16 points on Animancer\n-Requires 16 points on Pyromancer",
+                    "Emoji": "<:Pyromania:1190393350654808235>"
+                },
+                "Incinerating Vortex": {
+                    "Effects": "(4.5/4.0/3.5/3.0) sec(s) cd. Convoke a fiery maelstrom, pulling enemies in (2.7/3.0/3.3/3.6)m range. Dealing (30%/40%/50%/60%) multiple <:BonusFire:1192949000995864668> **Fire Damage** with (0.2/0.3/0.2/0.2) sec(s) between ticks.",
+                    "Skill Generation": "4th Generation Heretic Skill\n-Requires 16 points on Animancer\n-Requires 16 points on Pyromancer",
+                    "Emoji": "<:IncineratingVortex:1190393083133710476>"
+                },
+                "Ember Born": {
+                    "Effects": "Increase (10/30/30/40) <:ResistanceFire:1192949018108629022> **Fire Resistant**. You gain extra <:BonusFire:1192949000995864668> **Fire Damage** based on (20%/30%/40%/50%) of <:ResistanceFire:1192949018108629022> **Fire Resistant**",
+                    "Skill Generation": "5th Generation Heretic Skill\n-Requires 24 points on Animancer\n-Requires 24 points on Pyromancer",
+                    "Emoji": "<:Emberborn:1190393251967029398>"
+                }
+            }
+        },
+        "Shinobi": {
+            "Emoji": "<:hcShinobi:1171471973776379985>",
+            "Base Classes": [
+                "Thief",
+                "Animancer"
+            ],
+            "Subskills": {
+                "Puppetry": {
+                    "Effects": "Your minions have +(20%/30%/40%/50%) bonus <:CritChance:1192950901451800706> **Crit Chance**. When dealing a certain damage (30%/40%/50%/60%) chance to trigger, Inflicts **Bleed**.",
+                    "Skill Generation": "1st Generation Shinobi Skill\n-Requires 0 points on Animancer\n-Requires 0 points on Thief",
+                    "Emoji": "<:S_Puppetry:1188014908126810152>"
+                },
+                "Shadowclone Justu[Twin]": {
+                    "Effects": "Summon (1/1/1/1) clone(s) that inherit (5%/60%/70%/80%) of your stats.",
+                    "Skill Generation": "2nd Generation Shinobi Skill\n-Requires 4 points on Animancer\n-Requires 4 points on Thief",
+                    "Emoji": "<:S_ShadowcloneJutsuTwin:1188014916104376340>"
+                },
+                "Grappling Strike": {
+                    "Effects": "Grappling towards enemy at high speed, dealing (50%/50%/50%/50%) <:Slashing:1193741155142217808> **Slashing Damage**. Slightly push enemies back. Dealing (180%/240%/300%/360%) <:Slashing:1193741155142217808> **Slashing Damage** and dodging attacks along the way. (40%/60%/80%/100%) chance to inflicts **Bleed**. (6/5/4/3) sec(s) cd.",
+                    "Skill Generation": "2nd Generation Shinobi Skill\n-Requires 4 points on Animancer\n-Requires 4 points on Thief",
+                    "Emoji": "<:S_GrapplingStrike:1188014902523203614>"
+                },
+                "Substitution Jutsu": {
+                    "Effects": "On taking a fatal damage. Swapping your position with your **Shadowclone**. Restores <:Health:1192950904865964052> **Life** equal to (100%/200%/300%/400%) <:DEX:1180974093256904794> **Dexterity**. Dodging incoming attacks for (0.5/1.0/1.5/2.0) sec(s) duration. (20/16/12/8) sec(s) cd.",
+                    "Skill Generation": "3rd Generation Shinobi Skill\n-Requires 8 points on Animancer\n-Requires 8 points on Thief",
+                    "Emoji": "<:S_SubstitutionJutsu:1188014911054434335>"
+                },
+                "Shadowclone Jutsu[Throng]": {
+                    "Effects": "Summon (2/3/4/5) clone(s) that's not counting toward your maximum number of summon. Inherits (45%/40%/35%/30%) of your stats with (6/7/8/9) sec(s) duration.",
+                    "Skill Generation": "4th Generation Shinobi Skill\n-Requires 16 points on Animancer\n-Requires 16 points on Thief",
+                    "Emoji": "<:S_ShadowcloneJutsuThrong:1188014919124267150>"
+                },
+                "Smokescreen Jutsu": {
+                    "Effects": "Create a smoke area that has (15%/20%/25%/30%) chance to dodge incoming attacks with (3.00/3.99/5.01/6.00)m radius.\n - **Stealth**",
+                    "Skill Generation": "4th Generation Shinobi Skill\n-Requires 16 points on Animancer\n-Requires 16 points on Thief",
+                    "Emoji": "<:S_SmokescreenJutsu:1188014905983500358>"
+                },
+                "Shadow Mimesis": {
+                    "Effects": "Your **Shadowclone** mimics all simple thrown attacks. Inherit additional (25%/50%/75%/100%) of your <:DEX:1180974093256904794> **Dexterity**",
+                    "Skill Generation": "5th Generation Shinobi Skill\n-Requires 24 points on Animancer\n-Requires 24 points on Thief",
+                    "Emoji": "<:S_ShadowMimesis:1188014914447613962>"
+                }
+            }
+        },
+        "Soulkeeper": {
+            "Emoji": "<:hcSoulkeeper:1171471777042550845>",
+            "Base Classes": [
+                "Aegis",
+                "Animancer"
+            ],
+            "Subskills": {
+                "Espirit Dr Corps": {
+                    "Effects": "Minions have (8%/12%/16%/20%) to **Bash** and enemies, stunning them (0.2/0.2/0.2/0.2) sec. Dealing (100%/100%/100%/100%) <:Bludgeoning:1193741174020775977> **Bludgeoning Damage** and dropping <:IndomitableBlows:1190064500100055190> **Resolve** stack. Cd (6/5/4/3) sec.",
+                    "Skill Generation": "1st Generation Soulkeeper Skill\n-Requires 0 points on Animancer\n-Requires 0 points on Aegis",
+                    "Emoji": "<:espritdecorps:1186879697678762096>"
+                },
+                "Myrmidon Reinforcer": {
+                    "Effects": "Summon (1/1/1/1) Myrmidon Reinforcer with (160%/180%/200%/220%) power, taunting enemies and increasing allies <:Defense:1192951020188344501> **Defense** +(10/20/30/40) in (12/12/12/12)m radius.",
+                    "Skill Generation": "2nd Generation Soulkeeper Skill\n-Requires 4 points on Animancer\n-Requires 4 points on Aegis",
+                    "Emoji": "<:reinforcer:1186879707082395668>"
+                },
+                "Animated Phalanx": {
+                    "Effects": "Creating levitating shield that deal (45%/60%/75%/90%) <:Bludgeoning:1193741174020775977> **Bludgeoning Damage** and block incoming projectiles. Range offset by (90%/100%/110%/120%).",
+                    "Skill Generation": "2nd Generation Soulkeeper Skill\n-Requires 4 points on Animancer\n-Requires 4 points on Aegis",
+                    "Emoji": "<:animatedphalanx:1186879692599472188>"
+                },
+                "Semper Fidelis": {
+                    "Effects": "Dominate a summon with highest amount of <:Health:1192950904865964052> **Life** as your **Auxiliary.** The Auxiliary bears a (20%/30%/40%/50%) of incoming damage in your stead.",
+                    "Skill Generation": "3rd Generation Soulkeeper Skill\n-Requires 8 points on Animancer\n-Requires 8 points on Aegis",
+                    "Emoji": "<:semperfidelis:1186879701394927626>"
+                },
+                "Summon Amaros": {
+                    "Effects": "Consume dropped weapon to summon (1/1/1/1) Amaros(s) at (240%/280%/320%/360%) power and extra stats on said weapon.",
+                    "Skill Generation": "4th Generation Soulkeeper Skill\n-Requires 16 points on Animancer\n-Requires 16 points on Aegis",
+                    "Emoji": "<:amaros:1186879710370725928>"
+                },
+                "Soul Shackles": {
+                    "Effects": "Shackle enemies, drawing them together (6/7/8/9) sec(s) duration. A (15%/20%/25%/30%) of damage you deal to one is conferred to all others. Range offset by (100%/125%/150%/175%)",
+                    "Skill Generation": "4th Generation Soulkeeper Skill\n-Requires 16 points on Animancer\n-Requires 16 points on Aegis",
+                    "Emoji": "<:soulshackles:1186879694528852019>"
+                },
+                "All For One": {
+                    "Effects": "Your minions receive the same <:IndomitableBlows:1190064500100055190> **Resolve** as you upon being summoned, increase their damage by (5%/10%/15%/20%) for each stack of <:IndomitableBlows:1190064500100055190> **Resolve** as long as the effect persists.",
+                    "Skill Generation": "5th Generation Soulkeeper Skill\n-Requires 24 points on Animancer\n-Requires 24 points on Aegis",
+                    "Emoji": "<:allforone:1186879705224323244>"
+                }
+            }
+        },
+        "Artillerist": {
+            "Emoji": "<:hcArtillerist:1105848499553194056>",
+            "Base Classes": [
+                "Pyromancer",
+                "Archer"
+            ],
+            "Subskills": {
+                "Pyrostigmata": {
+                    "Effects": "<:Aim:1188006959262224474> **Marks** an enemies reduce (5/5/5/5) <:ResistanceFire:1192949018108629022> **Fire Resistance** stacks up to (3/3/3/3) times. <:Pyrostigma:1187179751429898320> **Deadlocked** enemies will suffer from explosion, (90%120%/150%/180%) <:BonusFire:1192949000995864668> **Fire Damage**(<:MagicPower:1192951100727377981> magic power) in (2.0/2.2/2.4/2.6)m range when <:Conflagration:1190085598850064384> **Embers** spawn on them.",
+                    "Skill Generation": "1st Generation Artillerist Skill\n-Requires 0 points on Archer \n-Requires 0 points on Pyromancer ",
+                    "Emoji": "<:Pyrostigma:1187179751429898320>"
+                },
+                "Rapid Fire": {
+                    "Effects": "Discharge a barrage of suppressive fire. Damage offset by (60%/80%/100%/120%)\n - **Channeled Cast**",
+                    "Skill Generation": "2nd Generation Artillerist Skill\n-Requires 4 points on Archer \n-Requires 4 points on Pyromancer ",
+                    "Emoji": "<:RapidFire:1187179432276922469>"
+                },
+                "Adhesive Gunpowder": {
+                    "Effects": "For (3/4/5/6) sec(s) duration. Your **Normal Attack** causing an explosion in (2/2/2/2)m range, dealing (45%/50%/55%/60%) <:BonusFire:1192949000995864668> **Fire Damage**(<:HybridPower:1192950905939693648> hybrid attack) upon impacting an enemies. Has (6/5/4/3) sec(s) cd.",
+                    "Skill Generation": "2nd Generation Artillerist Skill\n-Requires 4 points on Archer \n-Requires 4 points on Pyromancer ",
+                    "Emoji": "<:AdhesiveGunpowder:1187179480595320883>"
+                },
+                "Omnicombustion": {
+                    "Effects": "Your <:BonusFire:1192949000995864668> **Fire Ailment** damage ticks rate offset by (60%/50%/40%/30%). Damage offset by (125%/150%/175%/200%)",
+                    "Skill Generation": "3rd Generation Artillerist Skill\n-Requires 8 points on Archer \n-Requires 8 points on Pyromancer",
+                    "Emoji": "<:Omnicombustion:1187179827229360180>"
+                },
+                "Rain of Arrows; Gedon": {
+                    "Effects": "Rain of arrows pouring down in (6.0/6.6/7.2/8.0)m range. Inflicts (60%/80%/100%/120%) <:BonusFire:1192949000995864668> **Fire Damage**(<:HybridPower:1192950905939693648> hybrid attack) with (0.3/0.3/0.3/0.3)s between ticks.\n - (30%/40%/50%/60%) chance to inflicts <:Pyrostigma:1187179751429898320> **Mark**",
+                    "Skill Generation": "4th Generation Artillerist Skill\n-Requires 16 points on Archer \n-Requires 16 points on Pyromancer",
+                    "Emoji": "<:RainofArrowsGeddon:1187179895638478859>"
+                },
+                "Enkindle": {
+                    "Effects": "Unleash a thermal surge. Inflicts (90%/120%/150%/180%) <:BonusFire:1192949000995864668> **Fire Damage**(hybrid attack) that detonating all surrounding <:Conflagration:1190085598850064384> **Embers** within (8/10/12/14)m range, inflicts (400%/5000%/600%/700%) <:BonusFire:1192949000995864668> **Fire Damage**(hybrid attack) in (4/4/4/4)m range.\n - Range offset by (100%/125%/150%/175%)\n - **Breaks walls**",
+                    "Skill Generation": "4th Generation Artillerist Skill\n-Requires 16 points on Archer \n-Requires 16 points on Pyromancer",
+                    "Emoji": "<:Enkindle:1187179562182914108>"
+                },
+                "Blazing Alacrity": {
+                    "Effects": "Convert +(20%/30%/40%/50%) of <:DEX:1180974093256904794> **Dexterity** to <:MagicPower:1192951100727377981> **Magic Power**. When dealing <:BonusFire:1192949000995864668> **Fire Damage**, <:CritChance:1192950901451800706> **Crit Chance** +(50%/100%/150%/200%).",
+                    "Skill Generation": "5th Generation Artillerist Skill\n-Requires 24 points on Archer \n-Requires 24 points on Pyromancer",
+                    "Emoji": "<:BlazingAlacrity:1187179984222175242>"
+                }
+            }
+        },
+        "Bastion": {
+            "Emoji": "<:hcBastion:1105848361527029801>",
+            "Base Classes": [
+                "Archer",
+                "Aegis"
+            ],
+            "Subskills": {
+                "Aimbot": {
+                    "Effects": "<:Aim:1188006959262224474> **Marked** enemies have -(10%/15%/20%/25%) <:Defense:1192951020188344501> **Defense**. <:Aimbot:1190412960435286137> **Deadlocked** enemies take (10%/15%/20%/25%) more damage. Stacks up to (3/3/3/3) times.",
+                    "Skill Generation": "1st Generation Bastion Skill\n-Requires 0 points on Archer \n-Requires 0 points on Aegis",
+                    "Emoji": "<:Aimbot:1190412960435286137>"
+                },
+                "Human Bunker": {
+                    "Effects": "Gain bonus stats.\n - <:AttackSpeed:1192950900302561402> **Attack Speed** +(75%/100%/125%/150%)\n - <:SkillCD:1192951121568874546> **Skill CD** +(40%/60%/80%/100%)\n - <:DamageReduction:1192950903964184718> **Damage Reduction** +(25/25/25/25)\n - **Knockback Resistance** +(80%/80%/80%/80%)\n - Cast the skill <:Rebuke:1190412945214152864> **Rebuke**\n - <:MovementSpeed:1192950910054322287> **Restricted movement**.",
+                    "Skill Generation": "2nd Generation Bastion Skill\n-Requires 4 points on Archer \n-Requires 4 points on Aegis",
+                    "Emoji": "<:HumanBunker:1190413008845930526>"
+                },
+                "Automech Arbalest": {
+                    "Effects": "Summon (1/1/1/1) arbalest turret to maximum number of (1/2/3/4) with (30/30/30/30) sec(s) duration. Inflicts (100%/100%/100%/100%) **Piercing Damage**(<:AttackPower:1192950899316903977> attack power). Has (4/3/2/1) sec(s) cd.",
+                    "Skill Generation": "2nd Generation Bastion Skill\n-Requires 4 points on Archer \n-Requires 4 points on Aegis",
+                    "Emoji": "<:AutomechArbalest:1190412921386319922>"
+                },
+                "Saturated Firepower": {
+                    "Effects": "On defeating an enemy. Has (20%/20%/20%/20%) chance to receiving <:SaturatedFirepower:1190412976583344262> **Saturated Firepower** buff. **Number of Projectiles** +(1/2/3/4) within (6/6/6/6) sec(s) duration.",
+                    "Skill Generation": "3rd Generation Bastion Skill\n-Requires 8 points on Archer \n-Requires 8 points on Aegis",
+                    "Emoji": "<:SaturatedFirepower:1190412976583344262>"
+                },
+                "Rain of Arrows; Ourea": {
+                    "Effects": "Release (3/4/5/6) projectiles attack(s) in (5/5/5/5)m range. Inflicts (180%/200%/220%/240%) **Bludgeoning Damage** with (30%/30%/30%/30%) chance to inflicts <:IndomitableBlows:1190064500100055190> **Daze**. Has (6.0/5.5/5.0/4.5) sec(s) cd.\n - **Breaks walls**",
+                    "Skill Generation": "4th Generation Bastion Skill\n-Requires 16 points on Archer \n-Requires 16 points on Aegis",
+                    "Emoji": "<:RainofArrowsOurea:1190413028626284574>"
+                },
+                "Rebuke": {
+                    "Effects": "Push enemies outward. Inflicts (60%/80%/100%/120%) **Bludgeoning Damage**(<:AttackPower:1192950899316903977> attack power). Has (6.0/5.5/5.0/4.5) sec(s) cd.\n - Inflicts <:IndomitableBlows:1190064500100055190> **Daze** if enemies collided with object.",
+                    "Skill Generation": "4th Generation Bastion Skill\n-Requires 16 points on Archer \n-Requires 16 points on Aegis",
+                    "Emoji": "<:Rebuke:1190412945214152864>"
+                },
+                "Armored to the Teeth": {
+                    "Effects": "Gain extra +(20%/30%/40%/50%) <:AttackPower:1192950899316903977> **Attack Power** based on your <:Defense:1192951020188344501> **Defense**",
+                    "Skill Generation": "5th Generation Bastion Skill\n-Requires 24 points on Archer \n-Requires 24 points on Aegis",
+                    "Emoji": "<:ArmoredtotheTeeth:1190412993062780998>"
+                }
+            }
+        },
+        "Ranger": {
+            "Emoji": "<:hcRanger:1105848411154026626>",
+            "Base Classes": [
+                "Archer",
+                "Thief"
+            ],
+            "Subskills": {
+                "Death from Afar": {
+                    "Effects": "Damage is increased when no enemies are in a (6/6/6/6)m range, damage +(20%/30%/40%/50%).",
+                    "Skill Generation": "1st Generation Ranger Skill\n-Requires 0 points on Archer \n-Requires 0 points on Thief",
+                    "Emoji": "<:DeathfromAfar:1190420932314005514>"
+                },
+                "Scattershot": {
+                    "Effects": "Shoots an arrow that fragments upon impact. Inflicts (100%/120%/140%/160%) <:Piercing:1193741189900402809> **Piercing Damage** (<:AttackPower:1192950899316903977> attack power) on impact; then releasing (3/4/5/6) projectiles, inflicting (50%/50%/50%/50%) <:Piercing:1193741189900402809> **Piercing Damage** (<:AttackPower:1192950899316903977> attack power). Has a (2/1.5/1/0.5) sec(s) cd.",
+                    "Skill Generation": "2nd Generation Ranger Skill\n-Requires 4 points on Archer \n-Requires 4 points on Thief",
+                    "Emoji": "<:Scattershot:1190421000014286928>"
+                },
+                "Razorward": {
+                    "Effects": "Fling (3/4/5/6) rotating blades that stop at max range before returning, dealing damage again if enemies are caught. Inflicts (120%/160%/200%/240%) <:Slashing:1193741155142217808> **Slashing Damage** (<:AttackPower:1192950899316903977> attack power). Has a (4.5/4/3.5/3) sec(s) cd.",
+                    "Skill Generation": "2nd Generation Ranger Skill\n-Requires 4 points on Archer \n-Requires 4 points on Thief",
+                    "Emoji": "<:Razorward:1190420888823279748>"
+                },
+                "Paroxysmic Eruption": {
+                    "Effects": "(3/3/3/3) Projectiles erupt from slain or <:GrievousWounds:1187997893378981968>  **Exsanguinated** enemies, inflicts (30%/40%/50%/60%) <:Piercing:1193741189900402809> **Piercing Damage**  (<:AttackPower:1192950899316903977> attack power).",
+                    "Skill Generation": "3rd Generation Ranger Skill\n-Requires 8 points on Archer \n-Requires 8 points on Thief",
+                    "Emoji": "<:ParoxysmicEruption:1190420954443157648>"
+                },
+                "Rain of Arrows; Maahes": {
+                    "Effects": "Rain of arrows pouring down in (6/6/6/6)m range. Inflicts (40%/50%/60%/70%) <:Slashing:1193741155142217808> **Slashing Damage** (<:AttackPower:1192950899316903977> attack power) with (0.3/0.3/0.3/0.3)s between ticks. Has a (6/5.5/5/4.5) sec(s) cd. Range offset by (100%/100%/100%/100%).",
+                    "Skill Generation": "4th Generation Ranger Skill\n-Requires 16 points on Archer \n-Requires 16 points on Thief",
+                    "Emoji": "<:RainofArrowsMaahes:1190421020369223792>"
+                },
+                "Predatory Focus": {
+                    "Effects": "<:Mana:1192951102191181864> **Mana Regen** is set to (2/3/4/5). You lose -(50%/50%/50%/50%) <:INT:1180974097669300316>**Intelligence**, but converts +(20%/30%/40%/50%) of <:INT:1180974097669300316> **Intelligence** to <:DEX:1180974093256904794>**Dexterity**.",
+                    "Skill Generation": "4th Generation Ranger Skill\n-Requires 16 points on Archer \n-Requires 16 points on Thief",
+                    "Emoji": "<:PredatoryFocus:1190420907458568192>"
+                },
+                "Onslaught": {
+                    "Effects": "Following a crit, the next skill attack will launch +(2/2/2/2) projectiles, with (3/3/3/3) sec(s) duration and a (5/2.5/1/0) sec(s) cd.",
+                    "Skill Generation": "5th Generation Ranger Skill\n-Requires 24 points on Archer \n-Requires 24 points on Thief",
+                    "Emoji": "<:Onslaught:1190420977826406573>"
+                }
+            }
+        },
+        "Elementalist": {
+            "Emoji": "<:hcElementalist:1105849005885358210>",
+            "Base Classes": [
+                "Tempest Mage",
+                "Pyromancer"
+            ],
+            "Subskills": {
+                "Elemental Equilibrium": {
+                    "Effects": "When dealing any one of the three elements ( <:BonusFire:1192949000995864668> **fire** / <:BonusCold:1192948996931596429> **cold** / <:BonusShock:1192949007341846578> **shock** ) Increases damage of the other two elements by (+10%/+20%/+30%/+40%)\n - <:BonusFire:1192949000995864668> **Fire Damage** increase <:BonusCold:1192948996931596429> **Cold** and <:BonusShock:1192949007341846578> **Shock Damage**\n - <:BonusCold:1192948996931596429> **Cold Damage** increase <:BonusFire:1192949000995864668> **Fire** and <:BonusShock:1192949007341846578> **Shock Damage**\n - <:BonusShock:1192949007341846578> **Shock Damage** increase <:BonusFire:1192949000995864668> **Fire** and <:BonusCold:1192948996931596429> **Cold Damage**",
+                    "Skill Generation": "1st Generation Elementalist Skill\n-Requires 0 points on Tempest Mage \n-Requires 0 points on Pyromancer ",
+                    "Emoji": "<:ElementalEquilibrium:1189820926158700544>"
+                },
+                "Elemental Beam": {
+                    "Effects": "Fires a beam dealing (60%/80%/100%/120%) <:BonusFire:1192949000995864668> **Fire**, <:BonusShock:1192949007341846578> **Shock** and <:BonusCold:1192948996931596429> **Cold Damage**. Use in accordance with <:ElementalPolychromator:1189821034690527314> **Elemental Polychromator** to scatter the beam into 3 rotating beams around the target. \n - Character becomes **stationary** when casting <:ElementalBeam:1189820954319265792> **Elemental Beam**.",
+                    "Skill Generation": "2nd Generation Elementalist Skill\n-Requires 4 points on Tempest Mage \n-Requires 4 points on Pyromancer ",
+                    "Emoji": "<:ElementalBeam:1189820954319265792>"
+                },
+                "Coronal Flare": {
+                    "Effects": "Creates a tornado of radius (2m) dealing (25%/30%/35%/40%) <:BonusFire:1192949000995864668> **Fire Damage** every (0.2) sec(s). Consumes <:Conflagration:1190085598850064384> **Ember** to increase its effect radius.",
+                    "Skill Generation": "2nd Generation Elementalist Skill\n-Requires 4 points on Tempest Mage \n-Requires 4 points on Pyromancer ",
+                    "Emoji": "<:CoronalFlare:1189820978872717362>"
+                },
+                "Dipole Discharge": {
+                    "Effects": "When dealing ( <:BonusShock:1192949007341846578> **Shock** / <:BonusCold:1192948996931596429> **Cold** ) **Damage**, increase chances of afflicting ( <:BonusFire:1192949000995864668> **Fire** / <:BonusCold:1192948996931596429> **Cold** ) **Aliment** onto target by (40%/60%/80%/100%)",
+                    "Skill Generation": "3rd Generation Elementalist Skill\n-Requires 8 points on Tempest Mage \n-Requires 8 points on Pyromancer ",
+                    "Emoji": "<:DipoleDischarge:1189821002969002054>"
+                },
+                "Elemental Polychromator": {
+                    "Effects": "Place a prism on target that continually reduces enemies’ **Elemental Resistance** by (60%/80%/100%/120%) within a (8m) radius.",
+                    "Skill Generation": "4th Generation Elementalist Skill\n-Requires 16 points on Tempest Mage \n-Requires 16 points on Pyromancer ",
+                    "Emoji": "<:ElementalPolychromator:1189821034690527314>"
+                },
+                "Apophis Impact": {
+                    "Effects": "Summons 3 meteors each dealing (350%/500%/650%/800%) <:BonusFire:1192949000995864668> **Fire**, <:BonusCold:1192948996931596429> **Cold** and <:BonusShock:1192949007341846578> **Shock Damage**. consumes <:Conflagration:1190085598850064384> **Ember** to increase number of meteors summoned (1 additional meteor per ember consumed)",
+                    "Skill Generation": "4th Generation Elementalist Skill\n-Requires 16 points on Tempest Mage \n-Requires 16 points on Pyromancer ",
+                    "Emoji": "<:ApophisImpact:1189821056719007857>"
+                },
+                "Stormwrought": {
+                    "Effects": "Increase <:ResistanceCold:1192949389916913865> **Cold** and <:ResistanceShock:1192949022005145720> **Shock Resistance** by (+5/+10/+15/+20) Additionally converts (20%/30%/40%/50%) of <:ResistanceShock:1192949022005145720> **Shock** and <:ResistanceCold:1192949389916913865> **Cold Resistance** into <:ExtraShock:1192949015092920361> **Extra Shock** and <:ExtraCold:1192949008700805311> **Cold Damage**",
+                    "Skill Generation": "5th Generation Elementalist Skill\n-Requires 24 points on Tempest Mage \n-Requires 24 points on Pyromancer ",
+                    "Emoji": "<:Stormwrought:1189821083721924618>"
+                }
+            }
+        },
+        "Stormblade": {
+            "Emoji": "<:hcStormblade:1105848683435671587>",
+            "Base Classes": [
+                "Tempest Mage",
+                "Thief"
+            ],
+            "Subskills": {
+                "Cold Blood": {
+                    "Effects": "**Bleeding** enemies take <:BonusCold:1192948996931596429> **Cold Damage** instead. Deal more (20%/30%/40%/50%) damage to enemies with <:Health:1192950904865964052> ≤ (50%/50%/50%/50%)",
+                    "Skill Generation": "1st Generation Stormblade Skill\n-Requires 0 points on Tempest Mage \n-Requires 0 points on Thief ",
+                    "Emoji": "<:ColdBlood:1187997089695801454>"
+                },
+                "Ice Boomerang": {
+                    "Effects": "Hurl boomerang outward. Inflicts (90%/110%/130%/150%) <:BonusCold:1192948996931596429> **Cold Damage**(<:HybridPower:1192950905939693648> hybrid attack) along it's path. Boomerang unleash (6/6/6/6) **Projectiles** outward, inflicts (30%/40%/50%/60%) <:BonusCold:1192948996931596429> **Cold Damage**(<:HybridPower:1192950905939693648> hybrid attack) when reached the furthest point. Has (3.0/2.5/2.0/1.5) sec(s) cd.\n - Range offset by (90%/100%/110%/120%)",
+                    "Skill Generation": "2nd Generation Stormblade Skill\n-Requires 4 points on Tempest Mage \n-Requires 4 points on Thief ",
+                    "Emoji": "<:IceBoomerang:1188000551271661609>"
+                },
+                "Arc Blast": {
+                    "Effects": "Attack surrounding in (4.5/4.5/4.5/4.5)m range. Inflicts (60%/80%/100%/120%) <:BonusShock:1192949007341846578> **Shock Damage**(<:HybridPower:1192950905939693648> hybrid attack) **Thrice**. Has (2/2/2/2) sec(s) cd.",
+                    "Skill Generation": "2nd Generation Stormblade Skill\n-Requires 4 points on Tempest Mage \n-Requires 4 points on Thief ",
+                    "Emoji": "<:ArcBlast:1188000597585186886>"
+                },
+                "The Axel": {
+                    "Effects": "Increase (0/5/10/15) **Dodge Chance**. On successful dodge, release (1/1/1/1) projectile(s) inflicts (90%/100%/110%/120%) <:BonusCold:1192948996931596429> **Cold Damage**(<:MagicPower:1192951100727377981> magic attack).",
+                    "Skill Generation": "3rd Generation Stormblade Skill\n-Requires 8 points on Tempest Mage \n-Requires 8 points on Thief ",
+                    "Emoji": "<:TheAxel:1187997038357512215>"
+                },
+                "Electromorphosis": {
+                    "Effects": "Transform into ball of lightning with (2/2/2/2)m range, (0.2/0.2/0.2/0.2)s between ticks and increase (60%/80%/100%/120%) extra <:MovementSpeed:1192950910054322287> **Movement Speed**. Dodge incoming attacks for (2.0/2.5/3.0/3.5) sec(s) duration. Inflicts (60%/70%/80%/90%) <:BonusShock:1192949007341846578> **Shock Damage**(<:HybridPower:1192950905939693648> hybrid attack) and electrocute surrounding enemies with (75%/100%/125%/150%) <:BonusShock:1192949007341846578> **Shock Damage**(<:HybridPower:1192950905939693648> hybrid attack). Has (18/15/12/9) sec(s) cd.",
+                    "Skill Generation": "4th Generation Stormblade Skill\n-Requires 16 points on Tempest Mage \n-Requires 16 points on Thief ",
+                    "Emoji": "<:Electromorphosis:1187996799617740901>"
+                },
+                "Boreal Flicker": {
+                    "Effects": "Dash forward (2400/2400/2400/2400) movement within (0.15/0.15/0.15/0.15) sec(s). Slash surrounding enemies in (4/4/4/4)m range. Inflicts (60%/80%/100%/120%) <:BonusCold:1192948996931596429> **Cold Damage**(<:HybridPower:1192950905939693648> hybrid attack) with (0.15/0.15/0.15/0.15)s between ticks.\n - Max charges: (2/2/2/2)\n - Has (6.0/5.5/5.0/4.5) sec(s) cd.",
+                    "Skill Generation": "4th Generation Stormblade Skill\n-Requires 16 points on Tempest Mage \n-Requires 16 points on Thief ",
+                    "Emoji": "<:BorealFlicker:1188000627591229461>"
+                },
+                "Hyperconductivity": {
+                    "Effects": "Dealing <:BonusShock:1192949007341846578> **Shock Damage** to target afflicted by <:BonusCold:1192948996931596429> **Cold Ailment** results in **Guaranteed Crit**. Has (2.5/1.0/0.5/0) sec(s) cd.",
+                    "Skill Generation": "5th Generation Stormblade Skill\n-Requires 24 points on Tempest Mage \n-Requires 24 points on Thief ",
+                    "Emoji": "<:Hyperconductivity:1187997001116307466>"
+                }
+            }
+        },
+        "Stormwarden": {
+            "Emoji": "<:hcStormwarden:1105848640083337247>",
+            "Base Classes": [
+                "Tempest Mage",
+                "Aegis"
+            ],
+            "Subskills": {
+                "Endothermic Ruptute": {
+                    "Effects": "Dealing a <:Bludgeoning:1193741174020775977> **Bludgeoning Damage** generates an icicle (or 6 if the enemy is **Frozen**) that deals (30%/40%/50%/60%) <:BonusCold:1192948996931596429> **Cold Damage** based on <:HybridPower:1192950905939693648> **Hybrid Attack**, and deals more damage against enemies with <:BonusCold:1192948996931596429> **Cold Ailment**. Also boosts your damage by (30%/40%/50%/60%).",
+                    "Skill Generation": "1st Generation Stormwarden Skill\n-Requires 0 points on Tempest Mage \n-Requires 0 points on Aegis ",
+                    "Emoji": "<:EndothermicRupture:1189819839049637970>"
+                },
+                "Glacial Domain": {
+                    "Effects": "Releases a field of ice that deals (180%/240%/300%/360%) <:BonusCold:1192948996931596429> **Cold Damage** based on <:HybridPower:1192950905939693648> **Hybrid Attack**, while also applying <:BonusCold:1192948996931596429> **Cold Ailment** to enemies and has a (60%/70%/80%/90%) chance to **Freeze** them. (4/3.5/3/2.5)s CD.\n - <:LeapingStrike:1190064514419392543> **Leaping Strike** trigger <:GlacialDomain:1189819945249411112> **Glacial Domain**",
+                    "Skill Generation": "2nd Generation Stormwarden Skill\n-Requires 4 points on Tempest Mage \n-Requires 4 points on Aegis ",
+                    "Emoji": "<:GlacialDomain:1189819945249411112>"
+                },
+                "Thundersledge": {
+                    "Effects": "Throws out hammers that deal (30%/40%/50%/60%) <:BonusShock:1192949007341846578> **Shock** and <:Bludgeoning:1193741174020775977> **Bludgeoning Damage** each, scaling off <:MagicPower:1192951100727377981> **Magic** and <:AttackPower:1192950899316903977> **Attack Power** respectively. (12/11/10/9)s CD.",
+                    "Skill Generation": "2nd Generation Stormwarden Skill\n-Requires 4 points on Tempest Mage \n-Requires 4 points on Aegis ",
+                    "Emoji": "<:Thundersledge:1189819757315231814>"
+                },
+                "Crystalline Panoply": {
+                    "Effects": "Grants (5/10/15/20) <:ResistanceCold:1192949389916913865> **Cold** and <:ResistanceShock:1192949022005145720> **Shock Resistances**. Converts (40%/60%/80%/100%) of combined <:ResistanceCold:1192949389916913865> **Cold** and <:ResistanceShock:1192949022005145720> **Shock Resistances** to <:Defense:1192951020188344501> **Defense**.",
+                    "Skill Generation": "3rd Generation Stormwarden Skill\n-Requires 8 points on Tempest Mage \n-Requires 8 points on Aegis ",
+                    "Emoji": "<:CrystallinePanoply:1189819869001162792>"
+                },
+                "Lancing Lightning": {
+                    "Effects": "Normal attacks sends out lightning that chains betweens (3/4/5/6) enemies and dealing (60%/80%/100%/120%) <:BonusShock:1192949007341846578> **Shock Damage**, based on <:HybridPower:1192950905939693648> **Hybrid Attack**. Locks 30% of <:Mana:1192951102191181864> **Mana**.",
+                    "Skill Generation": "4th Generation Stormwarden Skill\n-Requires 16 points on Tempest Mage \n-Requires 16 points on Aegis ",
+                    "Emoji": "<:LancingLightning:1189819994905788486>"
+                },
+                "Avalanche Ram": {
+                    "Effects": "Taking damage releases a small cold burst that inflicts <:BonusCold:1192948996931596429> **Cold Ailment** and deals (30%/40%/50%/60%) <:BonusCold:1192948996931596429> **Cold Damage** to enemies within a 1m radius area. Also causes <:ShieldBash:1190064406298632323> **Shield Bash** to generate freezing blasts. Locks 30% of <:Mana:1192951102191181864> **Mana**.",
+                    "Skill Generation": "4th Generation Stormwarden Skill\n-Requires 16 points on Tempest Mage \n-Requires 16 points on Aegis ",
+                    "Emoji": "<:AvalancheRam:1189819804811534336>"
+                },
+                "Thunderous Determination": {
+                    "Effects": "Every stack of <:IndomitableBlows:1190064500100055190> **Resolve** grants (10%/15%/20%/25%)  bonus <:BonusCold:1192948996931596429> **Cold** and <:BonusShock:1192949007341846578> **Shock Damage**, with an extra (20%/30%/40%/50%) with full <:IndomitableBlows:1190064500100055190> **Resolve**.",
+                    "Skill Generation": "5th Generation Stormwarden Skill\n-Requires 24 points on Tempest Mage \n-Requires 24 points on Aegis ",
+                    "Emoji": "<:ThunderousDetermination:1189819905948786750>"
+                }
+            }
+        },
+        "Assassin": {
+            "Emoji": "<:hcAssassin:1105848241448292372>",
+            "Base Classes": [
+                "Thief",
+                "Warrior"
+            ],
+            "Subskills": {
+                "Killer Instinct": {
+                    "Effects": "Dealing crit damage has a (10%/15%/20%/25%) chance to gain one <:RhythmofWar:1190049831171928235> **Battlelust**. Grants a (2%/3%/4%/5%) <:CritDamage:1192950902521335858> **Crit Damage** boost per <:RhythmofWar:1190049831171928235> **Battlelust** stacks on you.",
+                    "Skill Generation": "1st Generation Assassin Skill\n-Requires 0 points on Warrior \n-Requires 0 points on Thief ",
+                    "Emoji": "<:KillerInstinct:1189819624309665872>"
+                },
+                "Mana Reaver": {
+                    "Effects": "Attacks surrounding enemies, dealing (100%/120%/140%/160%) <:Slashing:1193741155142217808> **Slashing Damage** and restoring (2/3/4/5) <:Mana:1192951102191181864> **Mana** per hit on an enemy. Grants (150%/200%/250%/300%) <:Mana:1192951102191181864> **Mana Regen**. (6/5.5/5/4.5)s CD.",
+                    "Skill Generation": "2nd Generation Assassin Skill\n-Requires 4 points on Warrior \n-Requires 4 points on Thief ",
+                    "Emoji": "<:ManaReaver:1189819677233381427>"
+                },
+                "Gale Flash": {
+                    "Effects": "Dashes forwards and performs 6 consecutive slices, dealing (60%/80%/100%/120%) <:Slashing:1193741155142217808> **Slashing Damage** each, and has a (15%/20%/25%/30%) chance to inflict **Bleed**. (4.5/4/3.5/3)s CD, 0.15s between ticks, and 2400 <:MovementSpeed:1192950910054322287> **Movement Speed** within 0.15s.",
+                    "Skill Generation": "2nd Generation Assassin Skill\n-Requires 4 points on Warrior \n-Requires 4 points on Thief ",
+                    "Emoji": "<:GaleFlash:1189819597109592126>"
+                },
+                "Riposte": {
+                    "Effects": "Grants (0/5/10/15) **Dodge rate**. Each time you dodge, you throw a knife that deals (30%/40%/50%/60%) <:Piercing:1193741189900402809> **Piercing Damage** and has a (30%/40%/50%/60%) chance to cause **Bleed**. 0.1s between attacks. Knife bounces 1 time.",
+                    "Skill Generation": "3rd Generation Assassin Skill\n-Requires 8 points on Warrior \n-Requires 8 points on Thief ",
+                    "Emoji": "<:Riposte:1189819636108247070>"
+                },
+                "Evasive Stance": {
+                    "Effects": "Consumes all <:RhythmofWar:1190049831171928235> **Battlelust** to dodge all attacks for a short 1s - (3/4/5/6)s duration. (18/16/14/12)s CD.",
+                    "Skill Generation": "4th Generation Assassin Skill\n-Requires 16 points on Warrior \n-Requires 16 points on Thief ",
+                    "Emoji": "<:EvasiveStance:1189819714105528340>"
+                },
+                "Stealth": {
+                    "Effects": "Grants invisibility and (25%/30%/35%/40%) <:MovementSpeed:1192950910054322287> **Movement Speed**. Using an attack will grant +(150%/200%/250%/300%) damage for 2s. (9/8/7/6)s CD. ",
+                    "Skill Generation": "4th Generation Assassin Skill\n-Requires 16 points on Warrior \n-Requires 16 points on Thief ",
+                    "Emoji": "<:Stealth:1189819612448170065>"
+                },
+                "Merciless": {
+                    "Effects": "Increases damage by +(20%/30%/40%/50%) when attacking a **Bleeding** enemy, and refreshes the duration of the **Bleeding**.",
+                    "Skill Generation": "5th Generation Assassin Skill\n-Requires 24 points on Warrior \n-Requires 24 points on Thief ",
+                    "Emoji": "<:Merciless:1189819648598872155>"
+                }
+            }
+        },
+        "Pyroknight": {
+            "Emoji": "<:hcPyroknight:1105848761395191929>",
+            "Base Classes": [
+                "Warrior",
+                "Pyromancer"
+            ],
+            "Subskills": {
+                "Blazing Soul": {
+                    "Effects": "Gaining <:RhythmofWar:1190049831171928235> **Battlelust** burn surrounding enemies. Inflicts (10%/20%/30%/40%) <:BonusFire:1192949000995864668> **Fire Damage**(<:HybridPower:1192950905939693648> hybrid attack) (0.5/0.5/0.5/0.5)s between ticks. For each stacks of <:RhythmofWar:1190049831171928235> **Battlelust**, gain (2%/3%/4%/5%) extra <:BonusFire:1192949000995864668> **Fire Damage**",
+                    "Skill Generation": "1st Generation Pyroknight Skill\n-Requires 0 points on Warrior \n-Requires 0 points on Pyromancer ",
+                    "Emoji": "<:BlazingSoul:1189808636663431188>"
+                },
+                "Fireblade Ward": {
+                    "Effects": "Encircle yourself with flaming sword within (7/7/7/7) sec(s) duration. Inflicts (45%/60%/75%/90%) <:BonusFire:1192949000995864668> **Fire Damage**(<:HybridPower:1192950905939693648> hybrid attack).\n - Consume all <:RhythmofWar:1190049831171928235> **Battlelust**, increase each number of flaming sword.\n - Has (16/14/12/10) sec(s) cd.",
+                    "Skill Generation": "2nd Generation Pyroknight Skill\n-Requires 4 points on Warrior \n-Requires 4 points on Pyromancer ",
+                    "Emoji": "<:FirebladeWard:1189809050121142352>"
+                },
+                "Scorching Breath": {
+                    "Effects": "Spewing (3/4/5/6) **Projectiles** of flame forward, inflicts (60%/80%/100%/120%) <:BonusFire:1192949000995864668> **Fire Damage**(<:HybridPower:1192950905939693648> hybrid attack). Enemies receive <:BonusFire:1192949000995864668> **Fire Ailment** inflicts (50%/50%/50%/50%) <:BonusFire:1192949000995864668> **Fire Damage**(<:HybridPower:1192950905939693648> hybrid attack) in (5/5/5/5) sec(s).\n - Reduce (30/40/50/60) <:Defense:1192951020188344501> **Defense**\n - Reduce (15/20/25/30) <:ResistanceFire:1192949018108629022> **Fire Resistance**\n - Range offset by (100%/120%/140%/160%)\n - Has (6.0/5.5/5.0/4.5) sec(s) cd.",
+                    "Skill Generation": "2nd Generation Pyroknight Skill\n-Requires 4 points on Warrior \n-Requires 4 points on Pyromancer ",
+                    "Emoji": "<:ScorchingBreathe:1189809133537476640>"
+                },
+                "Enduring Flames": {
+                    "Effects": "On taking certain damage. Restore <:Health:1192950904865964052> **Life** equal to (4%/6%/8%/10%) <:STR:1180974090761281677> **STR**.\n - Gain +(20%/40%/60%/80%) **Life Regen**\n - Doubled Effectswhen <:Pyroclad:1190085479392100352> **Pyroclad** is active.\n - Has (0.2/0.2/0.2/0.2) sec(s) cd.",
+                    "Skill Generation": "3rd Generation Pyroknight Skill\n-Requires 8 points on Warrior \n-Requires 8 points on Pyromancer ",
+                    "Emoji": "<:EnduringFlames:1189809075735769139>"
+                },
+                "Searing Colossus": {
+                    "Effects": "Draw enemies within (100%/120%/140%/160%) range and restore <:Health:1192950904865964052> **Life** equal to (50%/75%/100%/125%) of <:STR:1180974090761281677> **STR** when <:Conflagration:1190085598850064384> **Ember** is consumed. Summon Searing Colossus with (30/30/30/30) sec(s) duration, inflicts (120%/180%/240%/300%) <:BonusFire:1192949000995864668> **Fire Damage**(<:HybridPower:1192950905939693648> hybrid attack)\n - Summon (1/1/1/1) Searing Colossus.\n - Maximum number of Searing Colossus is (1/1/1/1)\n - Has (60/50/40/30) sec(s) cd.",
+                    "Skill Generation": "4th Generation Pyroknight Skill\n-Requires 16 points on Warrior \n-Requires 16 points on Pyromancer ",
+                    "Emoji": "<:SearingColossus:1189809099995615266>"
+                },
+                "Fiery Smite": {
+                    "Effects": "Lock (50%/50%/50%/50%) of max <:Mana:1192951102191181864> **Mana**. Every attack has (25%/30%/35%/40%) chance to trigger. Release (1/1/1/1) **Area of Attack(s)** in (3/3/3/3)m range. Inflicts (90%/120%/150%/180%) <:BonusFire:1192949000995864668> **Fire Damage**(<:HybridPower:1192950905939693648> hybrid attack).",
+                    "Skill Generation": "4th Generation Pyroknight Skill\n-Requires 16 points on Warrior \n-Requires 16 points on Pyromancer ",
+                    "Emoji": "<:FierySmite:1189809865208639549>"
+                },
+                "Igneous Transmutation": {
+                    "Effects": "Gain extra (30%/45%/60%/75%) <:AttackPower:1192950899316903977> **Attack Power** based on your <:INT:1180974097669300316> **Intelligence**.",
+                    "Skill Generation": "5th Generation Pyroknight Skill\n-Requires 24 points on Warrior \n-Requires 24 points on Pyromancer ",
+                    "Emoji": "<:IgneousTransmutation:1189809153972109372>"
+                }
+            }
+        },
+        "Warliege": {
+            "Emoji": "<:hcWarliege:1105848202302849084>",
+            "Base Classes": [
+                "Aegis",
+                "Warrior"
+            ],
+            "Subskills": {
+                "One Man Army": {
+                    "Effects": "Gain increased damage and defense when multiple enemies are near. This effect is doubled when full <:IndomitableBlows:1190064500100055190> **Resolve**\n - 8m range\n - <:Defense:1192951020188344501> **Defense** + (16 / 24 / 32 / 40)\n - <:AttackPower:1192950899316903977> **Regular Damage** + (10 / 15 / 20 / 25)%\n - Effect is doubled when you have full <:IndomitableBlows:1190064500100055190> **Resolve**",
+                    "Skill Generation": "1st Generation Warliege Skill\n-Requires 0 points on Warrior \n-Requires 0 points on Aegis ",
+                    "Emoji": "<:OneManArmy:1189806677839581234>"
+                },
+                "Flurry": {
+                    "Effects": "Swing your melee weapon in a rapid bout of successive blows against the enemy.\n - **Channeled Cast**\n - 2 <:Mana:1192951102191181864> **Mana** cost\n - Damage offset by (75 / 90 / 105 / 120)%",
+                    "Skill Generation": "2nd Generation Warliege Skill\n-Requires 4 points on Warrior \n-Requires 4 points on Aegis ",
+                    "Emoji": "<:Flurry:1189806928738656276>"
+                },
+                "Bounding Shield": {
+                    "Effects": "Throw your shield, which bounds between enemies, damaging and **Dazing** them. Deals more damage when you have <:IndomitableBlows:1190064500100055190> **Resolve**\n - <:SkillCD:1192951121568874546> **Skill CD** (2 / 1.5 / 1 / 0.5)s\n - 4 <:Mana:1192951102191181864> **Mana** cost\n - Inflict 120 / 140 / 160 / 180 % <:Bludgeoning:1193741174020775977> **Bludgeoning Damage**\n - Bounces 2 / 3 / 4 / 5 times\n - 30% chance to inflict **Daze**",
+                    "Skill Generation": "2nd Generation Warliege Skill\n-Requires 4 points on Warrior \n-Requires 4 points on Aegis ",
+                    "Emoji": "<:BoundingShield:1189806984820691044>"
+                },
+                "Nemesis Automail": {
+                    "Effects": "Automatically counterattack enemies when taking damage.\n - <:Defense:1192951020188344501> **Defense** + (10 / 20 / 30 / 40)\n - (30 / 40 / 50 / 60)% chance to trigger, Inflict (120 / 130 / 140 / 150)% <:Piercing:1193741189900402809> **Piercing Damage**",
+                    "Skill Generation": "3rd Generation Warliege Skill\n-Requires 8 points on Warrior \n-Requires 8 points on Aegis ",
+                    "Emoji": "<:NemesisAutomail:1189806756721868920>"
+                },
+                "Warcry": {
+                    "Effects": "Consume all <:RhythmofWar:1190049831171928235> **Battlelust** to restore <:Health:1192950904865964052> **Life** and <:Mana:1192951102191181864> **Mana** for each stack, then let loose a terrifying roar that causes nearby enemies to flee in fear.\n - <:SkillCD:1192951121568874546> **Skill CD** (9 / 8 / 7 / 6)s\n - Restores <:Health:1192950904865964052> **Life** equal to (12 / 18 / 24 / 30)% of <:STR:1180974090761281677> **Strength**\n - Restores <:Mana:1192951102191181864> **Mana** equal to (6 / 9 / 12 / 15)% of <:INT:1180974097669300316> **Intelligence**\n - Inflict (30 / 60 / 90 / 120)% <:Bludgeoning:1193741174020775977> **Bludgeoning Damage**\n - Inflicts **Fear**",
+                    "Skill Generation": "4th Generation Warliege Skill\n-Requires 16 points on Warrior \n-Requires 16 points on Aegis ",
+                    "Emoji": "<:Warcry:1189807816702177343>"
+                },
+                "Colossal Might": {
+                    "Effects": "Embody the might of colossi to fill your <:IndomitableBlows:1190064500100055190> **Resolve** while simultaneously buffing nearby allies.\n - <:SkillCD:1192951121568874546> **Skill CD** (30 / 25 / 20 / 15)s\n - 10 <:Mana:1192951102191181864> **Mana** cost\n - Obtain <:IndomitableBlows:1190064500100055190> **Resolve**\n - Obtain <:RhythmofWar:1190049831171928235> **Battlelust**\n - All Damage +(20 / 30 / 40 / 50)%\n - <:AttackSpeed:1192950900302561402> **Attack Speed** + (20 / 30 / 40 / 50)%\n - 15 seconds duration",
+                    "Skill Generation": "4th Generation Warliege Skill\n-Requires 16 points on Warrior \n-Requires 16 points on Aegis ",
+                    "Emoji": "<:ColossalMight:1189808126212440134>"
+                },
+                "Massive Trauma": {
+                    "Effects": "Drastically increases damage against **Dazed** enemies\n - Damage +(50 / 75 / 100 / 125)%",
+                    "Skill Generation": "5th Generation Warliege Skill\n-Requires 24 points on Warrior \n-Requires 24 points on Aegis ",
+                    "Emoji": "<:MassiveTrauma:1189806831716008066>"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "Guide": {
+        "Class": {
+            "Artillerist": {
+                "Class Guide": "[Click Here](https://discord.com/channels/971700371112198194/1178422443359080508/1199239614427308052)\n",
+                "Image" : "https://cdn.discordapp.com/attachments/1197741765051023440/1220036223897174087/9c674b8a-f004-4323-926c-feb2c6a1f550.gif?ex=660d7a46&is=65fb0546&hm=987202c1c90b254819bbb983ebfc872ea471e432e07f23b20af6a75af5e01614&.gif\n",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:hcArtillerist:1105848499553194056>"
+            },
+            "Bastion": {
+                "Class Guide" : "[Click Here](https://discord.com/channels/971700371112198194/1180984703860363345/1199267610425032745)\n",
+                "Image" : "https://cdn.discordapp.com/attachments/1197741765051023440/1220023478581989449/9f533bbe-5efd-4424-a8b1-0598c38c2e8b.gif?ex=660d6e68&is=65faf968&hm=0533441c31f622aabe8bde1fb37db01d938ef920f4415b61fcd927750e3333ee&.gif\n",
+                "Thumbnail" : "https://imgur.com/sMRkRM6.png",
+                "Emoji" : "<:hcBastion:1105848361527029801>"
+            },
+            "Dark Ranger": {
+                "Class Guide" : "Not Yet Available!\n",
+                "Image" : "https://imgur.com/UyDA0Xl.png\n",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji" : "<:darkranger:1229027750137036851>"
+            },
+            "Dread Knight": {
+                "Class Guide" : "Not Yet Available!\n",
+                "Image" : "https://cdn.discordapp.com/attachments/1227508660016648203/1230193630124445766/ed6a9cda-cb19-48f9-bc8e-09cc27aca1b5.jpg?ex=66326e19&is=661ff919&hm=51efd9f4110fda61c0a88ef7b3bae3513c101cbe6530f1c48ed4065e81d10f54&.png\n",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji" : "<:dreadknight:1229027660684984360>"
+            },
+            "Assassin": {
+                "Class Guide" : "[Click Here](https://discord.com/channels/971700371112198194/1181052138248474674/1199286004029329489)\n",
+                "Image" : "https://cdn.discordapp.com/attachments/1197741765051023440/1220026819810693162/25c9b9af-0b2a-4235-a21b-47f81783c615.gif?ex=660d7184&is=65fafc84&hm=865b88ffc0b541af1352984968474bb74946ac16fe40801a4e3726b84c395183&.png\n",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji" : "<:hcAssassin:1105848241448292372>"
+            },
+            "Astral Mage" : {
+                "Class Guide" : "Not Yet Available!\n",
+                "Image" : "https://cdn.discordapp.com/attachments/1227508660016648203/1230193760080760884/e2009332-f29a-41c8-a89f-4a1e0e718a49.jpg?ex=66326e38&is=661ff938&hm=331b57d63e3fd02619af76b94aa59eec893f3854e8d4ad2156437652d493b4cb&.png\n",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:astralmage:1229027399069339670>"
+            },
+            "Druid" : {
+                "Class Guide": "[Click Here](https://discord.com/channels/971700371112198194/1202710438010294362/1202792335147139102)\n",
+                "Image" : "https://cdn.discordapp.com/attachments/1221823100660744343/1221824886276886619/8447bc5d-52d7-45ae-b9dc-59787adb12eb.gif?ex=6613fc19&is=66018719&hm=1e8d89de47390e42c29c2c0eef9239fa6e2a07bee8a1ddfa0e77d38a7af8711a&.png\n",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:hcDruid:1198104683814862950>"
+            },
+            "Elementalist": {
+                "Class Guide": "[Click Here](https://discord.com/channels/971700371112198194/1189782641969467473/1200679995144687687)\n",
+                "Image" : "https://cdn.discordapp.com/attachments/1221823100660744343/1221824543325425684/3861383e-0a42-4914-90cf-807c67a857b3.gif?ex=6613fbc7&is=660186c7&hm=98056b09f719ae709ab2ed846683bb869a7db4f4e13180ba7ab4bc0ecd240dfb&.png\n",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:hcElementalist:1105849005885358210>"
+            },
+            "Farstrider": {
+                "Class Guide": "[Click Here](https://discord.com/channels/971700371112198194/1202710822070132836/1213882614662955090)\n",
+                "Image": "https://cdn.discordapp.com/attachments/1221823100660744343/1221825013334937610/2bc224c1-2dbc-475d-baab-17bad2f10a70.gif?ex=6613fc37&is=66018737&hm=b53e0b9f1c4e07b476472f6931f301bac2dcf56b7a054c2533d6b2ca87637806&.png",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:hcFarstrider:1198104732649140365>"
+            },
+            "Heretic": {
+                "Class Guide": "[Click Here](https://discord.com/channels/971700371112198194/1180999656512167977/1199277798062292993)\n",
+                "Image": "https://cdn.discordapp.com/attachments/1221823100660744343/1221824498831982722/45d590cc-c176-44d8-be95-d34678445a5c.gif?ex=6613fbbc&is=660186bc&hm=8ac6d8498d88b12ba1a82c6bcad7a88f8bcfd6be62b751a5165b2c4954a5f81c&.png",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:hcHeretic:1171472070719320084>"
+            },
+            "Necromancer": {
+                "Class Guide" : "Not Yet Available!",
+                "Image": "https://cdn.discordapp.com/attachments/1227508660016648203/1230193714622627892/0f4c6005-e763-4e3a-99f1-c453092c633e.jpg?ex=66326e2d&is=661ff92d&hm=e0dfcb7a666f6b0758c56c28963b3fec6b42a957da9fb98cd23f712506e389e7&.png",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:necromancer:1230219203093729371>"
+            },
+            "Pyroknight": {
+                "Class Guide": "[Click Here](https://discord.com/channels/971700371112198194/1189768705815621702/1200671502140456960n)\n",
+                "Image": "https://cdn.discordapp.com/attachments/1197741765051023440/1220056059121635398/09b12d5c-15a7-43bb-8795-747c25dbada9.gif?ex=660d8cc0&is=65fb17c0&hm=8ee506195f4f881e0583384828e424683d035323f285d27f9481609a47a151ad&.png",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:hcPyroknight:1105848761395191929>"
+            },
+            "Ranger": {
+                "Class Guide": "[Click Here](https://discord.com/channels/971700371112198194/1181000962589077656/1199220194686554132)\n",
+                "Image": "https://cdn.discordapp.com/attachments/1197741765051023440/1220031082066608209/d941b8d7-83c5-47fd-b9e1-fb6ae5eddc50.gif?ex=660d757d&is=65fb007d&hm=04ef16938d1a8a82d4659b36831dd498811785b277c1af39113ea5af1bc43929&.png",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:hcRanger:1105848411154026626>"
+            },
+            "Shinobi": {
+                "Class Guide": "[Click Here](https://discord.com/channels/971700371112198194/1184851720992460831/1199809712191967356)\n",
+                "Image": "https://cdn.discordapp.com/attachments/1221823100660744343/1221824725349568644/9140e355-2596-4771-bf45-630048e91c0b.gif?ex=6613fbf2&is=660186f2&hm=ae8edd8147efc3cccc293961e9ebe68e779e2e9a76f87a86ea1bce94696055c2&.png",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:hcShinobi:1171471973776379985>"
+            },
+            "Soulkeeper": {
+                "Class Guide": "[Click Here](https://discord.com/channels/971700371112198194/1183966956345380894/1199290079986855997)\n",
+                "Image": "https://cdn.discordapp.com/attachments/1197741765051023440/1230782835372068904/5c2763ab-780d-44a3-a37e-698affdbf1d0.gif?ex=663492d6&is=66221dd6&hm=284b3079bedbf94322391f08c893d9ac80bea1e052352d8ea5b9bc619e2683d2&.png",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:hcSoulkeeper:1171471777042550845>"
+            },
+            "Stormblade": {
+                "Class Guide": "[Click Here](https://discord.com/channels/971700371112198194/1179156000331276318/1199242383003484211)\n",
+                "Image": "https://cdn.discordapp.com/attachments/1197741765051023440/1220033736033177600/9f82b175-f320-4e44-b6e3-c9eef6e4fbe1.gif?ex=660d77f5&is=65fb02f5&hm=6a53adc5ecf905bf4d25e374bfde23e91cb1def7363590793fc107580864f195&.png",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:hcStormblade:1105848683435671587>"
+            },
+            "Stormshaman": {
+                "Class Guide": "[Click Here](https://discord.com/channels/971700371112198194/1200702675789033502/1200709545467576340)\n",
+                "Image": "https://cdn.discordapp.com/attachments/1221823100660744343/1221824922070810664/fef5f44a-b336-4d11-8fde-6d235a6c7eb1.gif?ex=6613fc21&is=66018721&hm=44c286df7c597676a9bc2ac3d5a78ffcca675fa5b2679270ba9895ea28ba3912&.png",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:hcStormshaman:1198104729973170217>"
+            },
+            "Stormwarden": {
+                "Class Guide": "[Click Here](https://discord.com/channels/971700371112198194/1189797669628039259/1200714501746606130)\n",
+                "Image": "https://cdn.discordapp.com/attachments/1221823100660744343/1221824518763446334/28eedbe3-7550-43e7-a577-3937b4de01ea.gif?ex=6613fbc1&is=660186c1&hm=51772dd2e01dc83f39eafa90785b5103b8de4a899515bef3c1559f703f8a63c8&.png",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:hcStormwarden:1105848640083337247>"
+            },
+            "Warliege": {
+                "Class Guide": "[Click Here](https://discord.com/channels/971700371112198194/1189777784818643024/1199324539469975602)\n",
+                "Image": "https://cdn.discordapp.com/attachments/1197741765051023440/1220051113168863343/973eb645-9904-48cd-8bf1-3ab52507c2ae.gif?ex=660d8824&is=65fb1324&hm=24f230a0bd59400e5538a7ca7e77d97b5f6a125c6ad2226b1546be7302864db2&.png",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:hcWarliege:1105848202302849084>"
+            },
+            "Wildwalker": {
+                "Class Guide": "[Click Here](https://discord.com/channels/971700371112198194/1202711298455117905/1220012752802812055)\n",
+                "Image": "https://cdn.discordapp.com/attachments/1221823100660744343/1221836199631519866/4ef713c9-eed5-4476-b165-cd58ea675354.gif?ex=661406a2&is=660191a2&hm=970dfa39a3134fc5846728bc6d392258673f63c89e1c1cf89ca048581c5c1907&.gif.png",
+                "Thumbnail": "https://imgur.com/sMRkRM6.png",
+                "Emoji": "<:hcWildwalker:1198104709077160006>"
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "Artillerist": [
+        "arti",
+        "artillerist"
+    ],
+    "Bastion": [
+        "bastion",
+        "bast"
+    ],
+    "Dark Ranger": [
+        "dark",
+        "dark ranger"
+    ],
+    "Dread Knight": [
+        "dread",
+        "dread knight"
+    ],
+    "Assassin": [
+        "dagger",
+        "assassin"
+    ],
+    "Astral Mage": [
+        "astral",
+        "astra",
+        "astral mage"
+    ],
+    "Druid": [
+        "bear",
+        "druid"
+    ],
+    "Elementalist": [
+        "ele",
+        "elementalist"
+    ],
+    "Farstrider": [
+        "fart",
+        "fartrider",
+        "fart rider",
+        "farstrider"
+    ],
+    "Heretic": [
+        "arson",
+        "heretic"
+    ],
+    "Necromancer": [
+        "necro",
+        "necromancer"
+    ],
+    "Pyroknight": [
+        "pyro",
+        "pyromancer"
+    ],
+    "Ranger": [
+        "range",
+        "ranger"
+    ],
+    "Shinobi": [
+        "shino",
+        "shinobi"
+    ],
+    "Soulkeeper": [
+        "soul",
+        "skeeper",
+        "sk",
+        "soulkeeper"
+    ],
+    "Stormblade": [
+        "sb",
+        "blade",
+        "stormblade"
+    ],
+    "Stormshaman": [
+        "ss",
+        "shaman",
+        "stormshaman"
+    ],
+    "Stormwarden": [
+        "sw",
+        "warden",
+        "stormwarden"
+    ],
+    "Warliege": [
+        "warleg",
+        "warliege"
+    ],
+    "Wildwalker": [
+        "ww",
+        "wild",
+        "wildwalker"
+    ]
+}

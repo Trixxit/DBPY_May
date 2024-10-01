@@ -1,0 +1,538 @@
+{
+  "Companions": {
+    "Kitteh": {
+      "Chilly": {
+        "Aliases": [
+          "original",
+          "chillyroom",
+          "brr",
+          ":cold_face:",
+          ":ice_cube:"
+        ],
+        "Ability": "**<:Feisty:1198291991193202809> Feisty** \n- Attacking has a chance to cause <:Mana:1192951102191181864> **Mana Globules** to drop.\n - Restores <:Mana:1192951102191181864> **Mana** equal to ` (4/6/6/8/10)% ` <:INT:1180974097669300316> **Intelligence**.\n - <:SkillCD:1192951121568874546> CD ` (6/5/5/4/3)s `\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Common",
+        "Obtain Method": "Given by default",
+        "Emoji": "<:kittehChilly:1198289898189377568>"
+      },
+      "Snow": {
+        "Aliases": [
+          ":cloud_snow:",
+          ":snowman2:",
+          ":snowman:",
+          "frozen",
+          "let it snow"
+        ],
+        "Ability": "**<:Feisty:1198291991193202809> Feisty** \n- Attacking has a chance to cause <:Mana:1192951102191181864> **Mana Globules** to drop.\n - Restores <:Mana:1192951102191181864> **Mana** equal to ` (4/6/6/8/10)% ` <:INT:1180974097669300316> **Intelligence**.\n - <:SkillCD:1192951121568874546> CD ` (6/5/5/4/3)s `\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:kittehSnow:1198289935044726846>"
+      },
+      "Pudding": {
+        "Aliases": [
+          "mlem mlem",
+          "pudding!!!"
+        ],
+        "Ability": "**<:Feisty:1198291991193202809> Feisty** \n- Attacking has a chance to cause <:Mana:1192951102191181864> **Mana Globules** to drop.\n - Restores <:Mana:1192951102191181864> **Mana** equal to ` (4/6/6/8/10)% ` <:INT:1180974097669300316> **Intelligence**.\n - <:SkillCD:1192951121568874546> CD ` (6/5/5/4/3)s `\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Rare",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 60 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:kittehPudding:1198289997716009020>"
+      },
+      "Callery": {
+        "Aliases": [],
+        "Ability": "**<:Feisty:1198291991193202809> Feisty** \n- Attacking has a chance to cause <:Mana:1192951102191181864> **Mana Globules** to drop.\n - Restores <:Mana:1192951102191181864> **Mana** equal to ` (4/6/6/8/10)% ` <:INT:1180974097669300316> **Intelligence**.\n - <:SkillCD:1192951121568874546> CD ` (6/5/5/4/3)s `\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Rare",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 60 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:kittehCallery:1198290037343785042>"
+      },
+      "Smokey": {
+        "Aliases": [
+          "throwing smoke",
+          "smoke bomb"
+        ],
+        "Ability": "**<:Feisty:1198291991193202809> Feisty** \n- Attacking has a chance to cause <:Mana:1192951102191181864> **Mana Globules** to drop.\n - Restores <:Mana:1192951102191181864> **Mana** equal to ` (4/6/6/8/10)% ` <:INT:1180974097669300316> **Intelligence**.\n - <:SkillCD:1192951121568874546> CD ` (6/5/5/4/3)s `\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Epic",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 150 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:kittehSmokey:1198290127328399473>"
+      },
+      "Simba": {
+        "Aliases": [
+          "lion king",
+          "in the jungle",
+          "the mighty jungle",
+          "the lion sleeps tonight",
+          "hakuna matata"
+        ],
+        "Ability": "**<:Intimidating:1198292122604933270> Intimidating**\n- Restricts skill casting for **Enemy units** in ` 3m ` radius(effective versus **non-bosses**).\n - Reduce enemy's <:AllDamage:1192950897391714465>  **All Damage** in ` 12m ` radius by ` (5/10/10/15/20) `.\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Legendary",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 450 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:kittehSimba:1198290158513049650>"
+      }
+    },
+    "Doggo": {
+      "Buddy": {
+        "Aliases": [
+          "imaginary like my irl buddies"
+        ],
+        "Ability": "**<:HelpingPaws:1198292274992390195> Helping Paws** \n- Increase ` (5/10/10/15/20)% ` **Charge-Up Speed** to surrounding **Friendly Units** in ` 10m ` radius.\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:doggoBuddy:1198260777744879707>"
+      },
+      "Caramel": {
+        "Aliases": [
+          "salted caramel"
+        ],
+        "Ability": "**<:HelpingPaws:1198292274992390195> Helping Paws** \n- Increase ` (5/10/10/15/20)% ` **Charge-Up Speed** to surrounding **Friendly Units** in ` 10m ` radius.\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:doggoCaramel:1198261058117308416>"
+      },
+      "Pochi": {
+        "Aliases": [],
+        "Ability": "**<:HelpingPaws:1198292274992390195> Helping Paws** \n- Increase ` (5/10/10/15/20)% ` **Charge-Up Speed** to surrounding **Friendly Units** in ` 10m ` radius.\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Rare",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 60 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:doggoPochi:1198261101079560333>"
+      },
+      "Chestnut": {
+        "Aliases": [
+          "nut"
+        ],
+        "Ability": "**<:HelpingPaws:1198292274992390195> Helping Paws** \n- Increase ` (5/10/10/15/20)% ` **Charge-Up Speed** to surrounding **Friendly Units** in ` 10m ` radius.\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Epic",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 150 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:doggoChestnut:1198261166338748488>"
+      },
+      "Peanut": {
+        "Aliases": [
+          "nut too"
+        ],
+        "Ability": "**<:HelpingPaws:1198292274992390195> Helping Paws** \n- Increase ` (5/10/10/15/20)% ` **Charge-Up Speed** to surrounding **Friendly Units** in ` 10m ` radius.\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Epic",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 150 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:doggoPeanut:1198261195409465394>"
+      },
+      "Taro": {
+        "Aliases": [
+          "ball"
+        ],
+        "Ability": "**<:Golddigger:1198292319917572228> Golddigger** \n- Damaging a target has ` 25% ` chance to make them drop coins.\n - <:SkillCD:1192951121568874546> CD ` (5/4/4/3/2)s `\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Legendary",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 450 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:doggoTaro:1198260830039457792>"
+      }
+    },
+    "Bear": {
+      "Cocoa": {
+        "Aliases": [
+          "chocalate"
+        ],
+        "Ability": "**<:Brawny:1198292473089363978> Brawny** \n- When **damaged** (pet)\n - Bonus ` (5/10/10/15/20)% ` <:STR:1180974090761281677> **Strength**\n - ` +20% ` <:Health:1192950904865964052> **Life Regen**.\n - ` 10s ` duration.\n - Stacks up to ` 5 ` times.",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:bearCocoa:1198177038532624425>"
+      },
+      "Charcoal": {
+        "Aliases": [
+          "furnace",
+          "smoker"
+        ],
+        "Ability": "**<:Brawny:1198292473089363978> Brawny** \n- When **damaged** (pet)\n - Bonus ` (5/10/10/15/20)% ` <:STR:1180974090761281677> **Strength**\n - ` +20% ` <:Health:1192950904865964052> **Life Regen**.\n - ` 10s ` duration.\n - Stacks up to ` 5 ` times.",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:bearCharcoal:1198176877676855387>"
+      },
+      "Slushie": {
+        "Aliases": [
+          "7 11",
+          "wait i tot slurpee"
+        ],
+        "Ability": "**<:Brawny:1198292473089363978> Brawny** \n- When **damaged** (pet)\n - Bonus ` (5/10/10/15/20)% ` <:STR:1180974090761281677> **Strength**\n - ` +20% ` <:Health:1192950904865964052> **Life Regen**.\n - ` 10s ` duration.\n - Stacks up to ` 5 ` times.",
+        "Rarity": "Rare",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 60 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:bearSlushie:1198177279948378112>"
+      },
+      "Goldilocks": {
+        "Aliases": [
+          "goldilocks and the three bears",
+          "and the three bears",
+          "3 bears",
+          "golden locks",
+          "small medium big",
+          "cold warm hot"
+        ],
+        "Ability": "**<:Brawny:1198292473089363978> Brawny** \n- When **damaged** (pet)\n - Bonus ` (5/10/10/15/20)% ` <:STR:1180974090761281677> **Strength**\n - ` +20% ` <:Health:1192950904865964052> **Life Regen**.\n - ` 10s ` duration.\n - Stacks up to ` 5 ` times.",
+        "Rarity": "Rare",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 60 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:bearGoldilocks:1198177110041317461>"
+      },
+      "Hulk": {
+        "Aliases": [
+          "avengers assemble",
+          "green giant",
+          "hulk smash"
+        ],
+        "Ability": "**<:Brawny:1198292473089363978> Brawny** \n- When **damaged** (pet)\n - Bonus ` (5/10/10/15/20)% ` <:STR:1180974090761281677> **Strength**\n - ` +20% ` <:Health:1192950904865964052> **Life Regen**.\n - ` 10s ` duration.\n - Stacks up to ` 5 ` times.",
+        "Rarity": "Epic",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 150 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:bearHulk:1198177207244300294>"
+      },
+      "Panda": {
+        "Aliases": [
+          "pan pan",
+          "black and white killing machine"
+        ],
+        "Ability": "**<:CriminallyAdorable:1198292429699289240> Criminally Adorable** \n- When **damaged** (pet). Apply debuff to ` 6m ` radius surrounding enemies.\n - ` -(10/15/15/20/25)% ` <:AttackPower:1192950899316903977> **Attack** & <:MagicPower:1192951100727377981>**Magic Power**\n - Reduce **Attack Desire**\n - Has ` 5 ` duration.",
+        "Rarity": "Legendary",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 450 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:bearPanda:1198177394402541629>"
+      }
+    },
+    "Dragon": {
+      "Hazmat": {
+        "Aliases": [
+          "radioactive warning"
+        ],
+        "Ability": "**<:DragonbreathPoison:1198292741361250384>  Dragonbreath** \n- **Friendly units** in ` 12m ` radius:\n - Gain ` (4/6/6/8/10)% ` **<:ExtraPoison:1192949269691387957> Extra Poison Damage**\n - Gain ` (5/10/10/15/20)% ` **<:BonusPoison:1192949005408276480> Bonus Poison Damage**\nAutoAttack: ` Ranged Poison Dmg Projectile `",
+        "Rarity": "Epic",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 150 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:dragonHazmat:1198260401029255259>"
+      },
+      "Snowflake": {
+        "Aliases": [
+          ":snowflake:"
+        ],
+        "Ability": "**<:DragonbreathCold:1198292786772979722> Dragonbreath** \n- **Friendly units** in ` 12m ` radius:\n - Gain ` (4/6/6/8/10)% ` **<:ExtraCold:1192949008700805311> Extra Cold Damage**\n - Gain ` (5/10/10/15/20)% ` **<:BonusCold:1192948996931596429> Bonus Cold Damage**\nAutoAttack: ` Ranged Cold Dmg Projectile `",
+        "Rarity": "Epic",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 150 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:dragonSnowflake:1198260425482055691>"
+      },
+      "Toaster": {
+        "Aliases": [
+          "ding!"
+        ],
+        "Ability": "**<:DragonbreathFire:1198292827952652339> Dragonbreath** \n- **Friendly units** in ` 12m ` radius:\n - Gain ` (4/6/6/8/10)% ` **<:ExtraFire:1192949012005920808> Extra Fire Damage**\n - Gain ` (5/10/10/15/20)% ` **<:BonusFire:1192949000995864668> Bonus Fire Damage**\nAutoAttack: ` Ranged Fire Dmg Projectile `",
+        "Rarity": "Epic",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 150 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:dragonToaster:1198260471946547242>"
+      },
+      "Twilight": {
+        "Aliases": [
+          "vampire",
+          "nighttime"
+        ],
+        "Ability": "**<:DragonbreathShock:1198292865571364874> Dragonbreath** \n- **Friendly units** in ` 12m ` radius:\n - Gain ` (4/6/6/8/10)% ` **<:ExtraShock:1192949015092920361> Extra Shock Damage**\n - Gain ` (5/10/10/15/20)% ` **<:BonusShock:1192949007341846578> Bonus Shock Damage**\nAutoAttack: ` Ranged Shock Dmg Projectile `",
+        "Rarity": "Epic",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 150 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:dragonTwilight:1198260497057853561>"
+      },
+      "Ronnie Darko": {
+        "Aliases": [
+          "rawr"
+        ],
+        "Ability": "**<:DragonbreathDark:1198292936660619294> Dragonbreath** \n- **Friendly units** in ` 12m ` radius:\n - Gain ` (4/6/6/8/10)% ` **<:ExtraDark:1192949010126868571> Extra Dark Damage**\n - Gain ` (5/10/10/15/20)% ` **<:BonusDark:1192948999490117784> Bonus Dark Damage**\nAutoAttack: ` Ranged Dark Dmg Projectile `",
+        "Rarity": "Epic",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 150 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:dragonRonnieDarko:1198260533137264680>"
+      },
+      "Yanyan": {
+        "Aliases": [
+          "cant get no matter what"
+        ],
+        "Ability": "**<:Dragonfire:1198292605486776350> Dragonfire** \n- **Friendly units** in ` 12m ` radius:\n - Gain ` (8/16/16/24/32)% ` **All Damage**\nAutoAttack: ` Ranged Fire Dmg Projectile `",
+        "Rarity": "Legendary",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 450 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:dragonYanyan:1198260344108351508>"
+      }
+    },
+    "Hippo": {
+      "Mister McHippface": {
+        "Aliases": [
+          "mchippface"
+        ],
+        "Ability": "**<:Derpy:1198293161575989340> Derpy ** \n- Pet gains ` +(50/75/75/100/125) ` <:DamageReduction:1192950903964184718> **Damage Reduction**\n- When **damaged** (pet) \n - Pet gains ` -25 ` <:DamageReduction:1192950903964184718> **Damage Reduction** for ` 5s ` duration afterwards with ` 0.5s ` cooldown.\n - Stacks up to ` (3/4/4/5/6) ` times.",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:hippoMisterMchippface:1198259935956455434>"
+      },
+      "Missus Munchkin": {
+        "Aliases": [
+          "munchkin"
+        ],
+        "Ability": "**<:Derpy:1198293161575989340> Derpy ** \n- Pet gains ` +(50/75/75/100/125) ` <:DamageReduction:1192950903964184718> **Damage Reduction**\n- When **damaged** (pet) \n - Pet gains ` -25 ` <:DamageReduction:1192950903964184718> **Damage Reduction** for ` 5s ` duration afterwards with ` 0.5s ` cooldown.\n - Stacks up to ` (3/4/4/5/6) ` times.",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:hippoMissusMunchkin:1198260042424655933>"
+      },
+      "Dora": {
+        "Aliases": [
+          "dora the explorer",
+          "the explorer"
+        ],
+        "Ability": "**<:Derpy:1198293161575989340> Derpy ** \n- Pet gains ` +(50/75/75/100/125) ` <:DamageReduction:1192950903964184718> **Damage Reduction**\n- When **damaged** (pet) \n - Pet gains ` -25 ` <:DamageReduction:1192950903964184718> **Damage Reduction** for ` 5s ` duration afterwards with ` 0.5s ` cooldown.\n - Stacks up to ` (3/4/4/5/6) ` times.",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:hippoDora:1198260068576141485>"
+      },
+      "Rue": {
+        "Aliases": [
+          "you shall rue the day you crossed me!"
+        ],
+        "Ability": "**<:Derpy:1198293161575989340> Derpy ** \n- Pet gains ` +(50/75/75/100/125) ` <:DamageReduction:1192950903964184718> **Damage Reduction**\n- When **damaged** (pet) \n - Pet gains ` -25 ` <:DamageReduction:1192950903964184718> **Damage Reduction** for ` 5s ` duration afterwards with ` 0.5s ` cooldown.\n - Stacks up to ` (3/4/4/5/6) ` times.",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:hippoRue:1198260104433258508>"
+      },
+      "Dash": {
+        "Aliases": [
+          "thief"
+        ],
+        "Ability": "**<:Derpy:1198293161575989340> Derpy ** \n- Pet gains ` +(50/75/75/100/125) ` <:DamageReduction:1192950903964184718> **Damage Reduction**\n- When **damaged** (pet) \n - Pet gains ` -25 ` <:DamageReduction:1192950903964184718> **Damage Reduction** for ` 5s ` duration afterwards with ` 0.5s ` cooldown.\n - Stacks up to ` (3/4/4/5/6) ` times.",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:hippoDash:1198260136444182639>"
+      },
+      "Gulliver": {
+        "Aliases": [
+          "gullible"
+        ],
+        "Ability": "**<:Derpy:1198293161575989340> Derpy ** \n- Pet gains ` +(50/75/75/100/125) ` <:DamageReduction:1192950903964184718> **Damage Reduction**\n- When **damaged** (pet) \n - Pet gains ` -25 ` <:DamageReduction:1192950903964184718> **Damage Reduction** for ` 5s ` duration afterwards with ` 0.5s ` cooldown.\n - Stacks up to ` (3/4/4/5/6) ` times.",
+        "Rarity": "Rare",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 60 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:hippoGulliver:1198260175392489514> "
+      }
+    },
+    "Owl": {
+      "Scabbers": {
+        "Aliases": [],
+        "Ability": "**<:Nocturnal:1198293259663982713> Nocturnal ** \n*Can't fight during the day.*\n- At night, **Friendly units** in ` 12m ` radius receive:\n - Bonus ` (3%/6%/6%/9%/12%) ` <:STR:1180974090761281677> <:DEX:1180974093256904794> <:INT:1180974097669300316>\nAutoAttack: ` Ranged Rapid Fire Slashing Dmg Projectiles`",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:owlScabber:1198259591146905700>"
+      },
+      "Hedwig": {
+        "Aliases": [],
+        "Ability": "**<:Nocturnal:1198293259663982713> Nocturnal ** \n*Can't fight during the day.*\n- At night, **Friendly units** in ` 12m ` radius receive:\n - Bonus ` (3%/6%/6%/9%/12%) ` <:STR:1180974090761281677> <:DEX:1180974093256904794> <:INT:1180974097669300316>\nAutoAttack: ` Ranged Rapid Fire Slashing Dmg Projectiles`",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:owlHedwig:1198259625435349112>"
+      },
+      "Crookshanks": {
+        "Aliases": [],
+        "Ability": "**<:Nocturnal:1198293259663982713> Nocturnal ** \n*Can't fight during the day.*\n- At night, **Friendly units** in ` 12m ` radius receive:\n - Bonus ` (3%/6%/6%/9%/12%) ` <:STR:1180974090761281677> <:DEX:1180974093256904794> <:INT:1180974097669300316>\nAutoAttack: ` Ranged Rapid Fire Slashing Dmg Projectiles`",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:owlCrookshanks:1198259702547615774>"
+      },
+      "Nagini": {
+        "Aliases": [],
+        "Ability": "**<:Nocturnal:1198293259663982713> Nocturnal ** \n*Can't fight during the day.*\n- At night, **Friendly units** in ` 12m ` radius receive:\n - Bonus ` (3%/6%/6%/9%/12%) ` <:STR:1180974090761281677> <:DEX:1180974093256904794> <:INT:1180974097669300316>\nAutoAttack: ` Ranged Rapid Fire Slashing Dmg Projectiles`",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:owlNagini:1198259730154520576>"
+      },
+      "Trevor": {
+        "Aliases": [],
+        "Ability": "**<:Nocturnal:1198293259663982713> Nocturnal ** \n*Can't fight during the day.*\n- At night, **Friendly units** in ` 12m ` radius receive:\n - Bonus ` (3%/6%/6%/9%/12%) ` <:STR:1180974090761281677> <:DEX:1180974093256904794> <:INT:1180974097669300316>\nAutoAttack: ` Ranged Rapid Fire Slashing Dmg Projectiles`",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:owlTrevor:1198259765919350784>"
+      },
+      "Errol": {
+        "Aliases": [],
+        "Ability": "**<:Nocturnal:1198293259663982713> Nocturnal ** \n*Can't fight during the day.*\n- At night, **Friendly units** in ` 12m ` radius receive:\n - Bonus ` (3%/6%/6%/9%/12%) ` <:STR:1180974090761281677> <:DEX:1180974093256904794> <:INT:1180974097669300316>\nAutoAttack: ` Ranged Rapid Fire Slashing Dmg Projectiles`",
+        "Rarity": "Rare",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 60 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:owlErrol:1198259793979261028>"
+      }
+    },
+    "Piggy": {
+      "Hamm": {
+        "Aliases": [
+          "ham",
+          "technoblade"
+        ],
+        "Ability": "**<:MudWallow:1198293294036303892> Mud Wallow**\n- **Enemy units** in ` 6m ` radius receive:\n - ` -(5/10/10/15/20)% ` <:AttackSpeed:1192950900302561402> **Attack Speed**\n - ` -(5/10/10/15/20)% ` <:MovementSpeed:1192950910054322287> **Movement Speed**",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:piggyHamm:1198259108042768405>"
+      },
+      "Periwinkle": {
+        "Aliases": [],
+        "Ability": "**<:MudWallow:1198293294036303892> Mud Wallow**\n- **Enemy units** in ` 6m ` radius receive:\n - ` -(5/10/10/15/20)% ` <:AttackSpeed:1192950900302561402> **Attack Speed**\n - ` -(5/10/10/15/20)% ` <:MovementSpeed:1192950910054322287> **Movement Speed**",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:piggyPeriwinkle:1198259349441761291>"
+      },
+      "Squiggle": {
+        "Aliases": [],
+        "Ability": "**<:MudWallow:1198293294036303892> Mud Wallow**\n- **Enemy units** in ` 6m ` radius receive:\n - ` -(5/10/10/15/20)% ` <:AttackSpeed:1192950900302561402> **Attack Speed**\n - ` -(5/10/10/15/20)% ` <:MovementSpeed:1192950910054322287> **Movement Speed**",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:piggySquiggle:1198259386611666975>"
+      },
+      "Cowboi": {
+        "Aliases": [],
+        "Ability": "**<:MudWallow:1198293294036303892> Mud Wallow**\n- **Enemy units** in ` 6m ` radius receive:\n - ` -(5/10/10/15/20)% ` <:AttackSpeed:1192950900302561402> **Attack Speed**\n - ` -(5/10/10/15/20)% ` <:MovementSpeed:1192950910054322287> **Movement Speed**",
+        "Rarity": "Rare",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 60 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:piggyCowboi:1198259318903029852>"
+      },
+      "Nugget": {
+        "Aliases": [
+          "mcnugget",
+          "chicken mcnugget?"
+        ],
+        "Ability": "**<:MudWallow:1198293294036303892> Mud Wallow**\n- **Enemy units** in ` 6m ` radius receive:\n - ` -(5/10/10/15/20)% ` <:AttackSpeed:1192950900302561402> **Attack Speed**\n - ` -(5/10/10/15/20)% ` <:MovementSpeed:1192950910054322287> **Movement Speed**",
+        "Rarity": "Rare",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 60 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:piggyNugget:1198259462520184933>"
+      },
+      "Brutus": {
+        "Aliases": [
+          "brutal"
+        ],
+        "Ability": "**<:MudWallow:1198293294036303892> Mud Wallow**\n- **Enemy units** in ` 6m ` radius receive:\n - ` -(5/10/10/15/20)% ` <:AttackSpeed:1192950900302561402> **Attack Speed**\n - ` -(5/10/10/15/20)% ` <:MovementSpeed:1192950910054322287> **Movement Speed**",
+        "Rarity": "Epic",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 150 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:piggyBrutus:1198259420187070516>"
+      }
+    },
+    "Bunny": {
+      "Papa": {
+        "Aliases": [
+          "dad"
+        ],
+        "Ability": "**<:SeekAffection:1198293434398687253> Seek Affection** \n- Bunny gets ` +(50/100/100/150/200)% ` <:Health:1192950904865964052> **Life Regen** with ` 0.25s ` between ticks, when near an ally.\n- Nearby **friendly units** in ` 3m ` range:\n - Restore ` (1/2/2/3/4/5) ` <:Health:1192950904865964052> **Life**\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:bunnyPapa:1198258664881004584>"
+      },
+      "Muggsy": {
+        "Aliases": [],
+        "Ability": "**<:SeekAffection:1198293434398687253> Seek Affection** \n- Bunny gets ` +(50/100/100/150/200)% ` <:Health:1192950904865964052> **Life Regen** with ` 0.25s ` between ticks, when near an ally.\n- Nearby **friendly units** in ` 3m ` range:\n - Restore ` (1/2/2/3/4/5) ` <:Health:1192950904865964052> **Life**\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:bunnyMuggsy:1198258687245029486>"
+      },
+      "Bonbon": {
+        "Aliases": [],
+        "Ability": "**<:SeekAffection:1198293434398687253> Seek Affection** \n- Bunny gets ` +(50/100/100/150/200)% ` <:Health:1192950904865964052> **Life Regen** with ` 0.25s ` between ticks, when near an ally.\n- Nearby **friendly units** in ` 3m ` range:\n - Restore ` (1/2/2/3/4/5) ` <:Health:1192950904865964052> **Life**\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:bunnyBonbon:1198258754395840768>"
+      },
+      "Scamper": {
+        "Aliases": [],
+        "Ability": "**<:SeekAffection:1198293434398687253> Seek Affection** \n- Bunny gets ` +(50/100/100/150/200)% ` <:Health:1192950904865964052> **Life Regen** with ` 0.25s ` between ticks, when near an ally.\n- Nearby **friendly units** in ` 3m ` range:\n - Restore ` (1/2/2/3/4/5) ` <:Health:1192950904865964052> **Life**\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:bunnyScamper:1198258789456019516>"
+      },
+      "Penpen": {
+        "Aliases": [],
+        "Ability": "**<:SeekAffection:1198293434398687253> Seek Affection** \n- Bunny gets ` +(50/100/100/150/200)% ` <:Health:1192950904865964052> **Life Regen** with ` 0.25s ` between ticks, when near an ally.\n- Nearby **friendly units** in ` 3m ` range:\n - Restore ` (1/2/2/3/4/5) ` <:Health:1192950904865964052> **Life**\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:bunnyPenpen:1198258855684083822>"
+      },
+      "Twitch": {
+        "Aliases": [
+          "twitch.tv"
+        ],
+        "Ability": "**<:SeekAffection:1198293434398687253> Seek Affection** \n- Bunny gets ` +(50/100/100/150/200)% ` <:Health:1192950904865964052> **Life Regen** with ` 0.25s ` between ticks, when near an ally.\n- Nearby **friendly units** in ` 3m ` range:\n - Restore ` (1/2/2/3/4/5) ` <:Health:1192950904865964052> **Life**\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:bunnyTwitch:1198258942472622161>"
+      },
+      "Momo": {
+        "Aliases": [],
+        "Ability": "**<:SeekAffection:1198293434398687253> Seek Affection** \n- Bunny gets ` +(50/100/100/150/200)% ` <:Health:1192950904865964052> **Life Regen** with ` 0.25s ` between ticks, when near an ally.\n- Nearby **friendly units** in ` 3m ` range:\n - Restore ` (1/2/2/3/4/5) ` <:Health:1192950904865964052> **Life**\nAutoAttack: ` Melee Slashing Dmg `",
+        "Rarity": "Rare",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 60 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:bunnyMomo:1198258972491251712>"
+      }
+    },
+    "Seal": {
+      "Gainsboro": {
+        "Aliases": [],
+        "Ability": "**<:Trickshow:1198293475628691456> Trickshow**\n- **Enemy units** in ` 6m ` radius received aura.\n - ` -(25/50/50/75/100) ` <:DEX:1180974093256904794> **Dexterity**\nAutoAttack: ` Melee Cold Dmg `",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:sealGainsboro:1198258334621503528>"
+      },
+      "Turquoise": {
+        "Aliases": [
+          "blue + green"
+        ],
+        "Ability": "**<:Trickshow:1198293475628691456> Trickshow**\n- **Enemy units** in ` 6m ` radius received aura.\n - ` -(25/50/50/75/100) ` <:DEX:1180974093256904794> **Dexterity**\nAutoAttack: ` Melee Cold Dmg `",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:sealTurquoise:1198258368851226644>"
+      },
+      "Fuchsia": {
+        "Aliases": [],
+        "Ability": "**<:Trickshow:1198293475628691456> Trickshow**\n- **Enemy units** in ` 6m ` radius received aura.\n - ` -(25/50/50/75/100) ` <:DEX:1180974093256904794> **Dexterity**\nAutoAttack: ` Melee Cold Dmg `",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:sealFushsia:1198258405459099648>"
+      },
+      "Sage": {
+        "Aliases": [
+          "magic man"
+        ],
+        "Ability": "**<:Trickshow:1198293475628691456> Trickshow**\n- **Enemy units** in ` 6m ` radius received aura.\n - ` -(25/50/50/75/100) ` <:DEX:1180974093256904794> **Dexterity**\nAutoAttack: ` Melee Cold Dmg `",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:sealSage:1198258558282772511>"
+      },
+      "Lavender": {
+        "Aliases": [
+          "nice purpul"
+        ],
+        "Ability": "**<:Trickshow:1198293475628691456> Trickshow**\n- **Enemy units** in ` 6m ` radius received aura.\n - ` -(25/50/50/75/100) ` <:DEX:1180974093256904794> **Dexterity**\nAutoAttack: ` Melee Cold Dmg `",
+        "Rarity": "Charmed",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 30 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:sealLavender:1198258577429762209>"
+      },
+      "Amber": {
+        "Aliases": [],
+        "Ability": "**<:Trickshow:1198293475628691456> Trickshow**\n- **Enemy units** in ` 6m ` radius received aura.\n - ` -(25/50/50/75/100) ` <:DEX:1180974093256904794> **Dexterity**\nAutoAttack: ` Melee Cold Dmg `",
+        "Rarity": "Rare",
+        "Obtain Method": "| Bell Merchant\n- Hatch a <:zCompanionEgg:1187175255190556766> Companion Egg\n- Exchange with 60 <:EggFragment:1199365293668040794> Egg Fragment",
+        "Emoji": "<:sealAmber:1198258601119195237>"
+      }
+    },
+    "Mimic": {
+      "Chester": {
+        "Aliases": [
+          "frieren"
+        ],
+        "Ability": "<:Surprise:1198293585909534802> **Surprises**\nInflicts a random buff when companion picks up loots.\n- Buff's has (5/10/10/15/20) sec(s) duration.\n- Has (3/3/3/3/3) sec(s) <:SkillCD:1192951121568874546> CD.",
+        "Rarity": "Legendary",
+        "Obtain Method": "S0 Gold Order Medallion ",
+        "Emoji": "<:mimicChester:1198291487469875292>"
+      },
+      "Cassie": {
+        "Aliases": [
+          "another one!"
+        ],
+        "Ability": "<:Surprise:1198293585909534802> **Surprises**\nInflicts a random buff when companion picks up loots.\n- Buff's has (5/10/10/15/20) sec(s) duration.\n- Has (3/3/3/3/3) sec(s) <:SkillCD:1192951121568874546> CD.",
+        "Rarity": "Legendary",
+        "Obtain Method": "S0 Gold Order Medallion ",
+        "Emoji": "<:mimicCassie:1198291520529383504>"
+      }
+    },
+    "Fae Critter": {
+      "EpiGear": {
+        "Aliases": [
+          "the horrors"
+        ],
+        "Ability": "<:ConnectionInterrupted:1198293623716974623> **Connection Interrupted**\nPeriodically release a wave of aura.\n- Release (1/1/1/1/1) **Area Attack(s)** in (2.7/3.3/3.9/4.5)m range.\n- Range offset by (90%/110%/110%/130%/150%)\n- Inflicts **Daze**",
+        "Rarity": "Legendary ",
+        "Obtain Method": "S0 Compensation",
+        "Emoji": "<:faecritterEpiGear:1198291550300545034>"
+      }
+    }
+  }
+}

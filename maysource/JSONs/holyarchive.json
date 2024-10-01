@@ -1,0 +1,1506 @@
+{
+  "FateBounds": {
+    "Armor": {
+      "Heavy Armor": {
+        "Tags": [
+          "armored",
+          "heavy",
+          "dmgreduce",
+          "knockbackres"
+        ],
+        "ID": 0,
+        "Effect": "- Damage Reduction +(10/20)\n- Knockback Resistance +(30/60)%",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -25% Mana Regen",
+        "Where To Get": "Comes with all heavy armor pieces.",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349784101302312.png"
+      },
+      "Light Armor": {
+        "Tags": [
+          "armored",
+          "light",
+          "attackspd",
+          "movementspd"
+        ],
+        "ID": 1,
+        "Effect": "- Attack Speed +(15/30)%\n- Movement Speed +(10/20)%",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -5 Damage Reduction ",
+        "Where To Get": "Comes with all light armor pieces.",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349885838340167.png"
+      },
+      "Mage Vestment": {
+        "Tags": [
+          "armored",
+          "skillcd",
+          "manaregen"
+        ],
+        "ID": 2,
+        "Effect": "- Skill CD +(20/40)%\n- Mana Regen +(50/100)%",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has Movement Speed -5%",
+        "Where To Get": "Comes with all Mage vestment pieces.",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349896131149855.png"
+      }
+    },
+    "Stats": {
+      "Strength Boost": {
+        "Tags": [
+          "str"
+        ],
+        "ID": 3,
+        "Effect": "- Strength +(25/50)%",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10% Dexterity.",
+        "Where To Get": "- Golden Snapclaw\n- Knight\n- Bulrush Marshes (<:aHeavyArmor:1178349784101302312>)\n- Crystal Mines (Weapons/Accessories)\n- Xalmor",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178379588141842463.png"
+      },
+      "Dexterity Boost": {
+        "Tags": [
+          "dex"
+        ],
+        "ID": 4,
+        "Effect": "- Dexterity +(25/50)%",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10% Intelligence",
+        "Where To Get": "- Black Archknight\n- Elf\n- Bulrush Marshes (<:aLightArmor:1178349885838340167>)\n- Halcyon Cemetery (Weapons/Accessories)\n- Xalmor",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349338527809607.png"
+      },
+      "Intelligence Boost": {
+        "Tags": [
+          "int"
+        ],
+        "ID": 5,
+        "Effect": "- Intelligence +(25/50)%",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10% Strength",
+        "Where To Get": "- Anubis\n- Witch\n- Bulrush Marshes (<:aMageVestments:1178349896131149855>)\n- Arid Sands (Weapons/Accessories)\n- Xalmor",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349789381926942.png"
+      },
+      "Hyperfocus": {
+        "Tags": [
+          "attackspd",
+          "lockmana"
+        ],
+        "ID": null,
+        "Effect": "- ` (60/100)% ` of locked mana is converted to <:AttackSpeed:1192950900302561402> \n-  ` (30/60)% ` of locked mana is converted to <:AllDamage:1192950897391714465>",
+        "Helxar-Touched Effect": "` 60% ` of locked mana is converted to <:AttackSpeed:1192950900302561402> but has -10% <:SkillCD:1192951121568874546>",
+        "Where To Get": "- Goblin\n- Arid Sands (Weapons/Accessories)\n- Esoteria (<:aLightArmor:1178349885838340167>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1181795589537660988.png"
+      }
+    },
+    "Offensive": {
+      "Backlash": {
+        "Tags": [
+          "melee",
+          "double"
+        ],
+        "ID": 8,
+        "Effect": "Melee: \n- Triggers twice\n- Damage ×(75/100)%\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but Melee has 5% chance to miss ",
+        "Where To Get": "- <:cBlackArch:1241601250097889290> (<:SlotWeapon:1193935768545149088>,<:SlotNecklace:1193935761054105741>,<:aHeavyArmor:1178349784101302312>)\n- <:cCrystalSnapclaw:1241601275246809099> (<:SlotWeapon:1193935768545149088>,<:SlotRing:1193935763482611843>,<:aHeavyArmor:1178349784101302312>)\n- <:Randy:1195000248909697046> (<:SlotWeapon:1193935768545149088>)\n- <:cArmsmaster:1241601247967051827> (<:SlotWeapon:1193935768545149088>,<:SlotNecklace:1193935761054105741>,<:aHeavyArmor:1178349784101302312>)\n- Ruined Citadel(<:aHeavyArmor:1178349784101302312>)\n- Tower of Aeonia(<:aLightArmor:1178349885838340167>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178348863321546842.png"
+      },
+      "Bash": {
+        "Tags": [
+          "melee",
+          "knockback"
+        ],
+        "ID": 9,
+        "Effect": "- Melee attacks: \n - Damage ` +(30/60)% `\n - Knockback ` +(200/300)% `\n - ` 5% ` chance to <:Daze:1234386713992761365> **Daze** enemies for ` 0.5s `",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but with ` -10% ` <:AttackSpeed:1192950900302561402>",
+        "Where To Get": "- <:GrimhowlGang:1228643439533625384> , <:Derrick:1195000208531136632> \n- <:SouthernSteppes:1181786956913459261>  ( <:aLightArmor:1178349885838340167> ) , <:BrinewashGrotto:1181786651735904286>  ( <:aHeavyArmor:1178349784101302312> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178348865796177930.png"
+      },
+      "Bonded Summons": {
+        "Tags": [
+          "minions"
+        ],
+        "ID": 10,
+        "Effect": "- Minions gain (2/3)-piece Fatebound set effects corresponding to Fatebounds on your weapon",
+        "Helxar-Touched Effect": "- Minions gain Helxar-Touched Fatebound set effects corresponding to fatebounds on your weapon",
+        "Where To Get": "- Ruined Citadel (Weapons/Accessories)\n- Esoteria (<:aHeavyArmor:1178349784101302312>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1181795595392929893.png"
+      },
+      "Brutality": {
+        "Tags": [
+          "critchance",
+          "critdmg"
+        ],
+        "ID": 11,
+        "Effect": "- Bonus Crit Chance +(30/60)%\n- Crit Damage +(30/60)%\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10 Defense",
+        "Where To Get": "- Ember Wyrm\n- C6H806\n- Berserker\n- Murkwood (<:aLightArmor:1178349885838340167>)\n- Seacrest Haven (<:aHeavyArmor:1178349784101302312>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178348868233089054.png"
+      },
+      "Critical Casting": {
+        "Tags": [
+          "critchance",
+          "elemental"
+        ],
+        "ID": 12,
+        "Effect": "- Elemental damage: Crit chance +(200/400)%\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10% Crit Chance when dealing Physical Damage",
+        "Where To Get": "- Triumvirite\n- Geolithic Hills (<:aMageVestments:1178349896131149855>)\n- Scorching Volcano (Weapons/Accessories)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349337877684276.png"
+      },
+      "Echocasting": {
+        "Tags": [
+          "double",
+          "skills"
+        ],
+        "ID": 13,
+        "Effect": "- Skills trigger an extra time\n- (5/2.5)s CD\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has 10% chance to gain debuff that Increase Damage taken by 10%\n",
+        "Where To Get": "- Archwizard\n- Southern Steppes (Weapons/Accessories)\n- Esoteria (<:aMageVestments:1178349896131149855>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349341908414494.png"
+      },
+      "Epicenter": {
+        "Tags": [
+          "melee",
+          "aoe"
+        ],
+        "ID": 14,
+        "Effect": "- Melee attacks & AOE skills: Range ×(80/60)%\n- Damage ×(160/240)%\n",
+        "Helxar-Touched Effect": "- Body Shape Change [Shrink]: <:2P:1199307844877549599> Effect\n",
+        "Where To Get": "- Triumvirite\n- Witch\n- Halcyon Cemetery (<:aHeavyArmor:1178349784101302312>)\n- Scorching Volcano (<:aMageVestments:1178349896131149855>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349345159004230.png"
+      },
+      "Heavy Ordinance": {
+        "Tags": [
+          "projectiles"
+        ],
+        "ID": 15,
+        "Effect": "- Projectiles: Speed ×(75/50)%\n- Damage +(25/50)%\n- Range ×(130/160)%\n- Duration ×(150/200)%\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10% Movement Speed",
+        "Where To Get": "- Buccaneer Admiral\n- Boar King\n- Elf\n- Murkwood (<:aMageVestments:1178349896131149855>)\n- Everfrost Peaks (<:aLightArmor:1178349885838340167>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349785468633249.png"
+      },
+      "Improved Arrows": {
+        "Tags": [
+          "projectiles"
+        ],
+        "ID": 16,
+        "Effect": "- Projectiles: Speed ×(125/150)%\n- Pierce (1/3) targets",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but Projectile has 5% chance to miss",
+        "Where To Get": "- C6H806\n- Mandragora Elf\n- Southern Steppes (<:aMageVestments:1178349896131149855>)\n- Forest of Tranquility (<:aLightArmor:1178349885838340167>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349787179909201.png"
+      },
+      "Lock-On": {
+        "Tags": [
+          "projectiles"
+        ],
+        "ID": 17,
+        "Effect": "- Projectiles: Gain (slight/strong) tracking effect\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but Size decrease to 90%",
+        "Where To Get": "- Anubis\n- Skeleton King\n- Arid Sands (<:aLightArmor:1178349885838340167>)\n- Scorching Volcano (Weapons/Accessories)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349894029819915.png"
+      },
+      "Multishot": {
+        "Tags": [
+          "projectiles"
+        ],
+        "ID": 18,
+        "Effect": "- Projectiles: Number of projectiles +(2/4) [+1/2 for some projectiles]\n- Damage ×(70/60)%\n- Range ×(90/80)%\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10% Crit Chance\n",
+        "Where To Get": "- Medusa\n- Goblin\n- Ruined Citadel (<:aLightArmor:1178349885838340167>)\n- Tower of Aeonia (<:aMageVestments:1178349896131149855>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349899784405194.png"
+      },
+      "Onslaught": {
+        "Tags": [
+          "dot"
+        ],
+        "ID": 19,
+        "Effect": "- DOT effects: Tick rate ×(70/50)%\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -20 Charge-up Speed",
+        "Where To Get": "- Valkolyn\n- River Snail\n- Ruined Citadel (Weapons/Accessories)\n- Seacrest Haven (<:aLightArmor:1178349885838340167>)\n- Iridian Vale",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349902141591664.png"
+      },
+      "Presence of Mind": {
+        "Tags": [
+          "cd"
+        ],
+        "Effect": "When defeating an enemy: \n- Reduce CD by (25/50)%\n- (25/50)% chance to Gain (1.2/1.8)s of Charge-Up\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10% Movement Speed",
+        "Where To Get": "- Grimhowl Gang\n- Rogue\n- Brinewash Grotto (Weapons/Accessories)\n- Scorching Volcano (<:aLightArmor:1178349885838340167>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349904003874887.png"
+      },
+      "Ricochet": {
+        "Tags": [
+          "projectiles"
+        ],
+        "ID": 21,
+        "Effect": "- Projectiles: Bounce off enemies (2/5) times toward nearby enemies\n",
+        "Helxar-Touched Effect": "Projectiles: \n- Bounce off enemies 1 time toward nearby enemies\n- Damage -5%\n",
+        "Where To Get": "- Mandragora\n- Slime\n- Halcyon Cemetery (<:aLightArmor:1178349885838340167>)\n- Seacrest Haven (<:aMageVestments:1178349896131149855>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178350210066428075.png"
+      },
+      "Twin Novae": {
+        "Tags": [
+          "aoe",
+          "double"
+        ],
+        "ID": 22,
+        "Effect": "AoE:\n- Triggers twice\n- Damage ×(75/100)%\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but AoE has 5% chance to miss",
+        "Where To Get": "- Archwizard\n- Crystal Mines (<:aMageVestments:1178349896131149855>)\n- Ancient Ruins (Weapons/Accessories)\n- Kernel Subspace (<:aLightArmor:1178349885838340167>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178379593917419540.png"
+      },
+      "Valiant Strike": {
+        "Tags": [
+          "dmg"
+        ],
+        "ID": 23,
+        "Effect": "- When enemy Total HP ` ≥ (75/70)% `: \n - Damage ` +(100/200)% `\n",
+        "Helxar-Touched Effect": "- When enemy Total HP ` ≥ 70% `: \n - Damage ` +100% `\n- Receive <:STR:1180974090761281677> <:INT:1180974097669300316> <:DEX:1180974093256904794> : ` -3% `",
+        "Where To Get": "- <:Archknight:1228643519032459345> , <:Derrick:1195000208531136632> \n- <:GeolithicHills:1181786661017894932>  ( <:aLightArmor:1178349885838340167> )\n- <:SouthernSteppes:1181786956913459261>  ( <:SlotWeapon:1193935768545149088>, <:SlotNecklace:1193935761054105741>, <:SlotRing:1193935763482611843> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178379595590926356.png"
+      },
+      "Doombringer": {
+        "Tags": [
+          "ailment"
+        ],
+        "ID": null,
+        "Effect": "- Ailment Damage Offset x(150/200)%\n- Ailment Tick Rate Offset x(70/40)%",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10% Non-Ailment Damage",
+        "Where To Get": "- Grandmaster\n- Chains of Urgannon\n- Murkwood",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1199683307068207135.webp?size=300&quality=lossless"
+      },
+      "Point Blank": {
+        "Tags": [
+          "dmg"
+        ],
+        "ID": null,
+        "Effect": "- Increase Max Projectiles Damage by up to +(60/120)% the closer you are to the target.",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but Deal lesser damage to target at a distance by up to a maximum of 10%",
+        "Where To Get": "- Stoneheart Sculptorium",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1199683318459936768.webp?size=300&quality=lossless"
+      },
+      "Mortal Kombo": {
+        "Tags": [
+          "dmg"
+        ],
+        "ID": null,
+        "Effect": "- Charge-up Spd ` +(25/50) `\n- After a charged attack: \n - Gain <:AllDamage:1192950897391714465> ` +(30/50)% ` for ` 4s `\n- After a full charged attack: \n - Gain <:AllDamage:1192950897391714465> ` +(60/100)% ` for ` 4s `\n[Each is an independent buff]",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but with  <:MovementSpeed:1192950910054322287> ` -10% `",
+        "Where To Get": "- <:DonKruul:1228611125625753600>\n- <:IridianVale:1199765928343257148> ( <:aHeavyArmor:1178349784101302312> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1199683313867161600.webp?size=300&quality=lossless"
+      },
+      "Latent Potential": {
+        "Tags": [
+          "dmg",
+          "mana"
+        ],
+        "ID": null,
+        "Effect": "- Increases <:AllDamage:1192950897391714465> by upto ` +(80/160)% ` in __Inverse__ proportion to mana",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but also increases  Skill Mana cost by upto ` 50% ` in inverse proportion to mana",
+        "Where To Get": "- Euphorian\n- <:KernelSubspace:1235117302643429376> ( <:SlotWeapon:1193935768545149088>, <:SlotNecklace:1193935761054105741>, <:SlotRing:1193935763482611843> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1235140656502935592.png"
+      }
+    },
+    "Defensive": {
+      "Divine Guard": {
+        "Tags": [
+          "mana"
+        ],
+        "ID": 24,
+        "Effect": "When taking certain damage: (25/40)% chance to trigger\n- Damage taken -(50/80)%\n- Restore Mana equal to (10/20)% *Intelligence\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -50% Knockback Resistance",
+        "Where To Get": "- Cleric\n Southern Steppes (<:aHeavyArmor:1178349784101302312>)\n- Ancient Ruins (Weapons/Accessories)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349340083896351.png"
+      },
+      "Energy Shield": {
+        "Tags": [
+          "shield"
+        ],
+        "ID": 25,
+        "Effect": "When attacking: Creates an energy shield that lasts for (1/2)s\n- Damage taken ×(70/50)%\n- Knockback Resistance +(30/50)%\n- 0.5s CD\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but -3% to Strength, Dexterity, and Intelligence",
+        "Where To Get": "- Paladin\n Crystal Mines (<:aHeavyArmor:1178349784101302312>)\n- Seacrest Haven (Weapons/Accessories)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349343338663936.png"
+      },
+      "Lifesteal": {
+        "Tags": [
+          "steal",
+          "life"
+        ],
+        "ID": 26,
+        "Effect": "- Life steal ` +(5/10)% `\n - ` 0.1s ` cooldown\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has ` -10% ` <:AttackSpeed:1192950900302561402>",
+        "Where To Get": "- <:Slime:1228643452041035847> \n- <:ForestOfTranquility:1181786659986083850>  ( <:aHeavyArmor:1178349784101302312> ) , <:ChainsofUrgannon:1199765924799066132> ( <:aLightArmor:1178349885838340167> )\n- <:TowerOfAeonia:1181786957995593748>  ( <:SlotWeapon:1193935768545149088>, <:SlotNecklace:1193935761054105741>, <:SlotRing:1193935763482611843> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349884106096730.png"
+      },
+      "Swordmaster": {
+        "Tags": [
+          "melee",
+          "shield"
+        ],
+        "ID": 27,
+        "Effect": "Melee attacks: Blocks projectiles\n- Damage +(25/50)%\n",
+        "Helxar-Touched Effect": "Melee: \n- Blocks projectiles\n- 5% Chance to gain debuff that Increase Damage taken by 10%\n",
+        "Where To Get": "- Skeleton King\n- Brinewash Grotto (<:aLightArmor:1178349885838340167>)\n- Everfrost Peaks (<:aHeavyArmor:1178349784101302312>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178379589408522292.png"
+      },
+      "Lion Crest": {
+        "Tags": [
+          "def",
+          "dmg"
+        ],
+        "ID": 33,
+        "Effect": "- Defense +(20/40)\n- Bonus Physical Damage +(30/60)%\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -5 to All Elemental Resistance",
+        "Where To Get": "- Archknight\n- Knight\n- Murkwood (<:aHeavyArmor:1178349784101302312>)\n- Ancient Ruins (<:aLightArmor:1178349885838340167>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349892125597766.png"
+      },
+      "Balanced Body": {
+        "Tags": [
+          "elementalres"
+        ],
+        "ID": null,
+        "Effect": "- All Elemental Resistance +(15/30)\n- upon taking Elemental Damage, (10/20)% chance to recover Life equal to 20% Strength. 1sec cooldown.",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10% All Damage",
+        "Where To Get": "- Valadrion\n- Shattered Spine",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1199683208351072317.webp?size=300&quality=lossless\n"
+      },
+      "Mana Buffer": {
+        "Tags": [
+          "mana",
+          "dmg"
+        ],
+        "ID": null,
+        "Effect": "- Damage offset to Mana by ` +(30/60)% `\n- Skill Mana cost ` -(30/60)% `",
+        "Helxar-Touched Effect": "- Damage offset to Mana by ` +30% `",
+        "Where To Get": "- V4RK01\n- <:TerminusIxion:1235117312521142293>  ( <:SlotWeapon:1193935768545149088>, <:SlotNecklace:1193935761054105741>, <:SlotRing:1193935763482611843> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1235140658436509716.png\n"
+      }
+    },
+    "Utility": {
+      "Blowout": {
+        "Tags": [
+          "melee",
+          "aoe"
+        ],
+        "ID": 28,
+        "Effect": "- Melee attacks & AOE skills: Range ×(130/170)%\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -5% All Damage",
+        "Where To Get": "- Crystal Snapclaw\n- Alpha Yeti\n- Arid Sands (<:aHeavyArmor:1178349784101302312>)\n- Esoteria (Weapons/Accessories)\n- <:DonKruul:1228611125625753600>\n- <:cV4RK01:1241601513575415938>",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178348866505031812.png"
+      },
+      "Buff Amplification": {
+        "Tags": [
+          "buff",
+          "debuff"
+        ],
+        "ID": 29,
+        "Effect": "- When applying buffs & debuffs: Duration ×(150/200)%\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect",
+        "Where To Get": "- Zulan\n- Paladin\n- Ruined Citadel (<:aMageVestments:1178349896131149855>)\n- Ancient Ruins (<:aHeavyArmor:1178349784101302312>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1181795593123811349.png"
+      },
+      "Concentration": {
+        "Tags": [
+          "skillcd"
+        ],
+        "ID": 30,
+        "Effect": "- Skill CD +(50/100)%\n- Charge-Up Speed +(30/60)\n",
+        "Helxar-Touched Effect": "- Skill CD +50%\n- Charge-Up Speed +50\n- Normal Attack Damage -15%\n",
+        "Where To Get": "- River Snail\n- Mandragora Elf (Spear & Shield)\n- Golden Snapclaw\n- Berserker\n- Brinewash Grotto (<:aMageVestments:1178349896131149855>)\n- Everfrost Peaks (Weapons/Accessories)\n- Darkened Airbender",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349336514531368.png"
+      },
+      "Field Marshal": {
+        "Tags": [
+          "minions"
+        ],
+        "ID": 31,
+        "Effect": "- Increase max number of minions (effect halved for greater summons)\n- Bonus Minion Power +(20/40)%\n",
+        "Helxar-Touched Effect": "- Increase max number of minions (effect halved for greater summons)\n- Movement Speed -5%\n",
+        "Where To Get": "- Halcyon Cemetery (<:aMageVestments:1178349896131149855>)\n- Geolithic Hills (Weapons/Accessories)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1181795587675410453.png"
+      },
+      "Gravitic Nova": {
+        "Tags": [
+          "aoe",
+          "knockback"
+        ],
+        "ID": 32,
+        "Effect": "AoE: \n- Knockback -(150/200)%\n- Damage +(25/50)%\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has 10% chance to gain debuff that Increase Damage taken by 10%\n",
+        "Where To Get": "- Sandworm\n- Everfrost Peaks (Weapons/Accessories)\n- Tower of Aeonia (<:aHeavyArmor:1178349784101302312>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349781903478844.png"
+      },
+      "Manasteal": {
+        "Tags": [
+          "mana",
+          "steal"
+        ],
+        "ID": 34,
+        "Effect": "- Mana steal ` +(5/10)% `\n - ` 0.1s ` cooldown",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but with ` -10% ` <:AttackSpeed:1192950900302561402> <:SkillCD:1192951121568874546>",
+        "Where To Get": "- <:MandragoraElf:1228643447225974905> \n- <:ForestOfTranquility:1181786659986083850> <:IridianVale:1199765928343257148>  ( <:aMageVestments:1178349896131149855> )\n- <:CrystalMines:1181786655976345600>  ( <:SlotWeapon:1193935768545149088>, <:SlotNecklace:1193935761054105741>, <:SlotRing:1193935763482611843> )\n- <:WyrmcoilGigalith:1228609774845689856>",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349898916176092.png"
+      },
+      "Serendipity": {
+        "Tags": [
+          "trigger"
+        ],
+        "ID": 35,
+        "Effect": "- Chance to trigger effects +(50/100)% on base chance.\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but -3% to Strength, Dexterity, and Intelligence",
+        "Where To Get": "- Buccaneer Admiral\n- Arid Sands (<:aMageVestments:1178349896131149855>)\n- Seacrest Haven (Weapons/Accessories)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178350211224059986.png"
+      },
+      "Sortie": {
+        "Tags": [
+          "dmg"
+        ],
+        "ID": 36,
+        "Effect": "- For ` 3s ` after dash: \n - Gain <:AllDamage:1192950897391714465> <:AttackSpeed:1192950900302561402> <:MovementSpeed:1192950910054322287>  ` +(30/60)% `",
+        "Helxar-Touched Effect": "- For ` 3s ` after dash: \n - Gain <:AllDamage:1192950897391714465> <:AttackSpeed:1192950900302561402> <:MovementSpeed:1192950910054322287> ` +40% `\n\n- Without the dash buff (Regular State):\n - Receive <:AllDamage:1192950897391714465> <:AttackSpeed:1192950900302561402> <:MovementSpeed:1192950910054322287>  ` -10% `",
+        "Where To Get": "- <:BoarKing:1228643437608308836>\n- <:CrystalMines:1181786655976345600> ( <:aLightArmor:1178349885838340167> )\n- <:BulrushMarshes:1181786654629957642> <:IridianVale:1199765928343257148>  ( <:SlotWeapon:1193935768545149088>, <:SlotNecklace:1193935761054105741>, <:SlotRing:1193935763482611843> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178379586883567658.png"
+      },
+      "Thornguard": {
+        "Tags": [
+          "dmg",
+          "shield"
+        ],
+        "ID": 37,
+        "Effect": "- When taking certain damage:\n - Inflict ` (150/300)% ` **Bludgeoning Dmg** based on <:AttackPower:1192950899316903977> , increase by ` 1% ` per ` 10 ` max Life",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but with ` -10% ` <:AllDamage:1192950897391714465>",
+        "Where To Get": "- <:Sandworm:1228643464107921450> \n- <:GeolithicHills:1181786661017894932>  ( <:aHeavyArmor:1178349784101302312> )\n- <:StoneheartSculptorium:1199765936354361455> ( <:SlotWeapon:1193935768545149088>, <:SlotNecklace:1193935761054105741>, <:SlotRing:1193935763482611843>)\n- <:cChimericNematoth:1241601265381933056>",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178379591245639700.png"
+      },
+      "Conduit Totem": {
+        "Tags": [
+          "mana",
+          "totem"
+        ],
+        "ID": null,
+        "Effect": "- Casting a Channeled Skill cost 5x is mana but summons a Totem that will cast the skill. Max no. of (1/2) totems.",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has 10% chance to gain debuff that Increase Damage taken by 10%",
+        "Where To Get": "- Dracolith\n- Tygrant's Cragfort (<:aMageVestments:1178349896131149855>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1199683301624000522.webp?size=300&quality=lossless"
+      },
+      "Meditation": {
+        "Tags": [
+          "cd"
+        ],
+        "ID": null,
+        "Effect": "- Effect CD Rate ` +(40/80)% `",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but with ` -10% ` <:SkillCD:1192951121568874546>",
+        "Where To Get": "- Nematoth\n- <:LucentCorridor:1235117304854089792>   ( <:SlotWeapon:1193935768545149088>, <:SlotNecklace:1193935761054105741>, <:SlotRing:1193935763482611843> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1235140660466810910.png"
+      }
+    },
+    "Elemental": {
+      "Charged Core": {
+        "Tags": [
+          "elementalres",
+          "elementaldmg",
+          "shock"
+        ],
+        "ID": 38,
+        "Effect": "- Shock Resistance +(15/30)\n- Bonus Shock Damage +(30/60)%\n- When attacking: (5/10)% Chance to release (6/8) projectiles inflicting 100% Shock Damage (Hybrid)",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10 Poison Resistance",
+        "Where To Get": "- Medusa\n- Brinewash Grotto (Weapons/Accessories)\n- Geolithic Hills (Weapons/Accessories)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349335503720448.png"
+      },
+      "Flaming Core": {
+        "Tags": [
+          "elementalres",
+          "elementaldmg",
+          "fire"
+        ],
+        "ID": 39,
+        "Effect": "- Fire Resistance +(15/30)\n- Bonus Fire Damage +(30/60)%\n- When attacking: (5/10)% Chance to release (6/8) projectiles inflicting 100% Fire Damage (Hybrid)\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10 Cold Resistance",
+        "Where To Get": "- Ember Wyrm\n- Forest of Tranquility (Weapons/Accessories)\n- Scorching Volcano (<:aHeavyArmor:1178349784101302312>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349777885347951.png"
+      },
+      "Frigid Core": {
+        "Tags": [
+          "elementalres",
+          "elementaldmg",
+          "cold"
+        ],
+        "ID": 40,
+        "Effect": "- Cold Resistance +(15/30)\n- Bonus Cold Damage +(30/60)%\n- When attacking: (5/10)% Chance to release (6/8) projectiles inflicting 100% Cold Damage (Hybrid)\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10 Shock Resistance",
+        "Where To Get": "- Alpha Yeti\n- Bulrush Marshes (Weapons/Accessories)\n- Everfrost Peaks (<:aMageVestments:1178349896131149855>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178349779751800963.png"
+      },
+      "Radiant Core": {
+        "Tags": [
+          "light",
+          "elementalres",
+          "elementaldmg"
+        ],
+        "ID": 41,
+        "Effect": "- Light Resistance +(15/30)\n- Bonus Light Damage +(30/60)%\n- When attacking: (5/10)% Chance to release (6/8) projectiles inflicting 100% Light Damage (Hybrid)\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10 Dark Resistance",
+        "Where To Get": "- Zulan\n- Priest\n- Ancient Ruins (<:aMageVestments:1178349896131149855>)\n- Esoteria (Weapons/Accessories)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178350208325791854.png"
+      },
+      "Shrouded Core": {
+        "Tags": [
+          "dark",
+          "elementalres",
+          "elementaldmg"
+        ],
+        "ID": 42,
+        "Effect": "- Dark Resistance +(15/30)\n- Bonus Dark Damage +(30/60)%\n- When attacking: (5/10)% Chance to release (6/8) projectiles inflicting 100% Dark Damage (Hybrid)\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10 Light Resistance",
+        "Where To Get": "- Valkolyn\n- Halcyon Cemetery (Weapons/Accessories)\n- Tower of Aeonia (Weapons/Accessories)\n- Darkenee Airbender(<:aMageVestments:1178349896131149855>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178379585063243896.png"
+      },
+      "Toxic Core": {
+        "Tags": [
+          "poison",
+          "elementalres",
+          "elementaldmg"
+        ],
+        "ID": 43,
+        "Effect": "- Poison Resistance +(15/30)\n- Bonus Poison Damage +(30/60)%\n- When attacking: (5/10)% Chance to release (6/8) projectiles inflicting 100% Poison Damage (Hybrid)\n",
+        "Helxar-Touched Effect": "- <:2P:1199307844877549599> Effect but has -10 Fire Resistance",
+        "Where To Get": "- Mandragora\n- Murkwood (Weapons/Accessories)\n- Forest of Tranquility (Weapons/Accessories)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1178379592294215751.png"
+      }
+    },
+    "Event": {
+      "Nian": {
+        "Tags": [
+          "aoe",
+          "elementaldmg"
+        ],
+        "Effect": "60% Chance to release 1 Area attack that deals Fire, Cold and Shock damage upon defeating an enemy. One of the following is triggered at random:\n- At 5m,  Area attack (120%/160%) hybrid power\n- At 3m, Area attack (80%/120%) hybrid power\n- At 2m,  Area attack (40%/60%) hybrid power",
+        "Where To Get": "**__[UNOBTAINABLE]__** Drop from Nian, the Yearbeast, Forest of Tranquility.",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958482153381959.png"
+      },
+      "Noel Rex": {
+        "Tags": [
+          "minion"
+        ],
+        "Effect": "**50%** Chance to summon **1** Frostian upon freezing enemies.\n- The Frostian will assault enemies at **(100/140)%** hybrid power\n- Reduces their Cold Resistance.\n- Max Summons: **(4/6)**",
+        "Where To Get": "**__[UNOBTAINABLE]__** Drop from Noel Rex, Everfrost Peak.",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958349248479282.png"
+      },
+      "Umbrohex": {
+        "Tags": [
+          "reduce resistance",
+          "hex"
+        ],
+        "Effect": "Damaged enemies\n- (-10/-20 <:ResistanceDark:1192949391275868200>)",
+        "Where To Get": "Limited Drop from the Event Boss: <:DieterRottentail:1228609758437703681> on <:SouthernSteppes:1181786956913459261>. Currently __Unobtainable__.",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1225454174255321088.png"
+      },
+      "Lumohex": {
+        "Tags": [
+          "reduce resistance",
+          "hex"
+        ],
+        "Effect": "Damaged enemies\n- (-10/-20 <:ResistanceLight:1192949271184556111>)",
+        "Where To Get": "Limited Drop from the Event Boss: <:DieterRottentail:1228609758437703681> on <:SouthernSteppes:1181786956913459261>. Currently __Unobtainable__.",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1225454169683656776.png"
+      },
+      "Pyrohex": {
+        "Tags": [
+          "reduce resistance",
+          "hex"
+        ],
+        "Effect": "Damaged enemies\n- (-10/-20 <:ResistanceFire:1192949018108629022>)",
+        "Where To Get": "Limited Drop from the Event Boss: <:DieterRottentail:1228609758437703681> on <:SouthernSteppes:1181786956913459261>. Currently __Unobtainable__.",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1225454171894059028.png"
+      },
+      "Cryohex": {
+        "Tags": [
+          "reduce resistance",
+          "hex"
+        ],
+        "Effect": "Damaged enemies\n- (-10/-20 <:ResistanceCold:1192949389916913865>)",
+        "Where To Get": "Limited Drop from the Event Boss: <:DieterRottentail:1228609758437703681> on <:SouthernSteppes:1181786956913459261>. Currently __Unobtainable__.",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1225454165363265629.png"
+      },
+      "Electrohex": {
+        "Tags": [
+          "reduce resistance",
+          "hex"
+        ],
+        "Effect": "Damaged enemies\n- (-10/-20 <:ResistanceShock:1192949022005145720>)",
+        "Where To Get": "Limited Drop from the Event Boss: <:DieterRottentail:1228609758437703681> on <:SouthernSteppes:1181786956913459261>. Currently __Unobtainable__.",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1225454167401693286.png"
+      },
+      "Venohex": {
+        "Tags": [
+          "reduce resistance",
+          "hex"
+        ],
+        "Effect": "Damaged enemies\n- (-10/-20 <:ResistancePoison:1192949274154110986>)",
+        "Where To Get": "Limited Drop from the Event Boss: <:DieterRottentail:1228609758437703681> on <:SouthernSteppes:1181786956913459261>. Currently __Unobtainable__.",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1225454176494944370.png"
+      },
+      "Bombard": {
+        "Tags": [
+          "utility",
+          "skill",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- **For the <:hcBastion:1105848361527029801> Bastion Skill: <:HumanBunker:1190413008845930526> Human Bunker**\n- Gain Adittional Size\n- +2 Projectiles\n- Consume all marked stacks on enemies fully marked by <:Aimbot:1190412960435286137> to inflict:\n - 600% Bludgeoning damage (based on <:AttackPower:1192950899316903977>)\n - Can break walls\n - 15% chance to trigger <:Daze:1234386713992761365> Daze",
+        "Fullname": "Human Bunker: Bombard [Equipment: Siegebreaker (<:SlotWeapon:1193935768545149088>  Crossbow)]",
+        "Where To Get": "Treasure Taffy Affix Drop\n- Fixed <:dHeavyOrdinance:1178349785468633249> Heavy Ordinance",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958349248479282.png"
+      },
+      "Thundercall": {
+        "Tags": [
+          "utility",
+          "skill",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- **For the <:hcStormblade:1105848683435671587> Sormblade Skill: <:ArcBlast:1188000597585186886> Arc Blast**\n- Your Arc Blasts now have a dash effect, and no longer deal immediate damage but cause lightning to strike enemies after a short delay with guaranteed chance to crit\n - Crit Chance for Arc Blasts `+999999%`\n -  `1.5m` Range\n - Inflict `300%` Shock Damage",
+        "Fullname": "Arc Blast: Thundercall [Equipment: Stormsong (<:SlotWeapon:1193935768545149088> Dual Blade)]",
+        "Where To Get": "Treasure Taffy Affix Drop\n- Fixed <:dSortie:1178379586883567658> Sortie",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958349248479282.png"
+      },
+      "Enkindle": {
+        "Tags": [
+          "utility",
+          "skill",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- **For the <:pcPyromancer:1105830386757533826> Pyromancer Skill: <:Pyroclad:1190085479392100352> Pyroclad**\n- When dealing fire damage:\n - 15% chance to activate Pyroclad\n - For `2s` Restore Life equal to 3% of Max Life every `0.2s`\n- For `6s` while Pyroclad is active obtain:\n - <:ExtraFire:1192949012005920808> Extra Fire Damage +50%\n - <:AttackSpeed:1192950900302561402> Attack Speed +50%\n - <:SkillCD:1192951121568874546> Skill CD +50%",
+        "Fullname": "Pyroclad: Enkindle [Equipment: Emberstone (<:SlotRing:1193935763482611843> Ring)]",
+        "Where To Get": "Treasure Taffy Affix Drop",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958482153381959.png"
+      },
+      "Lernaean": {
+        "Tags": [
+          "utility",
+          "skill",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- **For the <:hcHeretic:1171472070719320084> Heretic Skill: <:ThermalIncubation:1190393306132254730> Thermal Incubation**\n- Your Flaming Hydras gain:\n - Greater Size\n - <:AttackSpeed:1192950900302561402>  Attack Speed +100%\n - <:DamageReduction:1192950903964184718> Damage Reduction +40\n - <:Health:1192950904865964052> Life Bonus +500%\n - Increased Attack Desire\n - Inherit 75% of <:ExtraFire:1192949012005920808> Extra Fire damage and <:BonusFire:1192949000995864668> Fire Damage",
+        "Fullname": "Thermal  Incubation: Lernaean [Equipment: Serpent's Whisper (<:SlotWeapon:1193935768545149088> Staff)]",
+        "Where To Get": "Treasure Taffy Affix Drop",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958482153381959.png"
+      },
+      "Relativistic Conservation": {
+        "Tags": [
+          "utility",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- While standing\n - Increases 6% <:AllDamage:1192950897391714465> every 0.25s up to 60%\n- While moving:\n - Increases 3% <:DamageReduction:1192950903964184718> every 0.25s up to 30%",
+        "Fullname": "Relativistic Conservation [Equipment: Rhythmia (<:SlotRing:1193935763482611843> Ring)]]",
+        "Where To Get": "Treasure Taffy Affix Drop",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      },
+      "Congeal": {
+        "Tags": [
+          "utility",
+          "skill",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- **For the <:pcTempest_mage:1105830559135043676> Tempest Mage Skill: <:Icicles:1190399667897384990> Icicles**\n- Damage multiplied by 300%\n- Sends forth one congealed ice ball that upon hitting frozen enemies:\n - <:ResistanceCold:1192949389916913865> Cold Resistance -10, Duration: `5s`\n - Every `0.2s` inflict 200% Cold Damage (based on <:HybridPower:1192950905939693648>), Duration: `1s`",
+        "Fullname": "Icicles: Congeal [Equipment: Frostheart (<:SlotNecklace:1193935761054105741> Necklace)]",
+        "Where To Get": "<:NoelRex:1228609753068998676> Noel Wrecks Affix Drop",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958349248479282.png"
+      },
+      "Polytechnochrome": {
+        "Tags": [
+          "utility",
+          "skill",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- **For the <:pcPyromancer:1105830386757533826> Pyromancer Skill: <:Fireball:1190085377554387057> Fireball**\n- Your Fireballs become firework bombshells that deal 90% Fire, Cold, and Shock Damage (based on <:MagicPower:1192951100727377981>, 1.5m range) at random and giving you a buff corresponding to the element:\n- When the bombshell deals Fire Damage:\n - <:BonusFire:1192949000995864668> Fire Damage `+1%`, stacks up to `30` times, duration: `3s`\n- When the bombshell deals Cold/Shock Damage:\n - <:BonusCold:1192948996931596429> <:BonusShock:1192949007341846578> Cold/Shock Damage `+1%`, stacks up to `30` times, duration: `1.5s`",
+        "Fullname": "Fireball: Polytechnochrome [Equipment: Nianbane (<:SlotNecklace:1193935761054105741> Necklace)]",
+        "Where To Get": "<:Nian:1228609764871770152> Nian Affix Drop",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958482153381959.png"
+      }
+    },
+    "Premium": {
+      "Premium Bundle": {
+        "Tags": [
+          "stats"
+        ],
+        "ID": null,
+        "Effect": "- Strength +(3/6)\n- Dexterity +(3/6)\n- Intelligence +(3/6)",
+        "Where To Get": "Premium gear (All non-craftable Legendaries)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      }
+    },
+    "Mystraea": {
+      "Boar King": {
+        "Tags": [
+          "dmg",
+          "attackspd"
+        ],
+        "ID": 49,
+        "Effect": "- When HP ` < 80% `:\n - <:AllDamage:1192950897391714465>  ` +(25/50)% `\n - <:AttackSpeed:1192950900302561402>  ` +(15/30)% `\n - <:MovementSpeed:1192950910054322287>  ` +(15/30)% `\n - Duration ` 2s `",
+        "Where To Get": "<:SouthernSteppes:1181786956913459261> Boar King set\n- <:dSortie:1178379586883567658> Fixed ( <:aHeavyArmor:1178349784101302312>, Spear&Shield, Sword&Shield, <:SlotNecklace:1193935761054105741> )\n- <:dHeavyOrdinance:1178349785468633249> Fixed ( <:aMageVestments:1178349896131149855>, Crossbow, Staff, <:SlotRing:1193935763482611843> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958482153381959.png"
+      },
+      "Grimhowl Gang": {
+        "Tags": [
+          "critdmg",
+          "critchance"
+        ],
+        "ID": 57,
+        "Effect": "- Crit Damage -(30/60)%\n- Allies within 6m: Bonus Crit Chance +(60/120)%",
+        "Where To Get": "Southern Steppes: Grimhowl Gang set\n- Presence of Mind (<:aHeavyArmor:1178349784101302312>, Bow, Focus, Necklace)\n- Bash (<:aLightArmor:1178349885838340167>, Greatsword, Fist, Ring)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      },
+      "Great River Snail": {
+        "Tags": [
+          "shield"
+        ],
+        "ID": 56,
+        "Effect": "When taking certain damage:\n- Block damage\n- Release ` (6/8) ` projectiles inflicting ` 100% ` <:BonusPhysical:1192949004238078122>  Piercing Damage based on <:HybridPower:1192950905939693648> \n- ` (12/5)s ` Effect CD\n- <:BreakDefense:1234386773296025631> while on cooldown:\n - <:Defense:1192951020188344501> ` -10 `\n - <:MovementSpeed:1192950910054322287> ` +20% `",
+        "Where To Get": "<:BulrushMarshes:1181786654629957642>  Great River Snail set\n- <:dConcentration:1178349336514531368> Fixed ( <:aHeavyArmor:1178349784101302312>, Greatsword, Spear&Shield, <:SlotNecklace:1193935761054105741> )\n- <:dOnslaught:1178349902141591664> Fixed ( <:aMageVestments:1178349896131149855>, Sword&Shield, Staff, <:SlotRing:1193935763482611843> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706890156589241.png"
+      },
+      "Mandragora": {
+        "Tags": [
+          "life",
+          "regen"
+        ],
+        "ID": 58,
+        "Effect": "- Life Regen +(100/200)%\nWhen taking Poison Damage:\n- Damage taken x(25/20)%\n- Restore HP equal to (0/10)% Strength",
+        "Where To Get": "Murkwood: Mandragora set\n- Ricochet (<:aLightArmor:1178349885838340167>, Bow, Dual Blades, Necklace)\n- Toxic Core (<:aMageVestments:1178349896131149855>, Sword & Shield, Staff, Ring)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706719570051185.png"
+      },
+      "Mandragora Elf": {
+        "Tags": [
+          "poison",
+          "ailment",
+          "elementaldmg"
+        ],
+        "ID": 59,
+        "Effect": "When dealing <:BonusPoison:1192949005408276480>  Poison Damage:\n- Gain ` +(20/40)% ` <:BonusPoison:1192949005408276480>  Poison Dmg\n- ` (15/20)% ` chance to Inflict <:BonusPoison:1192949005408276480> Poison Ailment\n- ` (0/10)% ` chance to Inflict Disorient",
+        "Where To Get": "<:Murkwood:1181786949992857620>  Mandragora Elf set\n- <:dImprovedArrows:1178349787179909201> Fixed ( <:aMageVestments:1178349896131149855>, Bow, Staff, <:SlotRing:1193935763482611843> )\n- <:dManasteal:1178349898916176092> Fixed ( <:aLightArmor:1178349885838340167>, Dual Blades, <:SlotNecklace:1193935761054105741> )\n- <:dConcentration:1178349336514531368> Fixed (Spear & Shield)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706719570051185.png"
+      },
+      "Medusa": {
+        "Tags": [
+          "dmg"
+        ],
+        "ID": 60,
+        "Effect": "When dealing damage:\n- Damage +(10/20)% per meter away from target",
+        "Where To Get": "Brinewash Grotto: Medusa set\n- Multishot (<:aLightArmor:1178349885838340167>, Focus, Crossbow, Ring)\n- Charged Core (<:aMageVestments:1178349896131149855>, Bow, Spear & Shield, Necklace)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958479997501480.png"
+      },
+      "Slime": {
+        "Tags": [
+          "shock",
+          "elementaldmg"
+        ],
+        "ID": 63,
+        "Effect": "When dealing <:BonusShock:1192949007341846578> Shock Dmg:\n- Gain ` +(20/40)% ` <:BonusShock:1192949007341846578> Bonus Shock Dmg\n- ` (15/20)% ` chance to Inflict <:BonusShock:1192949007341846578> Shock Ailment\n- ` (0/10)% ` chance to Inflict <:Daze:1234386713992761365> Daze",
+        "Where To Get": "<:BrinewashGrotto:1181786651735904286>  Slime set\n- <:dLifesteal:1178349884106096730> Fixed (<:aHeavyArmor:1178349784101302312>, Greatsword, Fist, <:SlotNecklace:1193935761054105741> )\n- <:dRicochet:1178350210066428075> Fixed (<:aMageVestments:1178349896131149855>, Focus, Crossbow, <:SlotRing:1193935763482611843> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      },
+      "Crystal Snapclaw": {
+        "Tags": [
+          "attack"
+        ],
+        "ID": 52,
+        "Effect": "When normal attacking:\n- (10/20)% chance to trigger: Cast a charge-up attack\n- 1s CD",
+        "Where To Get": "Crystal Mines: Crystal Snapclaw set\n- Blowout (<:aHeavyArmor:1178349784101302312>, Greatsword, Bow, Necklace)\n- Backlash (<:aLightArmor:1178349885838340167>, Dual Blades, Sword & Shield, Ring)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958349248479282.png"
+      },
+      "Golden Snapclaw": {
+        "Tags": [
+          "charge"
+        ],
+        "ID": 55,
+        "Effect": "- Charge-Up Speed ` +(30/60) `\n - When not AA: Automatically Charge-Up",
+        "Where To Get": "<:CrystalMines:1181786655976345600> Golden Snapclaw set\n- <:cStrengthBoost:1178379588141842463> Fixed ( <:aHeavyArmor:1178349784101302312>, Greatsword, Fist, <:SlotNecklace:1193935761054105741> )\n- <:dConcentration:1178349336514531368> Fixed ( <:aMageVestments:1178349896131149855>, Crossbow, Spear&Shield, <:SlotRing:1193935763482611843> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      },
+      "Skeleton King": {
+        "Tags": [
+          "minions"
+        ],
+        "ID": 62,
+        "Effect": "When defeating an enemy:\n- (10/15)% chance to trigger: Summon 1 follower at (100/140)% power (Hybrid)\n- Max number of summons = (4/6)",
+        "Where To Get": "Halcyon Cemetery: Skeleton King set\n- Swordmaster (<:aLightArmor:1178349885838340167>, Dual Blades, Greatsword, Ring)\n- Lock-On (<:aMageVestments:1178349896131149855>, Bow, Staff, Necklace)\n",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958347755311235.png"
+      },
+      "Sandworm": {
+        "Tags": [
+          "res"
+        ],
+        "ID": 61,
+        "Effect": "- Damage taken from front x(90/80)%\n- Damage taken from behind x(50/10)%",
+        "Where To Get": "Arid Sands: Sandworm Set\n- Thornguard (<:aHeavyArmor:1178349784101302312>, Greatsword, Spear & Shield, Ring)\n- Gravitic Nova (<:aMageVestments:1178349896131149855>, Focus, Crossbow, Necklace)\n",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      },
+      "Anubis": {
+        "Tags": [
+          "life",
+          "mana",
+          "shield"
+        ],
+        "ID": 45,
+        "Effect": "When taking fatal damage:\n- Restore HP equal to ` (200/400)% ` <:STR:1180974090761281677> \n- Restore Mana equal to ` (0/400)% ` <:INT:1180974097669300316>\n- Invincible for ` 2s `\n- ` (180/90)s ` Effect CD",
+        "Where To Get": "<:AridSands:1181786649911365703> Anubis set\n- <:dLockOn:1178349894029819915> Fixed ( <:aLightArmor:1178349885838340167>, Bow, Dual Pistols, <:SlotRing:1193935763482611843> )\n- <:cIntelligenceBoost:1178349789381926942> Fixed ( <:aMageVestments:1178349896131149855>, Focus, Staff, <:SlotNecklace:1193935761054105741> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      },
+      "Archknight": {
+        "Tags": [
+          "melee",
+          "dmg"
+        ],
+        "ID": 46,
+        "Effect": "Melee attacks:\n- (8/16)% chance to trigger: Damage +400%, Range ×125%\n- (1/0)s CD",
+        "Where To Get": "Ruined Citadel: Archknight set\n- Valiant Strike (<:aHeavyArmor:1178349784101302312>, Greatsword, Spear & Shield, Necklace)\n- Lion Crest (<:aLightArmor:1178349885838340167>, Dual Blades, Sword & Shield, Ring)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      },
+      "Black Archknight": {
+        "Tags": [
+          "dmg"
+        ],
+        "ID": 48,
+        "Effect": "When dealing Slashing Damage:\n- (20/33)% chance to trigger: Inflict Bleed",
+        "Where To Get": "Ruined Citadel: Black Archknight set\n- Backlash (<:aHeavyArmor:1178349784101302312>, Spear, Greatsword, Necklace)\n- Dexterity Boost (<:aLightArmor:1178349885838340167>, Dual Blades, Sword & Shield, Ring)\n",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958347755311235.png"
+      },
+      "Archwizard": {
+        "Tags": [
+          "dex",
+          "int"
+        ],
+        "ID": 47,
+        "Effect": "- Increase Dexterity by (25/50)% of Intelligence",
+        "Where To Get": "Ruined Citadel: Archwizard set\n- Twin Novae (<:aLightArmor:1178349885838340167>, Crossbow, Staff, Ring)\n- Echocasting (<:aMageVestments:1178349896131149855>, Focus, Dual Blades, Necklace)\n",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958479997501480.png"
+      },
+      "Triumvirite": {
+        "Tags": [
+          "critdmg",
+          "buff",
+          "fire",
+          "shock",
+          "cold"
+        ],
+        "ID": 64,
+        "Effect": "- Crit Damage +(0/60)%\n- Provides Fire/Shock/Cold buff in cyclical order:\n- When dealing Fire/Shock/Cold Damage: Guaranteed crit, Release 1 AOE attack inflicting 100% Fire/Shock/Cold Damage (Hybrid)",
+        "Where To Get": "Geolithic Hills: Triumvirite Megaliths set\n- Epicenter (<:aHeavyArmor:1178349784101302312>, Greatsword, Sword & Shield, Necklace)\n- Critical Casting (<:aMageVestments:1178349896131149855>, Focus, Dual Blades, Ring)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706890156589241.png"
+      },
+      "Goblin": {
+        "Tags": [
+          "life",
+          "mana"
+        ],
+        "ID": 54,
+        "Effect": "When defeating an enemy:\n- Restore HP equal to (4/8)% Strength\n- Restore Mana equal to (8/16)% Intelligence",
+        "Where To Get": "Forest of Tranquility: Goblin set\n- Hyper Focus (<:aLightArmor:1178349885838340167>, Focus, Spear & Shield, Ring)\n- Multishot (<:aMageVestments:1178349896131149855>, Bow, Staff, Necklace)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958479997501480.png"
+      },
+      "Buccaneer Admiral": {
+        "Tags": [
+          "coins"
+        ],
+        "ID": 50,
+        "Effect": "When attacking:\n- (5/10)% to trigger: Inflict (200/400)% Bludgeoning Damage (Hybrid)\n- Plunders coins from enemies\n- 1s CD",
+        "Where To Get": "Seacrest Haven: Buccaneer Admiral set\n- Serendipity (<:aHeavyArmor:1178349784101302312>, Dual Blades, Greatsword, Ring)\n- Heavy Ordinance (<:aLightArmor:1178349885838340167>, Crossbow, Sword & Shield, Necklace)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958347755311235.png"
+      },
+      "Ember Wyrm": {
+        "Tags": [
+          "elementalres",
+          "elementaldmg",
+          "fire",
+          "ailment"
+        ],
+        "ID": 53,
+        "Effect": "- Fire Resistance +(20/40)\n- Fire Damage +(60/120)%\n- Debuff Resistance -(20/40)%\nWhen attacking:\n- (20/60)% chance to trigger: Obtain Fire Ailment",
+        "Where To Get": "Scorching Volcano: Ember Wyrm set\n- Brutality (<:aHeavyArmor:1178349784101302312>, Dual Blades, Spear & Shield, Necklace)\n- Flaming Core (<:aMageVestments:1178349896131149855>, Sword & Shield, Staff, Ring)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958482153381959.png"
+      },
+      "Alpha Yeti": {
+        "Tags": [
+          "aoe",
+          "cold",
+          "elementaldmg"
+        ],
+        "ID": 44,
+        "Effect": "When attacking:\n- Release 1 AOE attack inflicting (45/60)% Cold Damage (Hybrid)\n- 4m Range, (0.8/0.4)s between ticks",
+        "Where To Get": "Everfrost Peaks: Alpha Yeti set\n- Frigid Core (<:aHeavyArmor:1178349784101302312>, Focus, Spear & Shield, Necklace)\n- Blowout (<:aLightArmor:1178349885838340167>, Bow, Greatsword, Ring)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958349248479282.png"
+      },
+      "Zulan": {
+        "Tags": [
+          "aoe",
+          "elementaldmg",
+          "light"
+        ],
+        "ID": 66,
+        "Effect": "- ` (12/25)% `chance to trigger when attacking: \n - Release ` (8/16) ` AoE attacks dealing ` 120% ` <:BonusLight:1192949002434527262> Light Dmg based on <:HybridPower:1192950905939693648> \n - AoE Size ` 2m `",
+        "Where To Get": "<:AncientRuins:1191958185679003678>  Zulan set\n- <:dBuffAmplification:1181795593123811349> Fixed (<:aHeavyArmor:1178349784101302312>, Crossbow, Sword & Shield, <:SlotRing:1193935763482611843> )\n- <:bRadiantCore:1178350208325791854> Fixed (<:aMageVestments:1178349896131149855>, Spear & Shield, Staff, <:SlotNecklace:1193935761054105741> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      }
+    },
+    "Esoteria": {
+      "C6H806": {
+        "Tags": [
+          "attackspd",
+          "movementspd"
+        ],
+        "ID": 51,
+        "Effect": "When (3/4)s after defeating an enemy:\n- Attack Speed +(6/8)%\n- Movement Speed +(6/8)%\n- Charge-Up Speed +(6/8)\n- Max (6/8) stacks",
+        "Where To Get": "Esoteria: C6H8O6 set\n- Improved Arrows (<:aHeavyArmor:1178349784101302312>, Focus, Crossbow, Necklace)\n- Brutality (<:aLightArmor:1178349885838340167>, Dual Blades, Dual Pistols, Ring)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      },
+      "Varkolyn": {
+        "Tags": [
+          "dark",
+          "elementaldmg"
+        ],
+        "ID": 65,
+        "Effect": "- Attacks mark enemies with dark power\n- After (1.5/0.75)s, inflict (100/200)% Dark Damage (Hybrid)\n- Max 5 stacks",
+        "Where To Get": "Tower of Aeonia: Varkolyn set\n- Onslaught (<:aLightArmor:1178349885838340167>, Greatsword, Staff, Necklace)\n- Shrouded Core (<:aMageVestments:1178349896131149855>, Bow, Sword & Shield, Ring)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958479997501480.png"
+      },
+      "Nematoth": {
+        "Tags": [
+          "beam",
+          "dmg"
+        ],
+        "ID": 65,
+        "Effect": "Beam-based attacks:\n- Damage ` +(30/60)% `",
+        "Where To Get": "<:LucentCorridor:1235117304854089792> Lucent Corridor: Nematoth set\n- <:dThornguard:1178379591245639700> Thornguard ( <:aHeavyArmor:1178349784101302312> , Spear&Shield, Spear, <:SlotRing:1193935763482611843> )\n- <:dMeditation:1235140660466810910> Meditation ( <:aLightArmor:1178349885838340167> , Bow, Dual Blades, <:SlotNecklace:1193935761054105741> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706719570051185.png"
+      },
+      "V4RK01": {
+        "Tags": [
+          "dark",
+          "radiation",
+          "dot",
+          "cold"
+        ],
+        "ID": 65,
+        "Effect": "When dealing dark damage apply **Radiation**:\n- <:AttackSpeed:1192950900302561402> Attack speed -1%\n- <:MovementSpeed:1192950910054322287> Movement speed -1%\n- Inflict ` 5% ` <:BonusCold:1192948996931596429> Cold Dmg (based on <:HybridPower:1192950905939693648> )\n- Inflict ` 5% ` <:BonusDark:1192948999490117784> Dark Dmg ( based on <:HybridPower:1192950905939693648> )\n- Stacks up to ` (48/64) ` times \n- 0.1s cooldown",
+        "Where To Get": "<:TerminusIxion:1235117312521142293>  Terminus Ixion: V4RK01 set\n- <:dBlowout:1178348866505031812>  Blowout ( <:aHeavyArmor:1178349784101302312> , Fist, Sword&Shield, <:SlotRing:1193935763482611843> )\n- <:dManaBuffer:1235140658436509716>  Mana Buffer ( <:aMageVestments:1178349896131149855>, Crossbow, Staff, <:SlotNecklace:1193935761054105741> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706890156589241.png"
+      },
+      "Euphorian": {
+        "Tags": [
+          "dmg",
+          "mana"
+        ],
+        "ID": 65,
+        "Effect": "When normally attacking:\n- Deal additional damage equal to ` (250/500)% ` of current mana",
+        "Where To Get": "<:KernelSubspace:1235117302643429376> Kernel Subspace: Euphorian set\n- <:dLatentPotential:1235140656502935592> Latent Potential ( <:aLightArmor:1178349885838340167>, Crossbow, Greatsword, <:SlotNecklace:1193935761054105741> )\n- <:cIntelligenceBoost:1178349789381926942> INT Boost ( <:aMageVestments:1178349896131149855>, Focus, Dual Pistols, <:SlotRing:1193935763482611843> )",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958349248479282.png"
+      }
+    },
+    "Xandu": {
+      "Don Kruul": {
+        "Tags": [
+          "aoe",
+          "dmg"
+        ],
+        "Effect": "50% Chance to trigger a 6m Area attack when damaged and making enemies vulnerable for 6s (Damage offset x25%).\n- Bludgeoning Attack (300/600)% attack power",
+        "Where To Get": "Trygrant's Cragfort: Don Kruul set\n- Mortal Kombo (<:aHeavyArmor:1178349784101302312>, Sword & Shield, Greatsword, Necklace)\n- Blowout (<:aLightArmor:1178349885838340167>, Crossbow, Staff, Ring)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      },
+      "Dracolith": {
+        "Tags": [
+          "elementaldmg",
+          "elementalres"
+        ],
+        "Effect": "- (+15/+30) Fire/Cold/Shock/Poison/Light/Dark resistance \n- When HP ≤ 50%, additional (+15/+30) Fire/Cold/Shock/Poison/Light/Dark resistance",
+        "Where To Get": "Stoneheart Sculptorium: Dracolith set\n- Manasteal (<:aLightArmor:1178349885838340167>, Sword & Shield, Spear & Shield, Necklace)\n- Conduit Totem (<:aMageVestments:1178349896131149855>, Focus, Staff, Ring)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706890156589241.png"
+      },
+      "Grandmaster": {
+        "Tags": [
+          "dmg"
+        ],
+        "Effect": "For 2.5secs upon switching weapons, gain: \n- All Damage +(40/80)%\n- Damage Reduction +(15/30)",
+        "Where To Get": "Iridian Vale: Grandmaster\n- Backlash (<:aHeavyArmor:1178349784101302312>, Greatsword, Dual Blades, Necklace)\n- Doombringer (<:aMageVestments:1178349896131149855>, Crossbow, Staff, Ring)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      },
+      "Darkened Airbender": {
+        "Tags": [
+          "ailment",
+          "dot",
+          "dark"
+        ],
+        "Effect": "- Ailment Damage x(130/160)%\n- Curse enemies for 10secs, inflict (90/180)% Dark Damage every 2secs. Cursed Enemies take x110% Damage.\n",
+        "Where To Get": "Shattered Spine: Darkened Airbender set\n- Shrouded Core (<:aLightArmor:1178349885838340167>, Focus, Fist, Necklace)\n- Concentration (<:aMageVestments:1178349896131149855>, Spear & Shield, Bow, Ring)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958347755311235.png"
+      },
+      "Valadrion": {
+        "Tags": [
+          "stats"
+        ],
+        "Effect": "Get challenged state when enemies are within 5m of the player for 10s, increasing combat capabilities. And reduces combat capabilities after the 10s duration for 6s.\n\nDuring challenged state: \n- +(25/50)% All Damage\n- +(75/150)% Attack Speed\n- +(40/80)% Movement Speed\nAfter challenged state:\n- -10% All Damage\n- -10% Attack Speed\n- -10% Movement speed",
+        "Where To Get": "Shattered Spine: Valadrion set\n- Balanced Body (Spear & Shield, Spear, Necklace)\n- Presence of Mind (<:aLightArmor:1178349885838340167>, Crossbow, Bow, Ring)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958482153381959.png"
+      },
+      "Worldbane": {
+        "Tags": [
+          "dark",
+          "attack"
+        ],
+        "Effect": "Accrue energy while attacking; and release a devastating Helxar Barrage when full, within 2m range.\n- Release (15/30) projectile attack\n- Inflict dark damage (200%) hybrid attack power",
+        "Where To Get": "Chains of Urgannon: Worldbane set\n- Strength Boost (<:aHeavyArmor:1178349784101302312>)\n- Dexterity Boost (<:aLightArmor:1178349885838340167>)\n- Intelligence Boost (<:aMageVestments:1178349896131149855>)\n- Shrouded Core (Sword & Shield, Greatsword, Dual Blades, Staff, Necklace, Ring)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958347755311235.png"
+      },
+      "Tidepincer Tyrant": {
+        "Tags": [
+          "shield",
+          "stats"
+        ],
+        "Effect": "- After `1.5s` after gaining a shield:\n - <:DamageReduction:1192950903964184718> `+(20/40)`",
+        "Where To Get": "<:CorallineLabyrinth:1268497294538571790> Tiderpincer Tyrant set\n- <:dSwordmaster:1178379589408522292> Fixed ( <:aHeavyArmor:1178349784101302312>, Sword&Shield, Spear&Shield, <:SlotNecklace:1193935761054105741>)\n- <:dEpicenter:1178349345159004230> Fixed ( <:aLightArmor:1178349885838340167>, Staff, Dual PIstols, <:SlotRing:1193935763482611843>)",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958349248479282.png"
+      }
+    },
+    "Npc": {
+      "Berserker": {
+        "Tags": [
+          "attackspd",
+          "dmg",
+          "movementspd"
+        ],
+        "ID": 67,
+        "Effect": "Within 2s after crit:\n- All Damage +(20/40)%\n- Attack Speed +(15/30)%\n- Movement Speed +(10/20)%",
+        "Where To Get": "Leif: Berserker set\n- Concentration (<:aLightArmor:1178349885838340167>)\n- Brutality (Fist)\n[Quests on Sundays]",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958482153381959.png"
+      },
+      "Cleric": {
+        "Tags": [
+          "light",
+          "ailment",
+          "elementaldmg"
+        ],
+        "ID": 68,
+        "Effect": "When attacking enemies with Light Ailment:\n- Inflict (50/100)% Light Damage (Hybrid)",
+        "Where To Get": "Gloria: Priest set\n- Radiant Core (<:aMageVestments:1178349896131149855>)\n- Divine Guard (Staff)\n[Quests on Thursdays]",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      },
+      "Elf": {
+        "Tags": [
+          "projectiles"
+        ],
+        "ID": 69,
+        "Effect": "Every (3/2) attacks:\n- Number of projectiles +2 for 3 seconds",
+        "Where To Get": "Vieroudis: Elf set\n- Dexterity Boost (<:aMageVestments:1178349896131149855>)\n- Heavy Ordinance (Bow)\n[Quests on Saturdays]",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706719570051185.png"
+      },
+      "Knight": {
+        "Tags": [
+          "critdmg"
+        ],
+        "ID": 70,
+        "Effect": "When attacking:\n- Cannot miss\n- Cannot crit\n- Damage +(0/25)%",
+        "Where To Get": "Aaron: Knight set\n- Strength Boost (<:aHeavyArmor:1178349784101302312>)\n- Lion Crest (Sword & Shield)\n[Quests on Sundays]",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      },
+      "Witch": {
+        "Tags": [
+          "double"
+        ],
+        "ID": 71,
+        "Effect": "When normal attacking:\n- Recast last used skill\n- (12/6)s CD",
+        "Where To Get": "May: Witch set\n- Intelligence Boost (<:aMageVestments:1178349896131149855>)\n- Epicenter (Focus)\n[Quests on Mondays]",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958479997501480.png"
+      },
+      "Paladin": {
+        "Tags": [
+          "shield"
+        ],
+        "ID": 72,
+        "Effect": "When taking certain damage:\n- Block all incoming attacks\n- ` 2s ` duration\n- ` (25/15)s ` Effect CD",
+        "Where To Get": "<:Howard:1195000380745072761> Paladin set\n- <:dEnergyShield:1178349343338663936> Fixed ( <:aHeavyArmor:1178349784101302312> )\n- <:dBuffAmplification:1181795593123811349>  (Spear & Shield)\n[Quests on Fridays]",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706890156589241.png"
+      },
+      "Rogue": {
+        "Tags": [
+          "critchance",
+          "critdmg"
+        ],
+        "ID": 73,
+        "Effect": "Within 2s after dash:\n- Bonus Crit Chance +(100/200)%\n- Crit Damage +(20/40)%",
+        "Where To Get": "Randy: Rogue set\n- Presence of Mind (<:aLightArmor:1178349885838340167>)\n- Backlash (Dual Blades)\n[Quests on Tuesdays & Wednesdays]",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      },
+      "Werewolf": {
+        "Tags": [
+          "life",
+          "str"
+        ],
+        "ID": 74,
+        "Effect": "When defeating an enemy:\n- Restore HP equal to (20/40)% Strength",
+        "Where To Get": "Derrick: Werewolf set\n- Bash (<:aLightArmor:1178349885838340167>)\n- Valiant Strike (Greatsword)\n[Quests on Wednesdays]",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706945504608367.png"
+      }
+    },
+    "Insanes": {
+      "Infinite Center": {
+        "Tags": [
+          "stats",
+          "projectiles",
+          "insane"
+        ],
+        "Effect": "- `+10%` to <:STR:1180974090761281677> STR, <:DEX:1180974093256904794> DEX, & <:INT:1180974097669300316> INT\n- `14%` to release `30` Projectiles when attacking\n - Projectile: `600%` <:BonusLight:1192949002434527262> Light damage (<:HybridPower:1192950905939693648> Hybrid) and apply <:BonusLight:1192949002434527262> Light Ailment",
+        "Fullname": "Infinite Center [Equipment: <:InfiniteCenter:1255990063939059772> Infinite Center]",
+        "Where To Get": "<:TerminusIxion:1235117312521142293> Terminus Ixion: Tower Top: Mothership Drop <:Mothership:1255990454181302272>",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1255990063939059772.png"
+      },
+      "One Punch": {
+        "Tags": [
+          "skillcd",
+          "attack",
+          "dmg",
+          "knockback",
+          "insane"
+        ],
+        "ID": 75,
+        "Effect": "- Skill CD -200%\nNormal attack:\n- Damage ×400%\n- Knockback +150%",
+        "Fullname": "Back to Basics [Equipment: One Punch (Weapon)]",
+        "Where To Get": "One punch fate bound exclusive, Golden Crab Drop",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958482153381959.png"
+      },
+      "Soul Calibre": {
+        "Tags": [
+          "dmg",
+          "range",
+          "insane"
+        ],
+        "ID": 76,
+        "Effect": "- **For the <:pcArcher:975584199438389308> Archer Skill: <:PrecisionBarrage:1190400103433896107> Precision Barrage:**\n - Damage ×150%\n - Range ×150%",
+        "Fullname": "Precision Barrage: Shadow [Equipment: Soul Caliber (Weapon)]",
+        "Where To Get": "<:cSkeletonKing:1241601806346485841> Skeleton King Drop\n- Fixed <:dBrutality:1178348868233089054> Brutality",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958347755311235.png"
+      },
+      "Vortex": {
+        "Tags": [
+          "fire",
+          "dmg",
+          "insane"
+        ],
+        "ID": 77,
+        "Effect": "- Damage is converted to Fire Damage (Hybrid) for the skill Whirlwind from the Warrior class",
+        "Fullname": "Whirlwind Slash: Blaze [Equipment: Flaring Draconic Vortex (Ring)]",
+        "Where To Get": "Flaring Draconic Vortex fate bound exclusive, Ember Wyrm Drop",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958482153381959.png"
+      },
+      "Coalesce": {
+        "Tags": [
+          "cold",
+          "skill",
+          "ice",
+          "insane"
+        ],
+        "ID": 78,
+        "Effect": "**For the Tempest Mage Skill: Icicles**\n- Launch an ice ball that spins and fires icicles dealing 30% Cold Damage (Hybrid)\n- 3m range\n- Range ×150%",
+        "Fullname": "Icicles: Coalesce [Equipment: Heart of Ice (Necklace)]",
+        "Where To Get": "Limited Drop from the Event Boss *Noel Rex*. Currently __Unobtainable__.\n- Fixed <:bFrigidCore:1178349779751800963> Frigid Core",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958349248479282.png"
+      },
+      "Terminus": {
+        "Tags": [
+          "cold",
+          "elementalres",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "**For the Tempest Mage Skill: Blizzard**\n- Duration becomes 6secs \n- Inflict - Cold Resistance -6\n- AoE Range x175%",
+        "Fullname": "Blizzard: Terminus [Equipment: Ring of Howling Sleet (Ring)]",
+        "Where To Get": "Ring of Howling Sleet fate bound exclusive, Alpha Yeti Drop",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958349248479282.png"
+      },
+      "Viromancer": {
+        "Tags": [
+          "life",
+          "poison",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "**For the Herbalist Skill: Virulent Flask**\nUpon casting Virulent Flask:\n- Restore Life equal to 15% Strength\n- Trigger Master of Potions [You get level 1 even if you dont have a point alloted to it]",
+        "Fullname": "Viromancer [Equipment: Organic Remedist's Vineband (Necklace)]",
+        "Where To Get": "Organic Remedist's Vineband fate bound exclusive, Mandragora Drop",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706719570051185.webp?size=300&quality=lossless"
+      },
+      "Velox": {
+        "Tags": [
+          "skill",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- **For the <:pcThief:1105829586559848519> Thief Skill: <:ThrowingDaggers:1190402383386263662> Throwing Daggers:**\n - Damage x150% \n - Thrown Daggers fly back to you after it drops and damage enemies it passes.\n- **For the <:hcVindicator:1257808088829001770> Vindicator Skill: <:BladeOfExecution:1264495329437417502> Blade of Execution:**\n - All active Blades of Execution on the ground fly back to you and activate on your location.",
+        "Fullname": "Throwing Daggers: Velox [Equipment: Flechette Thrower's Umbrial Thimble (Ring)]",
+        "Where To Get": "Flechette Thrower's Umbrial Thimble fate bound exclusive, Skeleton King Drop",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958479997501480.webp?size=300&quality=lossless"
+      },
+      "Bound": {
+        "Tags": [
+          "skill",
+          "fire",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "**For the Pyromancer Skill: Fireball**\n- Using Fireball now transforms you into a bounding fireball dealing Fire Damage upon colliding and take reduced damage. ",
+        "Fullname": "Fireball: Bound [Equipment: Fallen Starwalkers (Boots)]",
+        "Where To Get": "Fallen Starwalkers fate bound exclusive, Goblin Drop",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958482153381959.png"
+      },
+      "Technochrome": {
+        "Tags": [
+          "fire",
+          "skill",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "**For the Pyromancer Skill: Fireball**\n- Fireballs become firework bombshells that set off a chain of explosions upon reaching their target destination, dealing Fire, Cold, and Shock Damage at random.",
+        "Fullname": "Fireball: Technochrome [Equipment: Clement Tidings (Necklace)]",
+        "Where To Get": "Limited Drop from the Event Boss *Nian, the Yearbeast*. Currently __Unobtainable__.",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958482153381959.png"
+      },
+      "Critical Trigger": {
+        "Tags": [
+          "cooldown",
+          "skill",
+          "utility"
+        ],
+        "ID": null,
+        "Effect": "When dealing <:CritDamage:1192950902521335858>, 100% chance to cast 1 random learned active skill with 800% increased <:Mana:1192951102191181864> cost of the skill.\n- 0.2s <:SkillCD:1192951121568874546> of effect.",
+        "Where To Get": "Limited Drop from the Event Boss: <:DieterRottentail:1228609758437703681> on <:SouthernSteppes:1181786956913459261>.\n- <:DieterRottentail:1228609758437703681> Hare-Trigger Temper Affix Drop",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1225454162884690010.png"
+      },
+      "Field Surgeon": {
+        "Tags": [
+          "survival",
+          "ember",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "After taking damage:\n- Take 33% of the damage every 1s, during 3s",
+        "Where To Get": "Trial of Embers <:zAmethyst:1243933389262684212>",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1243613788146630776.png"
+      },
+      "Prestidigitator": {
+        "Tags": [
+          "cd",
+          "ember",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "When using a skill:\n- Reduce other skills CD by 20% of the last used skill CD",
+        "Where To Get": "Trial of Embers <:zAmber:1243933695081975930>",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1243613790671732827.png"
+      },
+      "Trauma Train": {
+        "Tags": [
+          "dmg",
+          "ember",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "Critical hits no longer deal any extra damage\n- Within 4s after crit:\n- Gain All Damage +75%\n- Crit Damage = 100%",
+        "Where To Get": "Trial of Embers <:zAquamarine:1243933938859114537>",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1243613792731009114.png"
+      },
+      "Domination": {
+        "Tags": [
+          "utility",
+          "bak",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "**For the <:pcVoidfarer:1230892910245970061> Voidfarer Skill: <:DarkWhispers:1234428782354497557> Dark Whispers**\n- Have no <:SkillCD:1192951121568874546> Cooldown & no usage limit",
+        "Fullname": "Dark Whispers: Domination [Equipment: Banaddur the Magic Greatsword (<:SlotWeapon:1193935768545149088> Weapon)]",
+        "Where To Get": "<:BlackArch:1228643532462493716> Black Archknight Drop \n- Fixed <:dLifesteal:1178349884106096730> Lifesteal",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958482153381959.png"
+      },
+      "Solar Beam": {
+        "Tags": [
+          "fire",
+          "skill",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "****For the <:hcHeliomancer:1257808192503550035> Heliomancer Skill: <:SolarBeam:1264494291951292486> Solar Beam****\n- Damage ×150%\n- After being channed for 2s: gain stacks at twice its original rate",
+        "Fullname": "Solar Beam: Velox [Equipment: Solastellum (Staff)]",
+        "Where To Get": "<:cZulan:1241601325829980202> Zulan Drop\n- Fixed <:dOnslaught:1178349902141591664> Onslaught",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1266472191118020749.png"
+      },
+      "Threads": {
+        "Tags": [
+          "dark",
+          "skill",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "****For the <:hcRiftvoker:1257808121049382922> Riftvoker Skill: <:RealityThrow:1264493453258133606> Reality Throw****\n- Damage +50%\n- Higher chance to roll sixes",
+        "Fullname": "Reality Throw: Threads [Equipment: Ephemerality 137 (Focus)]",
+        "Where To Get": "<:cVarkolyn:1241601316309172376> Varkolyn Drop\n- Fixed <:dTwinNovae:1178379593917419540> Twin Novae",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958479997501480.png"
+      },
+      "Razorsedge": {
+        "Tags": [
+          "utility",
+          "skill",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- <:dThornguard:1178379591245639700> Thornguard deals +50% damage\n- When normally attacking:\n - 40% chance to trigger <:dThornguard:1178379591245639700> Thornguard",
+        "Fullname": "Razorsedge [Equipment: Hulnenfjall (Sword and Shield)]",
+        "Where To Get": "<:cConch:1241601280477237369> Great River Snail Drop\n- Fixed <:aHeavyArmor:1178349784101302312> Heavy Armor",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706890156589241.png"
+      },
+      "Senbon": {
+        "Tags": [
+          "utility",
+          "skill",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- When normally attacking with fist or unarmed:\n - Release 4 Projectiles with 50% Piercing Damage (Based on <:AttackPower:1192950899316903977> Attack Power) that deal higher damage to a single target the more times they hit",
+        "Fullname": "Senbon [Equipment: Senbon Fractallis (Ring)]",
+        "Where To Get": "<:cSandworm:1265148390283415575> Sandworm Drop\n- Fixed <:dMultishot:1178349899784405194> Multishot",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1266472191118020749.png"
+      },
+      "Empyrean Hammer Steadfast": {
+        "Tags": [
+          "utility",
+          "skill",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- **For the <:hcParagon:1257808143623393331> Paragon Skill: <:EmpyrianHammer:1269309025883787264> Empyrean Hammer**\n - Damage x160%\n - When releasing an attack you have 40% chane to obtain Resolve",
+        "Fullname": "Empyrean Hammer Steadfast [Equipment: Necklace of Valor (Necklace)]",
+        "Where To Get": "<:cArchknight:1241601243781009509> Archknight Drop\n- Fixed <:dTwinNovae:1178379593917419540> Twin Novae",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1266472191118020749.png"
+      },
+      "Genesis": {
+        "Tags": [
+          "utility",
+          "skill",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- **For the <:hcLifebinder:1257808170072674304> Lifebinder Skill: <:Lifebloom:1277075788994449500> Lifebloom**\n- You have a `40%` chance to regain a Lifeseed upon consuming one\n- Your summons gain:\n - <:ExtraPoison:1192949269691387957> Extra Poison Damage +50%\n - <:ExtraLight:1192949267338379264> Extra Light Damage +50%\n - <:DamageReduction:1192950903964184718> Damage Reduction +50\n - <:Health:1192950904865964052> Life Bonus +400%",
+        "Fullname": "Lifebloom: Genesis [Equipment: Miracle Seed (<:SlotWeapon:1193935768545149088> Focus)]",
+        "Where To Get": "<:cMandragora:1241601289302052945> Mandragora & <:cMandragoraElf:1241601271400628254> Mandragora Elf Drop",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1185706719570051185.png"
+      }
+    },
+    "Helhearts": {
+      "Helheart: Fortio": {
+        "Tags": [
+          "str",
+          "helheart",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- Strength +150",
+        "Where To Get": "Level 6 and above: Corrupted Maps",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958347755311235.webp?size=300&quality=lossless"
+      },
+      "Helheart: Dextro": {
+        "Tags": [
+          "dex",
+          "helheart",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- Dexterity +150",
+        "Where To Get": "Level 6 and above: Corrupted Maps",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958347755311235.webp?size=300&quality=lossless"
+      },
+      "Helheart: Sopho": {
+        "Tags": [
+          "int",
+          "helheart",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- Intelligence +150",
+        "Where To Get": "Level 6 and above: Corrupted Maps",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958347755311235.webp?size=300&quality=lossless"
+      },
+      "Helheart: Pyro": {
+        "Tags": [
+          "fire",
+          "elementaldmg",
+          "helheart",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "Each time you deal or take Fire Damage: \n- Fire Damage +2%\n- Stacks up to 30 times\n- 3secs duration ",
+        "Where To Get": "Level 6 and above: Corrupted Maps",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958347755311235.webp?size=300&quality=lossless"
+      },
+      "Helheart: Cryo": {
+        "Tags": [
+          "critchance",
+          "critdmg",
+          "cold",
+          "ice",
+          "helheart",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- Crit Damage +60%\n- Guaranteed Crit against Frozen enemies, but crit chance is halved against non-frozen enemies.",
+        "Where To Get": "Level 6 and above: Corrupted Maps",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958347755311235.webp?size=300&quality=lossless"
+      },
+      "Helheart: Electro": {
+        "Tags": [
+          "shock",
+          "elementaldmg",
+          "helheart",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- To enemies afflicted with Shock Ailment: All Damage types taken x130% except Shock Damage.",
+        "Where To Get": "Level 6 and above: Corrupted Maps",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958347755311235.webp?size=300&quality=lossless"
+      },
+      "Helheart: Veno": {
+        "Tags": [
+          "poison",
+          "ailment",
+          "helheart",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "Poison Ailment on enemies give:\n- Damage -10%\n- 5secs duration\n- 10% chance to miss",
+        "Where To Get": "Level 6 and above: Corrupted Maps",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958347755311235.webp?size=300&quality=lossless"
+      },
+      "Helheart: Tenebro": {
+        "Tags": [
+          "dark",
+          "elementaldmg",
+          "helheart",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- Extra Dark Damage +50%\n- Damage Taken +20%",
+        "Where To Get": "Level 6 and above: Corrupted Maps",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958347755311235.webp?size=300&quality=lossless"
+      },
+      "Primo Helheart": {
+        "Tags": [
+          "str",
+          "dex",
+          "int",
+          "aoe",
+          "dark",
+          "ailment",
+          "helheart",
+          "insane"
+        ],
+        "ID": null,
+        "Effect": "- `+10%` to <:STR:1180974090761281677> STR, <:DEX:1180974093256904794> DEX, & <:INT:1180974097669300316> INT\n- `14%` to release `44` AOEs when attacking\n - AoE: `750%` <:BonusDark:1192948999490117784> Dark Dmg (<:HybridPower:1192950905939693648> Hybrid) and apply <:BonusDark:1192948999490117784> Dark Ailment",
+        "Where To Get": "Level 8: Corrupted Maps <:helxar:1200255044965126184>",
+        "Thumbnail": "https://cdn.discordapp.com/emojis/1191958347755311235.webp?size=300&quality=lossless"
+      }
+    }
+  }
+}

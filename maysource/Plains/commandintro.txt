@@ -1,0 +1,11 @@
+from disnake.ext import commands
+
+@commands.command(name='INSERT_NAME_HERE', description="INSERT_DESC_HERE")
+async def INSERT_INTER_HERE(ctx):
+    print("Blank command")
+
+
+def setup_command(cog):
+    cog.bot.add_command(INSERT_INTER_HERE)
+    INSERT_INTER_HERE.extras["example"] = "No Example Set"
+    return INSERT_INTER_HERE

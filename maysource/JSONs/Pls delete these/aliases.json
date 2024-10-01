@@ -1,0 +1,940 @@
+{
+    "Heavy Armor": [
+        "heavy",
+        "heavy armour",
+        "heavyarmor",
+        "ha",
+        "heavy armor",
+        "strarmor",
+        "blastem"
+    ],
+    "Light Armor": [
+        "light armor",
+        "la",
+        "light armour",
+        "light",
+        "lightarmor",
+        "dex armour",
+        "dexarmor",
+        "dex armor"
+    ],
+    "Mage Vestment": [
+        "mage armor",
+        "mc",
+        "vestments",
+        "vestment",
+        "mage clothes",
+        "mage armour",
+        "ma",
+        "mage vestments",
+        "mv",
+        "intarmor",
+        "int armor",
+        "magevestment",
+        "magevestments"
+    ],
+    "Strength Boost": [
+        "s boost",
+        "strength",
+        "strengthboost",
+        "sb",
+        "strength boost",
+        "str boost",
+        "str"
+    ],
+    "Dexterity Boost": [
+        "dexterity",
+        "dexterity boost",
+        "d boost",
+        "db",
+        "dexterityboost",
+        "dex",
+        "dex boost"
+    ],
+    "Intelligence Boost": [
+        "intelligence",
+        "intelligence boost",
+        "i boost",
+        "intelligenceboost",
+        "ib",
+        "int boost",
+        "int"
+    ],
+    "Hyperfocus": [
+        "hyperf",
+        "hyperfocus",
+        "focus",
+        "hf",
+        "hyper"
+    ],
+    "Premium Bundle": [
+        "premium",
+        "premium bundle",
+        "bundle",
+        "premiumbundle",
+        "pb"
+    ],
+    "Backlash": [
+        "counter",
+        "back",
+        "bl",
+        "backlash",
+        "doublestrike",
+        "melee doublecast",
+        "meleedoublecast"
+    ],
+    "Bash": [
+        "smash",
+        "bashing",
+        "bash",
+        "smashing",
+        "bonk",
+        "sploofie"
+    ],
+    "Bonded Summons": [
+        "bc",
+        "bound creatures",
+        "summons",
+        "summon",
+        "bonded summons",
+        "bs",
+        "summons",
+        "bonded"
+    ],
+    "Brutality": [
+        "brutal",
+        "merciless",
+        "brut",
+        "mercilessness",
+        "brutality",
+        "b"
+    ],
+    "Critical Casting": [
+        "crit casting",
+        "pc",
+        "casting",
+        "precise casting",
+        "critical casting",
+        "cc",
+        "criticalcasting",
+        "critcasting",
+        "critcast",
+        "critical"
+    ],
+    "Echocasting": [
+        "echoing",
+        "ec",
+        "repeated casting",
+        "echo",
+        "echocasting",
+        "echocast",
+        "ec"
+    ],
+    "Epicenter": [
+        "ep",
+        "epicenter",
+        "quake",
+        "center",
+        "smaller",
+        "epi"
+    ],
+    "Heavy Ordinance": [
+        "ho",
+        "heavy weapons",
+        "heavy ordinance",
+        "hw",
+        "Ord",
+        "heavyord",
+        "heavyordinance"
+    ],
+    "Improved Arrows": [
+        "enhancedarrows",
+        "improved arrows",
+        "enhanced arrows",
+        "sa",
+        "sharp arrows",
+        "ea",
+        "ia",
+        "improved arrow",
+        "improvedarrows",
+        "improvedarrow",
+        "arrow",
+        "arrows",
+        "improved"
+    ],
+    "Lock-On": [
+        "lock on",
+        "focused aim",
+        "targeting",
+        "fa",
+        "lo",
+        "targeted",
+        "lockon",
+        "aimbot"
+    ],
+    "Multishot": [
+        "multiple shots",
+        "multishot",
+        "volley",
+        "ms",
+        "multishit",
+        "multi"
+    ],
+    "Onslaught": [
+        "charging",
+        "onslaught",
+        "rush",
+        "on",
+        "charge",
+        "dot"
+    ],
+    "Presence of Mind": [
+        "mindful",
+        "pom",
+        "pm",
+        "mindfulness",
+        "presence of mind",
+        "focused",
+        "presenceofmind",
+        "presence"
+    ],
+    "Ricochet": [
+        "bounce",
+        "rebound",
+        "ricochet",
+        "bouncing",
+        "rico"
+    ],
+    "Twin Novae": [
+        "novae",
+        "de",
+        "twin novae",
+        "tn",
+        "doublenovae",
+        "double explosions",
+        "twinnovae",
+        "aoe doublecast",
+        "aoedoublecast",
+        "twin"
+    ],
+    "Valiant Strike": [
+        "hs",
+        "heroic strike",
+        "valiant",
+        "valiant strike",
+        "vs",
+        "heroicstrike",
+        "valiantstrike"
+    ],
+    "Divine Guard": [
+        "dg",
+        "divine",
+        "holy protection",
+        "holyguard",
+        "divine guard",
+        "hp",
+        "divineguard"
+    ],
+    "Energy Shield": [
+        "protective barrier",
+        "energybarrier",
+        "shield",
+        "es",
+        "energy shield",
+        "energyshield"
+    ],
+    "Lifesteal": [
+        "vampirism",
+        "ls",
+        "life drain",
+        "vampiric",
+        "ld",
+        "lifesteal",
+        "lifedrain"
+    ],
+    "Swordmaster": [
+        "sm",
+        "swordmaster",
+        "be",
+        "blade expert",
+        "master swordsman",
+        "bladeexpert",
+        "bugged",
+        "sword",
+        "swordsmaster"
+    ],
+    "Blowout": [
+        "burst",
+        "explosion",
+        "bo",
+        "blowout",
+        "explosive",
+        "bigger",
+        "blastem"
+    ],
+    "Buff Amplification": [
+        "buffamplify",
+        "ab",
+        "ba",
+        "amplify buffs",
+        "buff amplification",
+        "buff",
+        "buffamplification",
+        "longerbuffs",
+        "longer buffs",
+        "buff amp"
+    ],
+    "Concentration": [
+        "focusedmind",
+        "mental focus",
+        "mf",
+        "cf",
+        "concentration",
+        "cd",
+        "cdr",
+        "conc"
+    ],
+    "Field Marshal": [
+        "marshal",
+        "field marshal",
+        "fm",
+        "commander",
+        "commanding",
+        "fieldmarshal",
+        "+1summon",
+        "+1 summon",
+        "field"
+    ],
+    "Gravitic Nova": [
+        "gn",
+        "gravitynova",
+        "gravitic",
+        "ge",
+        "gravitic nova",
+        "gravity explosion",
+        "blackhole",
+        "graviticnova",
+        "gravity"
+    ],
+    "Lion Crest": [
+        "lc",
+        "crest",
+        "royalemblem",
+        "re",
+        "lion crest",
+        "royal emblem",
+        "lioncrest"
+    ],
+    "Manasteal": [
+        "mana drain",
+        "manasteal",
+        "md",
+        "magic absorption",
+        "manadrain"
+    ],
+    "Serendipity": [
+        "luck",
+        "fortunate",
+        "lucky",
+        "serendipity",
+        "seren"
+    ],
+    "Sortie": [
+        "tacticalmove",
+        "tactical move",
+        "sortie",
+        "deployment",
+        "st",
+        "tm",
+        "dash"
+    ],
+    "Thornguard": [
+        "thorned protection",
+        "tp",
+        "tg",
+        "thornguard",
+        "thorn",
+        "thornprotection"
+    ],
+    "Charged Core": [
+        "charged",
+        "charged core",
+        "energy core",
+        "chargedcore",
+        "shock",
+        "shock core",
+        "lightning",
+        "thunder"
+    ],
+    "Flaming Core": [
+        "fc",
+        "flaming core",
+        "firecore",
+        "fire core",
+        "pyro core",
+        "pyrocore",
+        "fire",
+        "flame",
+        "flaming"
+    ],
+    "Frigid Core": [
+        "ice core",
+        "icecore",
+        "frigid",
+        "frigid core",
+        "ic",
+        "ice",
+        "cold"
+    ],
+    "Radiant Core": [
+        "radiant core",
+        "radiant",
+        "lightcore",
+        "light core",
+        "sun core"
+    ],
+    "Shrouded Core": [
+        "shrouded core",
+        "shrouded",
+        "shadow core",
+        "sc",
+        "shadowcore",
+        "dark core",
+        "darkcore",
+        "dark"
+    ],
+    "Toxic Core": [
+        "toxic",
+        "toxic core",
+        "toxiccore",
+        "tc",
+        "poison core",
+        "poison"
+    ],
+    "Alpha Yeti": [
+        "snowbeast",
+        "ay",
+        "snow beast",
+        "yeti",
+        "alpha yeti",
+        "snowape",
+        "snow ape",
+        "monkey",
+        "ape",
+        "ice monkey",
+        "frozen yogurt",
+        "flying gorilla"
+    ],
+    "Anubis": [
+        "egyptian deity",
+        "jg",
+        "jackal god",
+        "ed",
+        "anubis",
+        "an",
+        "jackalgod",
+        "blackjackal",
+        "pharaoh",
+        "dan",
+        "uwubis",
+        "danubis"
+    ],
+    "Archknight": [
+        "archknight",
+        "elitewarrior",
+        "ew",
+        "elite warrior",
+        "ak",
+        "swordman",
+        "arcknight"
+    ],
+    "Archwizard": [
+        "archwizard",
+        "aw",
+        "master sorcerer",
+        "mastersorcerer",
+        "wizard",
+        "arcwiz",
+        "archwiz",
+        "wiz",
+        "archwife"
+    ],
+    "Black Archknight": [
+        "darkwarrior",
+        "dark warrior",
+        "bak",
+        "black knight",
+        "black archknight",
+        "dw",
+        "bk",
+        "dgk",
+        "bak",
+        "bleed",
+        "<@975320086158143548>"
+    ],
+    "Boar King": [
+        "boar",
+        "boar king",
+        "kob",
+        "kingofboars",
+        "king of boars",
+        "\ud83d\udc17",
+        "pig",
+        "hog",
+        "peppa pig",
+        "bacon",
+        "bacon"
+    ],
+    "Buccaneer Admiral": [
+        "admiral",
+        "buccaneer admiral",
+        "buccaneer",
+        "pirate",
+        "gold stealer"
+    ],
+    "C6H806": [
+        "c6h806",
+        "chemical",
+        "volatile substance",
+        "chemicalsubstance",
+        "cs",
+        "vitaminc",
+        "vitamin c",
+        "c6h8o6",
+        "killing machine",
+        "robot",
+        "c6",
+        "ascorbic acid",
+        "vitc",
+        "vit c"
+    ],
+    "Crystal Snapclaw": [
+        "snapclaw",
+        "crystal snapclaw",
+        "csc",
+        "crystal creature",
+        "crystalcreature",
+        "crab",
+        "\ud83e\udd80",
+        "crystalsnapclaw",
+        "crystal crab",
+        "crystalcrab",
+        "kani"
+    ],
+    "Ember Wyrm": [
+        "fd",
+        "ember wyrm",
+        "fire dragon",
+        "firedragon",
+        "wyrm",
+        "ember dragon",
+        "self burn",
+        "dragon",
+        "\ud83d\udc09",
+        "emberwyrm",
+        "bane of tria",
+        "<@767998159182888963>",
+        "<@790849369662292010>"
+    ],
+    "Goblin": [
+        "goblin",
+        "green creature",
+        "goblinoid",
+        "gc",
+        "greencreature",
+        "shaman",
+        "mage goblin"
+    ],
+    "Golden Snapclaw": [
+        "golden snapclaw",
+        "precious creature",
+        "gs",
+        "golden",
+        "gsc",
+        "preciouscreature",
+        "gold crab",
+        "gold",
+        "gold bank",
+        "crab goldensnapclaw",
+        "goldcrab",
+        "gold kani"
+    ],
+    "Great River Snail": [
+        "giant snail",
+        "river snail",
+        "grs",
+        "great river snail",
+        "giantsnail",
+        "rs",
+        "snail",
+        "\ud83d\udc0c",
+        "giant slug",
+        "riversnail",
+        "greatriversnail",
+        "<@868028236355997736>",
+        "slug",
+        "conch"
+    ],
+    "Grimhowl Gang": [
+        "howlergang",
+        "gang of howlers",
+        "goh",
+        "gg",
+        "grimhowl gang",
+        "grimhowl",
+        "wolf",
+        "\ud83d\udc3a",
+        "rayz"
+    ],
+    "Mandragora": [
+        "mandragora",
+        "magicalplant",
+        "mandrake",
+        "mp",
+        "magical plant",
+        "plant",
+        "mandra"
+    ],
+    "Mandragora Elf": [
+        "me",
+        "elf",
+        "plant elf",
+        "mandragora elf",
+        "pe",
+        "plantelf",
+        "green pie",
+        "mandra elf"
+    ],
+    "Medusa": [
+        "gorgon",
+        "snake-haired creature",
+        "medusa",
+        "snakecreature",
+        "Tria",
+        "snek",
+        "snake",
+        "snake",
+        "tria scarlix",
+        "\ud83d\udc0d",
+        "mythical snake"
+    ],
+    "Sandworm": [
+        "dc",
+        "sw",
+        "desert creature",
+        "desertcreature",
+        "worm",
+        "sandworm",
+        "\ud83e\udeb1",
+        "big worm",
+        "giant worm",
+        "<@1027825128324734996>"
+    ],
+    "Skeleton King": [
+        "skeleton king",
+        "skeleton",
+        "sk",
+        "um",
+        "undeadmonarch",
+        "undead monarch",
+        "sans",
+        "soul caliber withholder",
+        "lordy",
+        "skele",
+        "bone",
+        "bones"
+    ],
+    "Slime": [
+        "ooze",
+        "slime",
+        "gelatinous",
+        "slime king",
+        "sludge king"
+    ],
+    "Triumvirite": [
+        "triumvirite",
+        "triad",
+        "three entities",
+        "te",
+        "threeentities",
+        "balls",
+        "<:face:1177240410733674528>",
+        "trio",
+        "trium",
+        "megalith",
+        "megaliths",
+        "triumvirite megalith",
+        "triumvirite megaliths"
+    ],
+    "Varkolyn": [
+        "sh",
+        "savage humanoid",
+        "savagehumanoid",
+        "varkolyn",
+        "vark",
+        "\u201cdark sith\u201d",
+        "dog",
+        "space dog",
+        "spacedog",
+        "<:varkolyndoghead:1191768438897647717>",
+        "dawg",
+        "blawg"
+    ],
+    "Zulan": [
+        "zw",
+        "zulan warlord",
+        "zulan",
+        "warlord",
+        "colossus",
+        "shield spammer",
+        "big flying drone"
+    ],
+    "Noel Rex": [
+        "noel rex",
+        "rex",
+        "trex",
+        "snowman",
+        "noel"
+    ],
+    "Berserker": [
+        "fury",
+        "rampaging warrior",
+        "rampager",
+        "berserker",
+        "rw",
+        "<:leifyippee:1193944615154356275>",
+        "leif"
+    ],
+    "Cleric": [
+        "holy healer",
+        "hh",
+        "divine servant",
+        "holyhealer",
+        "ds",
+        "cleric",
+        "gloria"
+    ],
+    "Elf": [
+        "forest dweller",
+        "elven",
+        "forestdweller",
+        "forest archer",
+        "vieruodis"
+    ],
+    "Knight": [
+        "chivalrous warrior",
+        "cw",
+        "chivalrous",
+        "knightly",
+        "rizz",
+        "aaron"
+    ],
+    "Witch": [
+        "mage",
+        "spellcaster",
+        "magician",
+        "may",
+        "witch",
+        "may scarlix",
+        "<:mayyippee:1193944671580344513>",
+        "you"
+    ],
+    "Paladin": [
+        "holyknight",
+        "righteous warrior",
+        "hk",
+        "holy knight",
+        "paladin",
+        "howard"
+    ],
+    "Rogue": [
+        "sneaky",
+        "rogue",
+        "shadowy",
+        "randy"
+    ],
+    "Werewolf": [
+        "wolfman",
+        "werewolf",
+        "lycanthrope",
+        "derrick"
+    ],
+    "One Punch": [
+        "one punch",
+        "one-hit",
+        "saitama's punch",
+        "sp",
+        "onepunch",
+        "op",
+        "red glove",
+        "opm",
+        "back to basics"
+    ],
+    "Soul Calibre": [
+        "enchanted sniper",
+        "enchanted",
+        "calibre",
+        "sniper",
+        "soul calibre",
+        "soul cal",
+        "scalibre",
+        "scali",
+        "precision blast barrage",
+        "soul cali",
+        "soulcali"
+    ],
+    "Vortex": [
+        "tornado",
+        "whirlwind",
+        "vortex",
+        "fire tornado",
+        "red ring",
+        "whirlwind slash blaze"
+    ],
+    "Coalesce": [
+        "icicles",
+        "coalesce",
+        "heart of ice",
+        "ic",
+        "hoi",
+        "icicles coalese",
+        "red necklace"
+    ],
+    "Doombringer": [
+        "doombringer",
+        "doom"
+    ],
+    "Point Blank": [
+        "point blank",
+        "pointblank",
+        "pb"
+    ],
+    "Mortal Kombo": [
+        "mortal kombo",
+        "mortalkombo",
+        "kombo",
+        "mortal",
+        "mk"
+    ],
+    "Balanced Body": [
+        "balanced body",
+        "balancedbody",
+        "bb",
+        "body",
+        "balanced"
+    ],
+    "Conduit Totem": [
+        "conduit totem",
+        "conduittotem",
+        "totem"
+    ],
+    "Nian": [
+        "nian",
+        "yearbeast"
+    ],
+    "Don Kruul": [
+        "don kruul",
+        "donkruul",
+        "don",
+        "kruul"
+    ],
+    "Dracolith": [
+        "dracolith",
+        "draco"
+    ],
+    "Grandmaster": [
+        "grandmaster",
+        "armsmaster",
+        "fulgrim"
+    ],
+    "Darkened Airbender": [
+        "darkened airbender",
+        "darkenedairbender",
+        "airbender"
+    ],
+    "Valadrion": [
+        "valadrion"
+    ],
+    "Worldbane": [
+        "worldbane"
+    ],
+    "Helheart: Fortio": [
+        "fortio",
+        "helheart: fortio",
+        "helheart:fortio",
+        "str helheart",
+        "strength helheart",
+        "helheart strength"
+    ],
+    "Helheart: Dextro": [
+        "helheart: dextro",
+        "dextro",
+        "helheart:dextro"
+    ],
+    "Helheart: Sopho": [
+        "helheart: sopho",
+        "helheart:sopho",
+        "sopho"
+    ],
+    "Helheart: Pyro": [
+        "helheart: pyro",
+        "helheart:pyro",
+        "pyro"
+    ],
+    "Helheart: Cryo": [
+        "helheart: cryo",
+        "helheart:cryo",
+        "cryo"
+    ],
+    "Helheart: Electro": [
+        "helheart: electro",
+        "helheart:electro",
+        "electro"
+    ],
+    "Helheart: Veno": [
+        "helheart: veno",
+        "helheart:veno",
+        "veno"
+    ],
+    "Helheart: Tenebro": [
+        "helheart: tenebro",
+        "helheart:tenebro",
+        "tenebro"
+    ],
+    "Terminus": [
+        "terminus",
+        "howling sleet",
+        "blizzard",
+        "howling sleet",
+        "ring of howling sleet",
+        "howling sleet"
+    ],
+    "Viromancer": [
+        "viromancer",
+        "vineband",
+        "organic"
+    ],
+    "Velox": [
+        "velox",
+        "daggers",
+        "throwing daggers"
+    ],
+    "Bound": [
+        "bound"
+    ],
+    "Technochrome": [
+        "technochrome"
+    ],
+    "Primo Helheart": [
+        "true helheart",
+        "truehelheart",
+        "true hh",
+        "truehh",
+        "thh",
+        "primo hh",
+        "primo helheart",
+        "primo hh",
+        "primohh",
+        "primo"
+    ]
+}

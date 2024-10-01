@@ -1,0 +1,221 @@
+{
+  "FAQ": {
+    "Season 3": {
+      "Embers":{
+      	"Description":"# Embers #\nInvest <:zAmethyst:1243933389262684212> Amethyst Embers, <:zAquamarine:1243933938859114537> Aquamarine Embers, or <:zAmber:1243933695081975930> Amber Embers into bosses to receive special rewards. However, the more embers you invest, the harder the boss fight becomes.\n\n<:zAmethyst:1243933389262684212> **Amethyst Embers**\n- 50 Embers\n - Monsters' life +50%\n - Monsters' damage reduction +5\n - Monsters additionally drop 250000 Gold(s). \n- 100 Embers\n - Monsters' life +150%\n - Monsters' damage reduction +10\n - Monsters aditionally drop 2 Weathered Hephaestite(s).\n- 150 Embers\n - Monsters' life +300%\n - Monsters' damage reduction +20\n - Monsters additionally drop 1 Boss Card(s). \n- 200 Embers\n - Monsters' life +500%\n - Monster's damage reduction +30\n - Number of projectiles is increased by 1.\n - Previous Reward(s) & Monsters additionally drop 1 Volcanic Hephaestites(s).\n- 250 Embers\n - Monsters' life +1000%\n - Monster's damage reduction +40\n - Number of projectiles is increased by 2.\n - Previous Reward(s) & Monsters additionally drop 1 Volcanic Hephaestites(s).\n- 300 Embers\n - Monsters' life +2000%\n - Monster's damage reduction +50\n - Number of projectiles is increased by 3.\n - Previous Reward(s) & Monsters' additionally drop 1 Insane-Quality Equipment(s).\n\n<:zAquamarine:1243933938859114537> **Aquamarine Embers**\n- 50 Embers\n - Monsters' damage +20%\n - Monsters' damage reduction +5\n - Monsters additionally drop 500 EsoCircuit(s).\n- 100 Embers\n - Monsters' damage +50%\n - Monsters' damage reduction +10\n - Previous Reward(s) & Monsters additionally drop 500 EsoCircuit(s).\n- 150 Embers\n - Monsters' damage +100%\n - Monsters' damage reduction +20\n - Previous Reward(s) & Monsters additionally drop 500 EsoCircuit(s).\n- 200 Embers\n - Monsters' damage +150%\n - Monsters' damage reduction +30\n - Your resistances -5\n - Previous Reward(s) & Monsters additionally drop 1000 EsoCircuit(s).\n- 250 Embers\n - Monsters' damage +250%\n - Monsters' damage reduction +40\n - Your resistances -10\n - Previous Reward(s) & Monsters additionally drop 1000 EsoCircuit(s).\n- 300 Embers\n - Monsters' damage +500%\n - Monsters' damage reduction +50\n - Your resistances -15\n - Previous Reward(s) & Monsters' additionally drop 1 Insane-Quality Equipment(s).\n\n<:zAmber:1243933695081975930> **Amber Embers**\n- 50 Embers\n - Monsters' attack and movement speed +20%\n - Monsters' damage reduction +5\n - Monsters additionally drop 50 Helxarine(s).\n- 100 Embers\n - Monsters' attack and movement speed +50%\n - Monsters' damage reduction +10\n - Previous Reward(s) & Monsters additionally drop 50 Helxarine(s).\n- 150 Embers\n - Monsters' attack and movement speed +75%\n - Monsters' damage reduction +20\n - Previous Reward(s) & Monsters additionally drop 50 Helxarine(s).\n- 200 Embers\n - Monsters' attack and movement speed +100%\n - Monsters' damage reduction +30\n - Area of effect of monsters' skills +25%\n - Previous Reward(s) & Monsters additionally drop 100 Helxarine(s).\n- 250 Embers\n - Monsters' attack and movement speed +150%\n - Monsters' damage reduction +40\n - Area of effect of monsters' skills +50%\n - Previous Reward(s) & Monsters additionally drop 100 Helxarine(s).\n- 300 Embers\n - Monsters' attack and movement speed +200%\n - Monsters' damage reduction +50\n - Area of effect of monsters' skills +75%\n - Previous Reward(s) & Monsters' additionally drop 1 Insane-Quality Equipment(s).",
+      	"Imgs":{
+      	  "Embers Img":""
+      	}
+      },
+      "Season Guide":{
+        "Description":"# Season Guide",
+        "Imgs":{
+            "Guide Img":"https://cdn.discordapp.com/attachments/1229485760214990878/1250081617515380847/IMG_6746.png?ex=66889ffb&is=66874e7b&hm=d92e8ad200485cb94554441f1177d75ffa6588fbfafc62b01cb78b8ae4fa41f8&"
+        }
+      }
+    },
+    "Chips": {
+      "Chips": {
+        "Description": "You can apply a chip you own to chip slots on cybermod equipment \nChips are not consumed when applied\nDifferent pieces of equipment can equip different type of chips, each having a different effect and gives different base stats\nIf there are repeated chips equipped, only one with the highest level will take effect\nYou can dismantle excess chips for parts",
+        "Imgs": {
+          "Chips Image": ""
+        }
+      },
+      "Levels": {
+        "Description": "+1 computability per level\nUpgrade effect per odd number level [Lv 1,3,5,7]\nDouble base stat per even number level [Lv 2,4,6]\n```Level 1-2 - Uncommon(Green)\nLevel 3-4 - Rare(Blue)\nLevel 5-6 - Epic(Purple)Level 7 - Legendary(Yellow)```",
+        "Imgs": {
+          "Levels": ""
+        }
+      },
+      "Upgrading": {
+        "Description": "Chips can be upgraded to the next level by merging 3 of the same chip",
+        "Imgs": {
+          "Upgrada": ""
+        }
+      },
+      "Circle Chip (Accessory)": {
+        "Description": "**Effects:**\nGives one of 5 abilities [equip in quick (potion) slot] \nAbility lv 1|1|2|2|3|3|4\n\n**Possible abilities:** \n**Teleport**\n\tTeleport to a location\n\tSkill level reduces CD\n**Heal**\n\tHeal % of HP over time\n\t2.5s duration\n\tSkill level increases effect and reduces CD\n**Hologram projection**\n\tMake a hologram projection of an enemy with a % of hp\n\tTransfer a % of hologram dmg taken to the original\n\tSkill level increases effect\n**Cooldown reduction**\n\tReduce a % of other skills CD\n\t16s cd\n\tSkill level increases effect\n**Aura**\n\tCreate an aura that reduces ally damage taken and increases ally damage dealt\n\tSkill level increases effect\n**Stats:**\n\tRegular:\n\t\tDef +0|15|15|30|30|60|60\n\tMutated:\n\t\tAbility gains 1 of 3 prefixes which gives special effect\n\t\t(Chance different based on gear base stat type)\n\t\tDef +0|10|10|20|20|40|40",
+        "Imgs": {
+          "Circle Image": ""
+        }
+      },
+      "Square Chip (Armor)": {
+        "Description": "**Effects:**\nUpgrade levels of an unlocked skill\nThe listed skill will change depending on your current class\nSkill lv +1|1|2|2|3|3|4 (Can go over Lv4, increase ratio remains same)\nStats:\n\tStr/Dex/Int +0|20|20|40|40|80|80",
+        "Imgs": {
+          "Square Img": ""
+        }
+      },
+      "Triangle Chip (Weapon)": {
+        "Description": "**Effects:**\nIncrease level of FBs on weapon\n\tUncommon(Green) Chip: Listed FB level +1\n\tRare(Blue) Chip: Listed FB level +1, listed FB level extra +1 if the weapon has the listed fb\n\tEpic(Purple) Chip: Listed FB level +2, other FB on weapon +1 if the weapon has the listed fb\n\tLegendary(Yellow) Chip: Listed FB level +2, other FB on weapon +2 if the weapon has the listed fb\nStats:\n\tRegular FB:\n\t\tAttack/Magic +0|30|30|60|60|120|120\n\tBoss FB:\n\t\tAttack/Magic +0|40|40|80|80|160|160",
+        "Imgs": {
+          "Trainge": ""
+        }
+      },
+      "Obtainment method": {
+        "Description": "Hologram Chest\nMechanical (Key) Chest\nDismantling Cybermod Equipment (of same chip)\nAccessories:\n\t75% Mutated (Prefix chance based on base stat type)\n\t25% Regular\nArmors:\n\tHelmet: left base class skill chip\n\tChestplate: right base class skill chip\n\tBoots: combined class skill chip",
+        "Imgs": {
+          "Obtain": ""
+        }
+      }
+    },
+    "Apex": {
+      "Apex Level System": {
+        "Description": "Apex levels are extra levels unlocked after you reach level 60 The maximum apex level is 125 Apex levels give 1 apex point per level, which you can spend on a stat (str/dex/int) to gain 2 of the stat For every 5 apex points spent on each stat up to 25, you receive an extra stats modifier Apex nodes, unlocked at lv 5, 15 and 25 apex points on each stat, can be upgraded with helxarine to give stats modifier and helxar corruption related buffs\n\nApex levels are shared across characters If you have not yet reached lv50 on a seasonal character, the maximum amount of apex points active in each stat will be equal to [Level]/2, and all of your seasonal characters will regain all bonus from apex levels when any seasonal character reaches lv50",
+        "Imgs": {
+          "Apex Image": ""
+        }
+      }
+    },
+    "Cards": {
+      "Cards Infographic": {
+        "Description": "Outdated, only Mystraea, and Esoteria maps from S0",
+        "Imgs": {
+          "Card Spawn S0": "https://cdn.discordapp.com/attachments/1180235360215765022/1185622418300084314/CardsSpawns.png?ex=6631c7ac&is=6630762c&hm=763a5bd90f139ea427a7ffc99977afb883c24a9cb0c9636cb21b925370aadd34&"
+        }
+      }
+    },
+    "Boss": {
+      "Boss Timings": {
+        "Description": "Timezone independent where you download the app in\n\n**Note**\nBlack Archknight appears on Heroic Difficulty, and you can't cheat your in game time) Updated as of S2",
+        "Imgs": {
+          "Boss Spawn S0": "https://cdn.discordapp.com/attachments/1191889768334774303/1193301271030026301/Boss_Time_Spawn_12hrs_format-min.png?ex=663207a9&is=6630b629&hm=c4ac70aadfc818c939616f13b3b6c366a8908119b0425482742f58ecf69bffaa&",
+          "Boss Spawn S1": "https://cdn.discordapp.com/attachments/972061720208105514/1258636882062086174/2_20240705_120105_0001.png?ex=6688c471&is=668772f1&hm=00eafbaf0d11b87426980848731ac3c3394877d53f347a1ab43370172eb98476&",
+          "Boss Spawn S3": "https://cdn.discordapp.com/attachments/972061720208105514/1258638827736666152/3_20240705_120105_0002-1.png?ex=6688c640&is=668774c0&hm=5789d289ea981e8ec83a2a0382e5e2b0404426adf1f21d6907927ce3e2edc35a&"
+        }
+      }
+    },
+    "New Class": {
+      "New Class": {
+        "Description": "Is obtainable through the current season <:s2medallion:1230829619951964160> Gold Medallion (Battlepass), purchased with 360<:zFishChip:1187175256595644446> At the end of the season, it will become unlockable via 500<:zGem:1187175259179339776> from the <:GemMerchant:1228803994131103815> Gem Merchant\n\nCurrently Voidfarer is the one locked in the Battlepass and <:pcAnimancer:1171466348329701427> Animancer, and <:pcHerbalist:1198104735115386982> Herbalist are available for purchase with <:zGem:1187175259179339776>",
+        "Imgs": {
+          "Blank for now": ""
+        }
+      }
+    },
+    "Drops": {
+      "Dungeon Weapon Drops": {
+        "Description": "These are the biome drops as of S1",
+        "Imgs": {
+          "S0 Biome Drops": "https://cdn.discordapp.com/attachments/1187516308032585862/1187517877788614696/image-5.png?ex=66316cb5&is=66301b35&hm=1e764f2747f77398abe4b8eef9981ad17a0feb1f8e39039721d34f13f354c0ef&",
+          "S1 Biome Drops": "https://cdn.discordapp.com/attachments/1191889768334774303/1208109672897183864/image.png?ex=6631d98f&is=6630880f&hm=b3553e8dacbdb0a745b3e842066d7dad92e8d4e62305f391b70c0187504cbd49&"
+        }
+      },
+      "Premium Weapon": {
+        "Description": "These are all the Premium Bundle Weapon drops as of S1",
+        "Imgs": {
+          "Elemental Drops": "https://cdn.discordapp.com/attachments/1180243321621327892/1185178848476807179/image-7.png?ex=66317c11&is=66302a91&hm=067f41fdc77d388fe5d96be44845d3b9151c8f345fe05b45a5af22148f816e11&"
+        }
+      },
+      "Dungeon Gear Drops": {
+        "Description": "These are the non-boss/insane/epic dungeon drops as of S1",
+        "Imgs": {
+          "Stats Drops S0": "https://cdn.discordapp.com/attachments/1191889768334774303/1194040395202560140/image-6.png?ex=66316c46&is=66301ac6&hm=ac4d1cbeed66e654f825df8b6c4b8c53bfbbac93a7a21545454b58aeef4cc8b8&",
+          "Stats Drops S1": "https://cdn.discordapp.com/attachments/1191889768334774303/1208109646963802113/image.png?ex=6631d989&is=66308809&hm=3783ff773a660bed4eea7bd0a866afed7701bc320a25af9349f5e1a5baaa32c2&"
+        }
+      }
+    },
+    "Fatebounds": {
+      "Farming Guide": {
+        "Description": "The Fatebound Farming Guide",
+        "Imgs": {
+          "Fatebound Farming Guide": "https://cdn.discordapp.com/attachments/1180235360215765022/1185622384292659250/FateFarmV2.png?ex=6631c7a4&is=66307624&hm=7967e8dee7ab9863533b904e1344ba563a97a2c8d43152af503ddab4916e46b4&"
+        }
+      },
+      "Fatebound Locations": {
+        "Description": "The Fatebound Locations as of S2",
+        "Imgs": {
+          "Fatebound Drop S0": "https://cdn.discordapp.com/attachments/1191889768334774303/1201794160215199744/Southern_Steppes_20240130_154042_0000.png?ex=6631f208&is=6630a088&hm=ffbc74a794096bb358df929aa8051dc582619c8d4f7cd97bee1160d15fc95d4f&",
+          "Fatebound Drop S1": "https://cdn.discordapp.com/attachments/1191889768334774303/1201543709662130277/Tygrants_Cragfort_20240129_230534_0000.png?ex=6631b187&is=66306007&hm=e7003ba9ee3e69738dcf17d99862a95c175a510639486dbcee5615a586a46303&",
+          "Fatebound Drop S2": "https://cdn.discordapp.com/attachments/1180235360215765022/1238753919535022091/Season_3_Maps_1.png?ex=6641c07d&is=66406efd&hm=43be3ef7d73defcde1be72023b8ac2acf66ffa31eb22de23741b2c6a6eebab27&"
+        }
+      },
+      "Fatebound List": {
+        "Description": "List of Fatebounds and Helxar versions as of S1",
+        "Imgs": {
+          "Fatebounds UnHelx": "https://cdn.discordapp.com/attachments/1191889768334774303/1211866543126872084/FATEBOUND_GUIDE_20240127225618.png?ex=6631acab&is=66305b2b&hm=6214bdc9642755c980d481d6b91ff7843cca3790c6e3edcd0e5b490cf8e58d33&",
+          "Fatebounds Helx": "https://cdn.discordapp.com/attachments/1180235360215765022/1215908269835419699/FATEBOUND_GUIDE2_20240309142259.png?ex=6631e052&is=66308ed2&hm=be7d51e23490c9a76e532ee8cf1c948af5d27946fde846a16708f799605f2b49&"
+        }
+      }
+    },
+    "Pets": {
+      "Fruits": {
+        "Description": "List of Fruits",
+        "Imgs": {
+          "Fruits": "https://cdn.discordapp.com/attachments/1180235360215765022/1238787620767797258/Nine_by_Five.png?ex=6641dfe0&is=66408e60&hm=e2ce6dc427dc8a27dd3b25e4fbb8424946698cc970edefb88b693c619813eefb&"
+        }
+      },
+      "Pet Favourite": {
+        "Description": "List of Pets Favourite Fruits",
+        "Imgs": {
+          "Pet Fruits": "https://cdn.discordapp.com/attachments/1191889768334774303/1193299419907498045/Pets_Favorite_V2-min.png?ex=663205f0&is=6630b470&hm=bb1780b63f5ccd8596c3284d9ab650eb03d1cd3cee0e7d16a804e4204479a3a8&"
+        }
+      },
+      "Pet Items": {
+        "Description": "Pet Items Guide",
+        "Imgs": {
+          "Pet Items": "https://cdn.discordapp.com/attachments/1187516308032585862/1187518050954645574/PetrSet1.png?ex=66316cde&is=66301b5e&hm=19e895c0f6c36c4aab1597e9cfbaf0760abeeede8862e72752cd53615d2857c0&"
+        }
+      }
+    },
+    "Boons": {
+      "Boons Effects": {
+        "Description": "Boons Effects List",
+        "Imgs": {
+          "Boon Effects": "https://cdn.discordapp.com/attachments/1191889768334774303/1193323819218243655/Valkyrie_Blessing_V2-min-min.png?ex=663173e9&is=66302269&hm=9635406675e3226d801a2b1c66fad0b87974c59e0165ee5db0c3a334c3cda130&"
+        }
+      },
+      "Boons Class Modifier": {
+        "Description": "Boons Class Modifiers",
+        "Imgs": {
+          "Modifiers": "https://cdn.discordapp.com/attachments/1191889768334774303/1193324155723059252/Fixed_Boons_Modifier-min.png?ex=66317439&is=663022b9&hm=6f54c1f3462b537eee898371e2e86c995c0f885a9a5bd7629c3e867bdce8bb34&"
+        }
+      }
+    },
+    "Miscellaneous": {
+      "Insane": {
+        "Description": "- Fatebounds are based on dungeon, unless it has a Fixed Fatebound. Daily Invite gives a random fatebound.\n- For more information on their fatebounds, use the command >>fb [fatebound/item name]\n- Helhearts are a more common Insane Rarity Item with 9 variations and random fatebounds.\n - They are obtainable on Affixed Dungeons or Helxar Touched Dungeons. For more information on their effects use !q Helheart",
+        "Imgs": {
+          "Image": "https://media.discordapp.net/attachments/1207153874918440961/1280099207377584230/Untitled64_20240902173701.png?ex=66d7818a&is=66d6300a&hm=cbd45a4c56cb5771c1f522de0661d360cc2c4ca99844d208703e98b8a5f51f35&=&format=webp&quality=lossless&width=286&height=443"
+        }
+      },
+      "Debuffs": {
+        "Description": "List of Debuffs and their Effects",
+        "Imgs": {
+          "Elemental": "https://cdn.discordapp.com/attachments/1191980820643201145/1191980936062050354/Debuffs-min.png?ex=6631d741&is=663085c1&hm=ea834e2763a3589e491077a869d2e7fdc682b0d26083f188659888faac53db02&"
+        }
+      },
+      "Item Substats": {
+        "Description": "Item Substats",
+        "Imgs": {
+          "Item Substats": "https://cdn.discordapp.com/attachments/1180235360215765022/1184847569306791996/image-99-1.png?ex=66319909&is=66304789&hm=83c2294a9d9e0ef857555670a279b1d17fbf56546ca3e51879361728dd5de8b4&"
+        }
+      },
+      "Stat Distribution": {
+        "Description": "Stats Distribution",
+        "Imgs": {
+          "Stats": "https://cdn.discordapp.com/attachments/1191889768334774303/1194046862014034022/SKP_Class_Stat_Diversity.png?ex=6631724c&is=663020cc&hm=b2d29027ba192046dac78281fbf6ff8a31283f11249b3f6af9868517b10060b1&"
+        }
+      },
+      "NPC Quest": {
+        "Description": "NPC Quest Times",
+        "Imgs": {
+          "Stats": "https://cdn.discordapp.com/attachments/1191889768334774303/1193571393246351421/Screenshot_20231210-222234.png?ex=6631b1bb&is=6630603b&hm=8f04d44fbca3d8e161a28e7476de5e5ad0f5fc6e8191b0652e326d5cc59795da&"
+        }
+      }
+    },
+    "Discord Server Related": {
+      "Bug Report": {
+        "Description": "# Bug Report \nStaff and Moderators of this Discord Server can't help you with your in game concerns. You can post your bug report at https://discord.com/channels/971700371112198194/1169171096793251900 or email it at `info@chillyroom.games` with this format: \n1. State the name of the game if sending by email to avoid confusion \n2. Description of the bug \n3. Device model & Operating system \nAccount ID/Player ID \nAdd screenshot or record the bug encountered",
+        "Imgs": {
+          "Bug R": ""
+        }
+      },
+      "XP": {
+        "Description": "# Discord Server XP \nImage permission is provided through XP roles. To post media, you must be at least a Veteran Adventurer, given at 5000 xp. XP is given at a random amount between 20-50 xp, which is earned per minute of chatting —- you can check your rank in https://discord.com/channels/971700371112198194/1105759325806411796 with `t!rank`. https://discord.com/channels/971700371112198194/972442301760684082, https://discord.com/channels/971700371112198194/1186653355158810684 & https://discord.com/channels/971700371112198194/975586078880858132 has universal media permsission.",
+        "Imgs": {
+          "XP": ""
+        }
+      }
+    }
+  }
+}
