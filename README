@@ -6,8 +6,8 @@
 ---
 
 ## About
-May is a general purpose bot written in python for use on the discord server, with functionalty including, but not limited to:
-- Customised AI responding through the use of google's Gemini API. (See [here](https://ai.google.dev/gemini-api/docs))
+May is a general-purpose bot written in Python for use on the Chillyroom SKP server, with functionality including, but not limited to:
+- Customised AI responding through the use of Google’s Gemini API. (See [here](https://ai.google.dev/gemini-api/docs))
 - Local Database querying and manipulation through front end commands, supported by an extensive backend network of JSON files
 - Server management through automation, gating and member querying.
 
